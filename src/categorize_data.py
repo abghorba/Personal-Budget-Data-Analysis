@@ -352,8 +352,14 @@ def compile_all_spending(years=None, months=None):
         budget_dict[year] = {}
 
         for month in months:
+            today = datetime.now()
             date_string = f"{month} {year}"
             range_start = datetime.strptime(date_string, "%B %Y")
+
+            # Skip any future time frames
+            if range_start.month >= today.month and range_start.year >= today.year:
+                continue
+
             range_end = get_first_day_of_next_month(range_start)
 
             # Format the dates
