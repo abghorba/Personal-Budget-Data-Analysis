@@ -12,7 +12,7 @@ def clean_tsv_file():
     :return: Returns the cleaned data as a list of TSV lines.
     """
 
-    print(f"Import raw data file {RAW_TSV_FILEPATH}...")
+    print(f"Cleaning raw data file {RAW_TSV_FILEPATH}")
 
     cleaned_tsv_lines = []
 
@@ -54,8 +54,6 @@ def clean_tsv_file():
 
         assert len(cleaned_tsv_lines) == len(spending_file)
 
-    print("Finished cleaning raw data file.")
-
     return cleaned_tsv_lines
 
 
@@ -76,7 +74,6 @@ def export_cleaned_data_to_tsv(cleaned_tsv_lines_list):
 
     # Wait a couple seconds for the file to be written
     time.sleep(3)
-    print("Finished exporting.")
 
 
 def clean_data():

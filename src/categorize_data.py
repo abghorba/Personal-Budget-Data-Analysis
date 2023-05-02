@@ -1,4 +1,5 @@
 import os
+import time
 from datetime import datetime, timedelta
 
 import pandas as pd
@@ -57,6 +58,8 @@ def load_data_to_dataframe(verbose=False):
 
     if clean_data():
         raise RuntimeError("Something went wrong when trying to clean the data!")
+
+    print("Creating pandas DataFrame with cleaned data")
 
     df = pd.read_table(CLEANED_TSV_FILEPATH, sep="\t")
 
@@ -302,6 +305,8 @@ def categorize_data(budget_df, name="", date_range_start="1/1/2022", date_range_
     :return: BudgetSpending instance
     """
 
+    print(f"Categorizing each transaction for {name}")
+
     budget_spending = BudgetSpending(name)
 
     # Restrict the DataFrame to the specified date range
@@ -368,6 +373,8 @@ def compile_all_spending(years=None, months=None):
 
             budget_dict[year][month] = categorize_data(budget_df, date_string, date_range_start, date_range_end)
 
+    print("All transactions have been categorized for all specified months and years")
+
     return budget_dict
 
 
@@ -379,7 +386,12 @@ def save_spending_data_as_text_file(budget_dict):
     :return: None; Output located in spending_data.txt
     """
 
+    print(f"Saving categorized data into .txt file at {SPENDING_DATA_TXT_FILEPATH}")
+
     with open(SPENDING_DATA_TXT_FILEPATH, "w") as file:
         for year in budget_dict:
             for month in budget_dict[year]:
                 file.write(str(budget_dict[year][month]) + "\n")
+
+    # Wait a couple seconds for the file to be written
+    time.sleep(3)
