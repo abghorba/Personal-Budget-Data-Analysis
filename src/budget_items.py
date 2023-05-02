@@ -1,19 +1,21 @@
 class Category:
     @property
+    def subcategories(self):
+        return {key: value for (key, value) in vars(self).items()}
+
+    @property
     def total_value(self):
         total_value = 0
-        attributes = vars(self)
 
-        for key, value in attributes.items():
+        for key, value in self.subcategories.items():
             total_value += value
 
         return total_value
 
     def __str__(self):
         attributes_list = []
-        attributes = vars(self)
 
-        for key, value in sorted(attributes.items()):
+        for key, value in sorted(self.subcategories.items()):
             key = key.replace("_", " ").title()
             attribute_string = f"\t{key} = ${value:,.2f}"
             attributes_list.append(attribute_string)
@@ -76,12 +78,17 @@ class Reimbursements(Category):
 
 
 class BudgetSpending:
-    def __init__(self):
+    def __init__(self, name=""):
+        self.name = name
         self.needs = Needs()
         self.wants = Wants()
         self.savings = Savings()
         self.income = Income()
         self.reimbursements = Reimbursements()
+
+    @property
+    def categories(self):
+        return {key: value for (key, value) in vars(self).items() if isinstance(value, Category)}
 
     @property
     def total_spending(self):
@@ -99,6 +106,8 @@ class BudgetSpending:
 
     def __str__(self):
         budget_spending_string = []
+
+        budget_spending_string.append(self.name)
 
         budget_spending_string.append("*" * 40)
         budget_spending_string.append("Income:")

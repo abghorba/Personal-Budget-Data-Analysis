@@ -29,7 +29,7 @@ def get_first_day_of_next_month(input_dt):
     For a given datetime object, return the 1st of the next month.
 
     :param input_dt: Datetime object
-    :return: Datetime object representing the 1st of next menth
+    :return: Datetime object representing the 1st of next month
     """
 
     # Replace day number with 1
@@ -290,18 +290,19 @@ def categorize_income(transaction, budget_spending_obj, verbose=False):
         print(f"No known {subcategory} Income subcategory.")
 
 
-def categorize_data(budget_df, date_range_start="1/1/2022", date_range_end="1/1/2023", verbose=False):
+def categorize_data(budget_df, name="", date_range_start="1/1/2022", date_range_end="1/1/2023", verbose=False):
     """
     Categorizes spending/income data into their respective Category classes in a BudgetSpending instance.
 
     :param budget_df: DataFrame object containing the data from cleaned_spending.tsv
+    :param name: Name of the BudgetSpending instance
     :param date_range_start: Start date (inclusive) to filter by
     :param date_range_end: End date (exclusive) to filter by
     :param verbose: True to print extra logging; False otherwise
     :return: BudgetSpending instance
     """
 
-    budget_spending = BudgetSpending()
+    budget_spending = BudgetSpending(name)
 
     # Restrict the DataFrame to the specified date range
     budget_df = budget_df[(budget_df["Date"] >= date_range_start) & (budget_df["Date"] < date_range_end)]
@@ -359,8 +360,7 @@ def compile_all_spending(years=None, months=None):
             date_range_start = range_start.strftime("%m/%d/%Y")
             date_range_end = range_end.strftime("%m/%d/%Y")
 
-            # print(f"START = {range_start}, END = {range_end}")
-            budget_dict[year][month] = categorize_data(budget_df, date_range_start, date_range_end)
+            budget_dict[year][month] = categorize_data(budget_df, date_string, date_range_start, date_range_end)
 
     return budget_dict
 
@@ -376,6 +376,4 @@ def save_spending_data_as_text_file(budget_dict):
     with open(SPENDING_DATA_TXT_FILEPATH, "w") as file:
         for year in budget_dict:
             for month in budget_dict[year]:
-                date_string = f"{month} {year}"
-                file.write(date_string + "\n")
                 file.write(str(budget_dict[year][month]) + "\n")
