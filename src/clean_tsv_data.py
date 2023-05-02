@@ -1,8 +1,8 @@
 import os
 import time
 
-RAW_TSV_FILEPATH = os.getcwd() + "/spending.tsv"
-CLEANED_TSV_FILEPATH = os.getcwd() + "/cleaned_spending.tsv"
+RAW_TSV_FILEPATH = os.getcwd() + "/data/spending.tsv"
+CLEANED_TSV_FILEPATH = os.getcwd() + "/data/cleaned_spending.tsv"
 
 
 def clean_tsv_file():

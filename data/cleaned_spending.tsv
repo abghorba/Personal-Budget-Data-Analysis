@@ -145,7 +145,7 @@ Domino's	Wants	Free Spending	Chase CC	5/2/2021	-24.15	1445.47
 Costco	Needs	Groceries	Chase CC	5/2/2021	-131.33	1445.47
 SoFi	Savings	Taxable Brokerage	Checking	5/3/2021	-20.00	1425.47
 Apple CC	Wants	Free Spending	Checking	5/3/2021	-53.12	1372.35
-Taxes	Needs	Bills	Checking	5/3/2021	-100.00	1272.35
+Tax Preparation Fee	Needs	Bills	Checking	5/3/2021	-100.00	1272.35
 OC Court	Needs	Emergency	Checking	5/3/2021	-288.61	983.74
 DoorDash	Wants	Subscriptions	Chase CC	5/7/2021	-4.99	983.74
 In N Out	Wants	Free Spending	Chase CC	5/7/2021	-8.40	983.74
@@ -173,7 +173,7 @@ Nate's Korner	Wants	Free Spending	Chase CC	5/15/2021	-12.51	1273.01
 Speedway	Wants	Free Spending	Citi CC	5/16/2021	-14.96	1273.01
 Starbucks	Wants	Free Spending	Amazon CC	5/17/2021	-20.00	1273.01
 Emergency Savings	Savings	Emergency Savings	Checking	5/17/2021	-200.00	1073.01
-Taxes	Needs	Bills	Checking	5/17/2021	-245.00	828.01
+Federal Taxes	Needs	Bills	Checking	5/17/2021	-245.00	828.01
 Citi CC	CC Payment	CC Payment	Checking	5/17/2021	-301.02	526.99
 McDonald's	Wants	Free Spending	Chase CC	5/18/2021	-13.77	526.99
 SoFi	Savings	Taxable Brokerage	Checking	5/18/2021	-20.00	506.99
@@ -294,7 +294,7 @@ Speedway	Needs	Gas	Citi CC	7/3/2021	-53.57	705.46
 EL Pollo Loco	Wants	Free Spending	Chase CC	7/4/2021	-19.15	705.46
 Target	Wants	Free Spending	Chase CC	7/5/2021	-4.83	705.46
 Total Wine	Wants	Free Spending	Chase CC	7/5/2021	-26.47	705.46
-Nordstrom Rack	Needs	Free Spending	Chase CC	7/5/2021	-32.26	705.46
+Nordstrom Rack	Wants	Free Spending	Chase CC	7/5/2021	-32.26	705.46
 IHOP	Wants	Free Spending	Chase CC	7/5/2021	-50.00	705.46
 SoFi	Savings	Taxable Brokerage	Checking	7/7/2021	-20.00	685.46
 Del Taco	Wants	Free Spending	Chase CC	7/8/2021	-10.95	685.46
@@ -319,7 +319,7 @@ Apple CC	CC Payment	CC Payment	Checking	7/12/2021	-53.12	648.74
 SoFi	Savings	Taxable Brokerage	Checking	7/13/2021	-20.00	628.74
 ECSI Loans	Needs	Bills	Checking	7/13/2021	-260.00	368.74
 Savings Transfer	Income	Savings Transfer	Checking	7/14/2021	100.00	468.74
-El Pollo Loco	Needs	Bills	Chase CC	7/14/2021	-12.37	468.74
+El Pollo Loco	Wants	Free Spending	Chase CC	7/14/2021	-12.37	468.74
 Federal Loans	Needs	Bills	Checking	7/14/2021	-108.05	360.69
 Chick-Fil-A	Wants	Free Spending	Chase CC	7/15/2021	-14.70	360.69
 Trader Joe's	Needs	Groceries	Citi CC	7/15/2021	-111.65	360.69
@@ -329,7 +329,7 @@ Starbucks	Wants	Free Spending	Amazon CC	7/18/2021	-9.50	310.69
 Hen House	Wants	Free Spending	Chase CC	7/18/2021	-37.65	310.69
 Speedway	Needs	Gas	Citi CC	7/18/2021	-56.20	310.69
 SoFi	Savings	Taxable Brokerage	Checking	7/19/2021	-20.00	290.69
-DMV	Needs	Needs	Chase CC	7/20/2021	-30.69	290.69
+DMV Registration	Needs	Bills	Chase CC	7/20/2021	-30.69	290.69
 LA Fitness	Wants	Subscriptions	Chase CC	7/20/2021	-34.99	290.69
 In N Out	Wants	Free Spending	Chase CC	7/22/2021	-8.40	290.69
 Payday	Income	Earnings	Checking	7/23/2021	1642.19	1932.88
@@ -802,7 +802,7 @@ Walmart - Refund	Wants	Free Spending	Chase CC	2/21/2022	38.10	4594.15
 Deposit	Income	Earnings	Checking	2/21/2022	0.03	4594.18
 Target	Wants	Free Spending	Chase CC	2/21/2022	-6.44	4594.18
 Zelle	Wants	Free Spending	Checking	2/21/2022	-50.00	4544.18
-Walmart	Needs	Free Spending	Chase CC	2/21/2022	-52.02	4544.18
+Walmart	Wants	Free Spending	Chase CC	2/21/2022	-52.02	4544.18
 Photasia	Wants	Free Spending	Chase CC	2/21/2022	-52.69	4544.18
 McDonald's	Wants	Free Spending	Chase CC	2/24/2022	-5.81	4544.18
 Starbucks	Wants	Free Spending	Amazon CC	2/24/2022	-10.00	4544.18
@@ -1747,7 +1747,7 @@ Rosarito Beach Hotel	Wants	Vacation Spending	Amazon CC	3/22/2023	-130.90	1594.91
 Tax Preparation Fee	Needs	Bills	Checking	3/23/2023	-450.00	1144.91
 Speedway	Needs	Gas	Citi CC	3/24/2023	-28.45	1144.91
 Rosarito Beach Hotel	Wants	Vacation Spending	Amazon CC	3/24/2023	-137.90	1144.91
-Zelle - Console Table	Needs	Bills	Checking	3/24/2023	-280.00	864.91
+Zelle - Console Table	Wants	Free Spending	Checking	3/24/2023	-280.00	864.91
 Los Pelicanos	Wants	Vacation Spending	Amazon CC	3/25/2023	-74.79	864.91
 Cantaritos	Wants	Vacation Spending	Amazon CC	3/25/2023	-36.87	864.91
 Cantaritos	Wants	Vacation Spending	Amazon CC	3/25/2023	-11.14	864.91
@@ -1818,7 +1818,7 @@ Korean Food	Wants	Free Spending	Checking	4/20/2023	-41.00	667.50
 YouTube Premium	Wants	Subscriptions	Capital One CC	4/20/2023	-22.99	667.50
 LA Fitness	Wants	Subscriptions	Chase CC	4/20/2023	-34.99	667.50
 McDonald's	Wants	Free Spending	Chase CC	4/21/2023	-18.34	667.50
-Vet	Needs	Emergency	Chase CC	4/21/2023	-286.77	667.50
+Pearl Vet Visit	Needs	Emergency	Chase CC	4/21/2023	-286.77	667.50
 Laundry	Needs	Laundry	Chase CC	4/21/2023	-10.00	667.50
 Laguna Beach Parking	Wants	Free Spending	Chase CC	4/22/2023	-4.00	667.50
 Bacio di Latte	Wants	Free Spending	Chase CC	4/22/2023	-14.14	667.50
