@@ -131,24 +131,3 @@ class BudgetSpending:
         budget_spending_string.append("*" * 40)
 
         return "\n".join(budget_spending_string)
-
-
-if __name__ == "__main__":
-    monthly_spending = BudgetSpending()
-
-    monthly_spending.needs.electric_bill = 10
-    monthly_spending.needs.health_insurance = 72.15
-    monthly_spending.needs.rent = 1500.72
-
-    monthly_spending.wants.free_spending = 499.99
-    monthly_spending.wants.subscriptions = 222.11
-
-    monthly_spending.savings.retirement = 250.00
-    monthly_spending.savings.emergency_fund = 100
-
-    monthly_spending.income.earnings = 2149.25
-
-    monthly_spending.reimbursements.rent = 500.72
-    monthly_spending.reimbursements.electric_bill = 5
-
-    print(monthly_spending)
