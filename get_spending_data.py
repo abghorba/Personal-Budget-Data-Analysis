@@ -3,6 +3,8 @@ from datetime import datetime, timedelta
 
 from src.categorize_data import categorize_data, load_data_to_dataframe
 
+SPENDING_DATA_TXT_FILEPATH = os.getcwd() + "/data/spending_data.txt"
+
 
 def get_first_day_of_next_month(input_dt):
     """
@@ -105,7 +107,7 @@ def save_spending_data_as_text_file(budget_dict):
     :return: None; Output located in spending_data.txt
     """
 
-    with open(os.getcwd() + "/data/spending_data.txt", "w") as file:
+    with open(SPENDING_DATA_TXT_FILEPATH, "w") as file:
         for year in budget_dict:
             for month in budget_dict[year]:
                 date_string = f"{month} {year}"

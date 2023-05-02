@@ -1,7 +1,7 @@
 	Description	 Category 	 Subcategory 	 Payment 	 Date 	 Gains/Expenses 	Checking Balance		Is Curent Balance <$0?	Row # In Table	Next <$0 Balance Amount	Date <$0 Balance Occurs
 	Beginning Balance	None	None	None	2/28/2021	 $ 1,317.17 	 $ 1,317.17 		FALSE	-1	N/A	N/A
 	Target	 Wants 	 Free Spending 	 Chase CC 	3/1/2021	 $ (68.70)	 $ 1,317.17 		FALSE	-1	N/A	N/A
-	Rent	Needs	Bills	Checking	3/1/2021	 $ (1,033.43)	 $ 283.74 		FALSE	-1	N/A	N/A
+	Rent	Needs	Rent	Checking	3/1/2021	 $ (1,033.43)	 $ 283.74 		FALSE	-1	N/A	N/A
 	Airbnb	 Wants 	 Free Spending 	 Chase CC 	3/2/2021	 $ (191.34)	 $ 283.74 		FALSE	-1	N/A	N/A
 	Carl's Jr.	 Wants 	 Free Spending 	 Chase CC 	3/3/2021	 $ (17.21)	 $ 283.74 		FALSE	-1	N/A	N/A
 	CVS	 Wants 	 Free Spending 	 Chase CC 	3/4/2021	 $ (9.68)	 $ 283.74 		FALSE	-1	N/A	N/A
@@ -27,12 +27,12 @@
 	Coinbase	Savings	Crypto Savings	Checking	3/12/2021	 $ (40.00)	 $ 1,195.66 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	3/12/2021	 $ (59.56)	 $ 1,195.66 		FALSE	-1	N/A	N/A
 	Etsy	 Wants 	 Free Spending 	 Chase CC 	3/12/2021	 $ (66.00)	 $ 1,195.66 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	Bills	Checking	3/12/2021	 $ (98.14)	 $ 1,097.52 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	Checking	3/12/2021	 $ (98.14)	 $ 1,097.52 		FALSE	-1	N/A	N/A
 	Walmart	 Needs 	 Groceries 	 Chase CC 	3/13/2021	 $ (21.95)	 $ 1,097.52 		FALSE	-1	N/A	N/A
 	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	3/13/2021	 $ (41.36)	 $ 1,097.52 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	3/13/2021	 $ (59.51)	 $ 1,097.52 		FALSE	-1	N/A	N/A
 	Costco	 Needs 	 Groceries 	 Chase CC 	3/13/2021	 $ (193.87)	 $ 1,097.52 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	Bills	Checking	3/15/2021	 $ (108.05)	 $ 989.47 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	Checking	3/15/2021	 $ (108.05)	 $ 989.47 		FALSE	-1	N/A	N/A
 	Reimbursement	Wants	Free Spending	Amazon CC	3/16/2021	 $ 1.83 	 $ 989.47 		FALSE	-1	N/A	N/A
 	Reimbursement	Wants	Free Spending	Amazon CC	3/16/2021	 $ 0.50 	 $ 989.47 		FALSE	-1	N/A	N/A
 	Laundry	Needs	Laundry	Chase CC	3/16/2021	 $ (10.00)	 $ 989.47 		FALSE	-1	N/A	N/A
@@ -51,7 +51,7 @@
 	LA Fitness	Wants	Subscriptions	Chase CC	3/23/2021	 $ (4.67)	 $ 2,480.90 		FALSE	-1	N/A	N/A
 	LA Fitness	Wants	Subscriptions	Chase CC	3/23/2021	 $ (34.99)	 $ 2,480.90 		FALSE	-1	N/A	N/A
 	LA Fitness	Wants	Subscriptions	Chase CC	3/23/2021	 $ (46.05)	 $ 2,480.90 		FALSE	-1	N/A	N/A
-	ECSI Loans	Needs	Bills	Checking	3/23/2021	 $ (500.00)	 $ 1,980.90 		FALSE	-1	N/A	N/A
+	ECSI Loans	Needs	Student Loans	Checking	3/23/2021	 $ (500.00)	 $ 1,980.90 		FALSE	-1	N/A	N/A
 	Savings Transfer	 Income 	Savings Transfer	Checking	3/25/2021	 $ 400.00 	 $ 2,380.90 		FALSE	-1	N/A	N/A
 	Del Taco	 Wants 	Free Spending	Chase CC	3/25/2021	 $ (3.86)	 $ 2,380.90 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	3/25/2021	 $ (15.00)	 $ 2,380.90 		FALSE	-1	N/A	N/A
@@ -64,16 +64,16 @@
 	Coinbase	Savings	Crypto Savings	Checking	3/26/2021	 $ (50.00)	 $ 1,930.90 		FALSE	-1	N/A	N/A
 	Draftkings Refund	 Wants 	 Free Spending 	 Chase CC 	3/27/2021	 $ 100.00 	 $ 1,930.90 		FALSE	-1	N/A	N/A
 	Draftkings	 Wants 	Free Spending	Chase CC	3/27/2021	 $ (100.00)	 $ 1,930.90 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	3/28/2021	 $ 86.07 	 $ 2,016.97 		FALSE	-1	N/A	N/A
-	Apple Music	 Wants 	Subscriptions	Chase CC	3/28/2021	 $ (9.99)	 $ 2,016.97 		FALSE	-1	N/A	N/A
-	Disney+	 Wants 	Subscriptions	Chase CC	3/28/2021	 $ (13.99)	 $ 2,016.97 		FALSE	-1	N/A	N/A
-	Speedway	 Needs 	 Gas 	 Citi CC 	3/28/2021	 $ (20.68)	 $ 2,016.97 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	Bills	Checking	3/28/2021	 $ (73.99)	 $ 1,942.98 		FALSE	-1	N/A	N/A
-	Valhalla	 Wants 	 Subscriptions 	 Checking 	3/28/2021	 $ (85.00)	 $ 1,857.98 		FALSE	-1	N/A	N/A
-	Bovada	 Wants 	 Free Spending 	 Chase CC 	3/28/2021	 $ (99.98)	 $ 1,857.98 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	Bills	Checking	3/28/2021	 $ (139.00)	 $ 1,718.98 		FALSE	-1	N/A	N/A
-	Fogo De Chao	 Wants 	 Free Spending 	 Chase CC 	3/28/2021	 $ (180.00)	 $ 1,718.98 		FALSE	-1	N/A	N/A
-	Reimbursement	Wants	Free Spending	Amazon CC	3/30/2021	 $ 0.50 	 $ 1,718.98 		FALSE	-1	N/A	N/A
+	Apple Music	 Wants 	Subscriptions	Chase CC	3/28/2021	 $ (9.99)	 $ 1,930.90 		FALSE	-1	N/A	N/A
+	Disney+	 Wants 	Subscriptions	Chase CC	3/28/2021	 $ (13.99)	 $ 1,930.90 		FALSE	-1	N/A	N/A
+	Speedway	 Needs 	 Gas 	 Citi CC 	3/28/2021	 $ (20.68)	 $ 1,930.90 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	Checking	3/28/2021	 $ (73.99)	 $ 1,856.91 		FALSE	-1	N/A	N/A
+	Valhalla	 Wants 	 Subscriptions 	 Checking 	3/28/2021	 $ (85.00)	 $ 1,771.91 		FALSE	-1	N/A	N/A
+	Bovada	 Wants 	 Free Spending 	 Chase CC 	3/28/2021	 $ (99.98)	 $ 1,771.91 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	Checking	3/28/2021	 $ (139.00)	 $ 1,632.91 		FALSE	-1	N/A	N/A
+	Fogo De Chao	 Wants 	 Free Spending 	 Chase CC 	3/28/2021	 $ (180.00)	 $ 1,632.91 		FALSE	-1	N/A	N/A
+	Reimbursement	Wants	Free Spending	Amazon CC	3/30/2021	 $ 0.50 	 $ 1,632.91 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	3/31/2021	 $ 86.07 	 $ 1,718.98 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	4/2/2021	 $ 1,642.21 	 $ 3,361.19 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	4/2/2021	 $ (10.00)	 $ 3,361.19 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	4/2/2021	 $ (50.00)	 $ 3,311.19 		FALSE	-1	N/A	N/A
@@ -81,12 +81,12 @@
 	Brokerage Contribution	 Savings 	Taxable Brokerage	Checking	4/2/2021	 $ (100.00)	 $ 3,158.07 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	4/2/2021	 $ (100.00)	 $ 3,058.07 		FALSE	-1	N/A	N/A
 	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	4/2/2021	 $ (200.00)	 $ 2,858.07 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	4/2/2021	 $ (1,034.39)	 $ 1,823.68 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	4/2/2021	 $ (1,034.39)	 $ 1,823.68 		FALSE	-1	N/A	N/A
 	Poke Me	 Wants 	 Free Spending 	 Chase CC 	4/5/2021	 $ (15.07)	 $ 1,823.68 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	4/5/2021	 $ (61.11)	 $ 1,823.68 		FALSE	-1	N/A	N/A
 	DashPass	 Wants 	 Free Spending 	 Chase CC 	4/7/2021	 $ (4.99)	 $ 1,823.68 		FALSE	-1	N/A	N/A
 	DoorDash	 Wants 	 Free Spending 	 Chase CC 	4/7/2021	 $ (21.00)	 $ 1,823.68 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	4/7/2021	 $ (49.60)	 $ 1,774.08 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	4/7/2021	 $ (49.60)	 $ 1,774.08 		FALSE	-1	N/A	N/A
 	Chevron	 Wants 	 Free Spending 	 Chase CC 	4/9/2021	 $ (19.98)	 $ 1,774.08 		FALSE	-1	N/A	N/A
 	Jersey Mike's	 Wants 	 Free Spending 	 Chase CC 	4/9/2021	 $ (23.43)	 $ 1,774.08 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	4/9/2021	 $ (50.00)	 $ 1,724.08 		FALSE	-1	N/A	N/A
@@ -97,10 +97,10 @@
 	Mammoth Brewing	 Wants 	 Free Spending 	 Chase CC 	4/11/2021	 $ (55.71)	 $ 1,724.08 		FALSE	-1	N/A	N/A
 	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	4/12/2021	 $ (10.00)	 $ 1,714.08 		FALSE	-1	N/A	N/A
 	Domino's	 Wants 	 Free Spending 	 Chase CC 	4/12/2021	 $ (27.00)	 $ 1,714.08 		FALSE	-1	N/A	N/A
-	ECSI Loans	 Needs 	 Bills 	 Checking 	4/13/2021	 $ (260.00)	 $ 1,454.08 		FALSE	-1	N/A	N/A
+	ECSI Loans	 Needs 	Student Loans	 Checking 	4/13/2021	 $ (260.00)	 $ 1,454.08 		FALSE	-1	N/A	N/A
 	DoorDash	 Wants 	 Free Spending 	 Chase CC 	4/14/2021	 $ (18.00)	 $ 1,454.08 		FALSE	-1	N/A	N/A
 	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	4/14/2021	 $ (22.00)	 $ 1,432.08 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	4/14/2021	 $ (108.05)	 $ 1,324.03 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	4/14/2021	 $ (108.05)	 $ 1,324.03 		FALSE	-1	N/A	N/A
 	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	4/15/2021	 $ (58.88)	 $ 1,265.15 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	4/15/2021	 $ (63.86)	 $ 1,265.15 		FALSE	-1	N/A	N/A
 	Chase CC	 CC Payment 	CC Payment	Checking	4/15/2021	 $ (942.89)	 $ 322.26 		FALSE	-1	N/A	N/A
@@ -125,11 +125,11 @@
 	Amazon	 Wants 	Free Spending	Amazon CC	4/26/2021	 $ (35.44)	 $ 1,344.84 		FALSE	-1	N/A	N/A
 	Brokerage Contribution	 Savings 	Taxable Brokerage	Checking	4/26/2021	 $ (200.00)	 $ 1,144.84 		FALSE	-1	N/A	N/A
 	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	4/27/2021	 $ (20.00)	 $ 1,124.84 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	4/28/2021	 $ 61.79 	 $ 1,186.63 		FALSE	-1	N/A	N/A
-	Apple Music	 Wants 	Subscriptions	Chase CC	4/28/2021	 $ (9.99)	 $ 1,186.63 		FALSE	-1	N/A	N/A
-	Disney+	 Wants 	Subscriptions	Chase CC	4/28/2021	 $ (13.99)	 $ 1,186.63 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	Bills	Checking	4/28/2021	 $ (73.99)	 $ 1,112.64 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	Bills	Checking	4/28/2021	 $ (139.00)	 $ 973.64 		FALSE	-1	N/A	N/A
+	Apple Music	 Wants 	Subscriptions	Chase CC	4/28/2021	 $ (9.99)	 $ 1,124.84 		FALSE	-1	N/A	N/A
+	Disney+	 Wants 	Subscriptions	Chase CC	4/28/2021	 $ (13.99)	 $ 1,124.84 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	Checking	4/28/2021	 $ (73.99)	 $ 1,050.85 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	Checking	4/28/2021	 $ (139.00)	 $ 911.85 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	4/30/2021	 $ 61.79 	 $ 973.64 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	4/30/2021	 $ 1,642.22 	 $ 2,615.86 		FALSE	-1	N/A	N/A
 	Chipotle	 Wants 	 Free Spending 	 Chase CC 	4/30/2021	 $ (11.48)	 $ 2,615.86 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	4/30/2021	 $ (50.00)	 $ 2,565.86 		FALSE	-1	N/A	N/A
@@ -140,12 +140,12 @@
 	Chipotle	 Wants 	 Free Spending 	 Chase CC 	5/1/2021	 $ (22.83)	 $ 2,480.86 		FALSE	-1	N/A	N/A
 	Target	 Needs 	 Groceries 	 Citi CC 	5/1/2021	 $ (31.59)	 $ 2,480.86 		FALSE	-1	N/A	N/A
 	HomeGoods	 Wants 	 Free Spending 	 Chase CC 	5/1/2021	 $ (87.59)	 $ 2,480.86 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	5/1/2021	 $ (1,035.39)	 $ 1,445.47 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	5/1/2021	 $ (1,035.39)	 $ 1,445.47 		FALSE	-1	N/A	N/A
 	Domino's	 Wants 	 Free Spending 	 Chase CC 	5/2/2021	 $ (24.15)	 $ 1,445.47 		FALSE	-1	N/A	N/A
 	Costco	 Needs 	 Groceries 	 Chase CC 	5/2/2021	 $ (131.33)	 $ 1,445.47 		FALSE	-1	N/A	N/A
 	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	5/3/2021	 $ (20.00)	 $ 1,425.47 		FALSE	-1	N/A	N/A
 	Apple CC	 Wants 	 Free Spending 	 Checking 	5/3/2021	 $ (53.12)	 $ 1,372.35 		FALSE	-1	N/A	N/A
-	Tax Preparation Fee	 Needs 	 Bills 	 Checking 	5/3/2021	 $ (100.00)	 $ 1,272.35 		FALSE	-1	N/A	N/A
+	Tax Preparation Fee	 Needs 	 Taxes 	 Checking 	5/3/2021	 $ (100.00)	 $ 1,272.35 		FALSE	-1	N/A	N/A
 	OC Court	 Needs 	 Emergency 	 Checking 	5/3/2021	 $ (288.61)	 $ 983.74 		FALSE	-1	N/A	N/A
 	DoorDash	 Wants 	 Subscriptions 	 Chase CC 	5/7/2021	 $ (4.99)	 $ 983.74 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	5/7/2021	 $ (8.40)	 $ 983.74 		FALSE	-1	N/A	N/A
@@ -157,7 +157,7 @@
 	Parking	 Wants 	 Free Spending 	 Chase CC 	5/9/2021	 $ (7.80)	 $ 922.75 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	5/9/2021	 $ (47.79)	 $ 922.75 		FALSE	-1	N/A	N/A
 	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	5/10/2021	 $ (20.00)	 $ 902.75 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	5/10/2021	 $ (29.95)	 $ 872.80 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	5/10/2021	 $ (29.95)	 $ 872.80 		FALSE	-1	N/A	N/A
 	HiroNori	 Wants 	 Free Spending 	 Checking 	5/10/2021	 $ (31.52)	 $ 841.28 		FALSE	-1	N/A	N/A
 	CVS	 Wants 	 Free Spending 	 Citi CC 	5/10/2021	 $ (32.12)	 $ 841.28 		FALSE	-1	N/A	N/A
 	Stephanie	 Wants 	 Free Spending 	 Checking 	5/10/2021	 $ (90.00)	 $ 751.28 		FALSE	-1	N/A	N/A
@@ -165,7 +165,7 @@
 	Del Taco	 Wants 	 Free Spending 	 Chase CC 	5/14/2021	 $ (6.32)	 $ 2,393.48 		FALSE	-1	N/A	N/A
 	Chipotle	 Wants 	 Free Spending 	 Chase CC 	5/14/2021	 $ (11.48)	 $ 2,393.48 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	5/14/2021	 $ (50.00)	 $ 2,343.48 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	5/14/2021	 $ (108.05)	 $ 2,235.43 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	5/14/2021	 $ (108.05)	 $ 2,235.43 		FALSE	-1	N/A	N/A
 	Brokerage Contribution	 Savings 	Taxable Brokerage	Checking	5/14/2021	 $ (200.00)	 $ 2,035.43 		FALSE	-1	N/A	N/A
 	Chase CC	 CC Payment 	 CC Payment 	 Checking 	5/14/2021	 $ (762.42)	 $ 1,273.01 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Chase CC 	5/15/2021	 $ (2.69)	 $ 1,273.01 		FALSE	-1	N/A	N/A
@@ -173,7 +173,7 @@
 	Speedway	 Wants 	 Free Spending 	 Citi CC 	5/16/2021	 $ (14.96)	 $ 1,273.01 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	5/17/2021	 $ (20.00)	 $ 1,273.01 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	5/17/2021	 $ (200.00)	 $ 1,073.01 		FALSE	-1	N/A	N/A
-	Federal Taxes	 Needs 	 Bills 	 Checking 	5/17/2021	 $ (245.00)	 $ 828.01 		FALSE	-1	N/A	N/A
+	Federal Taxes	 Needs 	 Taxes 	 Checking 	5/17/2021	 $ (245.00)	 $ 828.01 		FALSE	-1	N/A	N/A
 	Citi CC	 CC Payment 	 CC Payment 	 Checking 	5/17/2021	 $ (301.02)	 $ 526.99 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	5/18/2021	 $ (13.77)	 $ 526.99 		FALSE	-1	N/A	N/A
 	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	5/18/2021	 $ (20.00)	 $ 506.99 		FALSE	-1	N/A	N/A
@@ -192,32 +192,32 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	5/24/2021	 $ (10.23)	 $ 528.32 		FALSE	-1	N/A	N/A
 	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	5/24/2021	 $ (20.00)	 $ 508.32 		FALSE	-1	N/A	N/A
 	Stephanie	 Wants 	 Free Spending 	 Checking 	5/24/2021	 $ (50.00)	 $ 458.32 		FALSE	-1	N/A	N/A
-	Renter's Insurance	 Needs 	 Bills 	 Checking 	5/24/2021	 $ (59.50)	 $ 398.82 		FALSE	-1	N/A	N/A
+	Renter's Insurance	 Needs 	 Renter's Insurance 	 Checking 	5/24/2021	 $ (59.50)	 $ 398.82 		FALSE	-1	N/A	N/A
 	CA Tax Return	 Income 	 Tax Return 	 Checking 	5/26/2021	 $ 319.00 	 $ 717.82 		FALSE	-1	N/A	N/A
 	Withdrawal	 Wants 	Free Spending	Checking	5/27/2021	 $ (40.00)	 $ 677.82 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	5/28/2021	 $ 2,298.79 	 $ 2,976.61 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	5/28/2021	 $ 81.72 	 $ 3,058.33 		FALSE	-1	N/A	N/A
-	Fry's	 Income 	Reimbursements	Checking	5/28/2021	 $ 50.00 	 $ 3,108.33 		FALSE	-1	N/A	N/A
-	Apple Music	 Wants 	Subscriptions	Chase CC	5/28/2021	 $ (9.99)	 $ 3,108.33 		FALSE	-1	N/A	N/A
-	SoFi	 Savings 	 Crypto Savings 	 Checking 	5/28/2021	 $ (10.00)	 $ 3,098.33 		FALSE	-1	N/A	N/A
-	Chick-Fil-A	 Wants 	Free Spending	Chase CC	5/28/2021	 $ (12.91)	 $ 3,098.33 		FALSE	-1	N/A	N/A
-	Disney+	 Wants 	Subscriptions	Chase CC	5/28/2021	 $ (13.99)	 $ 3,098.33 		FALSE	-1	N/A	N/A
-	In N Out	 Wants 	Free Spending	Chase CC	5/28/2021	 $ (15.35)	 $ 3,098.33 		FALSE	-1	N/A	N/A
-	Bevmo	 Wants 	Free Spending	Chase CC	5/28/2021	 $ (25.54)	 $ 3,098.33 		FALSE	-1	N/A	N/A
-	Speedway	 Needs 	Gas	Citi CC	5/28/2021	 $ (26.86)	 $ 3,098.33 		FALSE	-1	N/A	N/A
-	Coinbase	 Savings 	 Crypto Savings 	 Checking 	5/28/2021	 $ (50.00)	 $ 3,048.33 		FALSE	-1	N/A	N/A
-	Speedway	 Wants 	Free Spending	Citi CC	5/28/2021	 $ (58.05)	 $ 3,048.33 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	Bills	Checking	5/28/2021	 $ (73.99)	 $ 2,974.34 		FALSE	-1	N/A	N/A
-	Fry's	 Wants 	Free Spending	Chase CC	5/28/2021	 $ (81.96)	 $ 2,974.34 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	Bills	Checking	5/28/2021	 $ (139.00)	 $ 2,835.34 		FALSE	-1	N/A	N/A
-	Brokerage Contribution	 Savings 	Taxable Brokerage	Checking	5/28/2021	 $ (200.00)	 $ 2,635.34 		FALSE	-1	N/A	N/A
-	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	5/28/2021	 $ (200.00)	 $ 2,435.34 		FALSE	-1	N/A	N/A
+	Fry's	 Income 	Reimbursements	Checking	5/28/2021	 $ 50.00 	 $ 3,026.61 		FALSE	-1	N/A	N/A
+	Apple Music	 Wants 	Subscriptions	Chase CC	5/28/2021	 $ (9.99)	 $ 3,026.61 		FALSE	-1	N/A	N/A
+	SoFi	 Savings 	 Crypto Savings 	 Checking 	5/28/2021	 $ (10.00)	 $ 3,016.61 		FALSE	-1	N/A	N/A
+	Chick-Fil-A	 Wants 	Free Spending	Chase CC	5/28/2021	 $ (12.91)	 $ 3,016.61 		FALSE	-1	N/A	N/A
+	Disney+	 Wants 	Subscriptions	Chase CC	5/28/2021	 $ (13.99)	 $ 3,016.61 		FALSE	-1	N/A	N/A
+	In N Out	 Wants 	Free Spending	Chase CC	5/28/2021	 $ (15.35)	 $ 3,016.61 		FALSE	-1	N/A	N/A
+	Bevmo	 Wants 	Free Spending	Chase CC	5/28/2021	 $ (25.54)	 $ 3,016.61 		FALSE	-1	N/A	N/A
+	Speedway	 Needs 	Gas	Citi CC	5/28/2021	 $ (26.86)	 $ 3,016.61 		FALSE	-1	N/A	N/A
+	Coinbase	 Savings 	 Crypto Savings 	 Checking 	5/28/2021	 $ (50.00)	 $ 2,966.61 		FALSE	-1	N/A	N/A
+	Speedway	 Wants 	Free Spending	Citi CC	5/28/2021	 $ (58.05)	 $ 2,966.61 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	Checking	5/28/2021	 $ (73.99)	 $ 2,892.62 		FALSE	-1	N/A	N/A
+	Fry's	 Wants 	Free Spending	Chase CC	5/28/2021	 $ (81.96)	 $ 2,892.62 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	Checking	5/28/2021	 $ (139.00)	 $ 2,753.62 		FALSE	-1	N/A	N/A
+	Brokerage Contribution	 Savings 	Taxable Brokerage	Checking	5/28/2021	 $ (200.00)	 $ 2,553.62 		FALSE	-1	N/A	N/A
+	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	5/28/2021	 $ (200.00)	 $ 2,353.62 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	5/31/2021	 $ 81.72 	 $ 2,435.34 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	Free Spending	Chase CC	5/31/2021	 $ (5.21)	 $ 2,435.34 		FALSE	-1	N/A	N/A
 	Chevron	 Needs 	Gas	Chase CC	5/31/2021	 $ (52.93)	 $ 2,435.34 		FALSE	-1	N/A	N/A
 	Chevron	 Needs 	 Gas 	 Citi CC 	5/31/2021	 $ (66.00)	 $ 2,435.34 		FALSE	-1	N/A	N/A
 	Delsushi	 Wants 	Free Spending	Chase CC	6/1/2021	 $ (33.97)	 $ 2,435.34 		FALSE	-1	N/A	N/A
 	Valhalla	 Wants 	 Subscriptions 	 Checking 	6/1/2021	 $ (85.00)	 $ 2,350.34 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	6/1/2021	 $ (1,035.50)	 $ 1,314.84 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	6/1/2021	 $ (1,035.50)	 $ 1,314.84 		FALSE	-1	N/A	N/A
 	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	6/2/2021	 $ (20.00)	 $ 1,294.84 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	6/3/2021	 $ (4.19)	 $ 1,294.84 		FALSE	-1	N/A	N/A
 	Del Taco	 Wants 	 Free Spending 	 Chase CC 	6/3/2021	 $ (12.24)	 $ 1,294.84 		FALSE	-1	N/A	N/A
@@ -234,7 +234,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Target	 Wants 	 Free Spending 	 Chase CC 	6/8/2021	 $ (133.57)	 $ 1,171.72 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	6/9/2021	 $ (8.40)	 $ 1,171.72 		FALSE	-1	N/A	N/A
 	Scabs Gift	 Wants 	 Free Spending 	 Checking 	6/9/2021	 $ (50.00)	 $ 1,121.72 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	6/10/2021	 $ (51.86)	 $ 1,069.86 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	6/10/2021	 $ (51.86)	 $ 1,069.86 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	6/11/2021	 $ 1,642.22 	 $ 2,712.08 		FALSE	-1	N/A	N/A
 	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	6/11/2021	 $ (19.00)	 $ 2,693.08 		FALSE	-1	N/A	N/A
 	Poke Me	 Wants 	 Free Spending 	 Chase CC 	6/11/2021	 $ (32.19)	 $ 2,693.08 		FALSE	-1	N/A	N/A
@@ -253,7 +253,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Laundry	 Needs 	 Laundry 	 Chase CC 	6/14/2021	 $ (20.00)	 $ 884.15 		FALSE	-1	N/A	N/A
 	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	6/14/2021	 $ (20.00)	 $ 864.15 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	 Free Spending 	 Amazon CC 	6/14/2021	 $ (56.71)	 $ 864.15 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	6/14/2021	 $ (108.05)	 $ 756.10 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	6/14/2021	 $ (108.05)	 $ 756.10 		FALSE	-1	N/A	N/A
 	Stephanie Yoga	 Wants 	 Free Spending 	 Checking 	6/14/2021	 $ (155.00)	 $ 601.10 		FALSE	-1	N/A	N/A
 	Punjabi Tandoor	 Wants 	 Free Spending 	 Chase CC 	6/16/2021	 $ (17.00)	 $ 601.10 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	6/18/2021	 $ (14.74)	 $ 601.10 		FALSE	-1	N/A	N/A
@@ -272,19 +272,19 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Brokerage Contribution	 Savings 	Taxable Brokerage	Checking	6/25/2021	 $ (200.00)	 $ 1,866.14 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	6/25/2021	 $ (200.00)	 $ 1,666.14 		FALSE	-1	N/A	N/A
 	IHOP	 Wants 	Free Spending	Chase CC	6/27/2021	 $ (42.00)	 $ 1,666.14 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	6/28/2021	 $ 62.93 	 $ 1,729.07 		FALSE	-1	N/A	N/A
-	Reimbursement	 Income 	 Reimbursements 	 Checking 	6/28/2021	 $ 21.00 	 $ 1,750.07 		FALSE	-1	N/A	N/A
-	Apple Music	 Wants 	Subscriptions	Chase CC	6/28/2021	 $ (9.99)	 $ 1,750.07 		FALSE	-1	N/A	N/A
-	Disney+	 Wants 	Subscriptions	Chase CC	6/28/2021	 $ (13.99)	 $ 1,750.07 		FALSE	-1	N/A	N/A
-	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	6/28/2021	 $ (20.00)	 $ 1,730.07 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	Bills	Checking	6/28/2021	 $ (73.99)	 $ 1,656.08 		FALSE	-1	N/A	N/A
-	Withdrawal	 Wants 	 Free Spending 	 Checking 	6/28/2021	 $ (100.00)	 $ 1,556.08 		FALSE	-1	N/A	N/A
-	Laundry	 Needs 	 Laundry 	 Chase CC 	6/29/2021	 $ (10.00)	 $ 1,556.08 		FALSE	-1	N/A	N/A
-	Costco	 Needs 	 Groceries 	 Chase CC 	6/29/2021	 $ (109.69)	 $ 1,556.08 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	6/29/2021	 $ (139.00)	 $ 1,417.08 		FALSE	-1	N/A	N/A
+	Reimbursement	 Income 	 Reimbursements 	 Checking 	6/28/2021	 $ 21.00 	 $ 1,687.14 		FALSE	-1	N/A	N/A
+	Apple Music	 Wants 	Subscriptions	Chase CC	6/28/2021	 $ (9.99)	 $ 1,687.14 		FALSE	-1	N/A	N/A
+	Disney+	 Wants 	Subscriptions	Chase CC	6/28/2021	 $ (13.99)	 $ 1,687.14 		FALSE	-1	N/A	N/A
+	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	6/28/2021	 $ (20.00)	 $ 1,667.14 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	Checking	6/28/2021	 $ (73.99)	 $ 1,593.15 		FALSE	-1	N/A	N/A
+	Withdrawal	 Wants 	 Free Spending 	 Checking 	6/28/2021	 $ (100.00)	 $ 1,493.15 		FALSE	-1	N/A	N/A
+	Laundry	 Needs 	 Laundry 	 Chase CC 	6/29/2021	 $ (10.00)	 $ 1,493.15 		FALSE	-1	N/A	N/A
+	Costco	 Needs 	 Groceries 	 Chase CC 	6/29/2021	 $ (109.69)	 $ 1,493.15 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	6/29/2021	 $ (139.00)	 $ 1,354.15 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	6/30/2021	 $ 62.93 	 $ 1,417.08 		FALSE	-1	N/A	N/A
 	Stock Portfolio	 Income 	 Earnings 	 Checking 	6/30/2021	 $ 478.57 	 $ 1,895.65 		FALSE	-1	N/A	N/A
 	Valhalla	 Wants 	 Subscriptions 	 Checking 	7/1/2021	 $ (100.00)	 $ 1,795.65 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	7/1/2021	 $ (1,035.19)	 $ 760.46 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	7/1/2021	 $ (1,035.19)	 $ 760.46 		FALSE	-1	N/A	N/A
 	Robinhood	 Wants 	 Free Spending 	 Checking 	7/2/2021	 $ (5.00)	 $ 755.46 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	7/2/2021	 $ (8.40)	 $ 755.46 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	7/2/2021	 $ (12.46)	 $ 755.46 		FALSE	-1	N/A	N/A
@@ -304,7 +304,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Withdrawal	 Wants 	Free Spending	Checking	7/9/2021	 $ (40.00)	 $ 2,287.67 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	7/9/2021	 $ (50.00)	 $ 2,237.67 		FALSE	-1	N/A	N/A
 	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	7/9/2021	 $ (56.71)	 $ 2,180.96 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	7/9/2021	 $ (74.42)	 $ 2,106.54 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	7/9/2021	 $ (74.42)	 $ 2,106.54 		FALSE	-1	N/A	N/A
 	Brokerage Contribution	 Savings 	Taxable Brokerage	Checking	7/9/2021	 $ (200.00)	 $ 1,906.54 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	7/9/2021	 $ (200.00)	 $ 1,706.54 		FALSE	-1	N/A	N/A
 	Chase CC	 CC Payment 	CC Payment	Checking	7/9/2021	 $ (1,004.68)	 $ 701.86 		FALSE	-1	N/A	N/A
@@ -317,10 +317,10 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Traffic School	 Wants 	 Free Spending 	 Chase CC 	7/12/2021	 $ (39.95)	 $ 701.86 		FALSE	-1	N/A	N/A
 	Apple CC	 CC Payment 	 CC Payment 	 Checking 	7/12/2021	 $ (53.12)	 $ 648.74 		FALSE	-1	N/A	N/A
 	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	7/13/2021	 $ (20.00)	 $ 628.74 		FALSE	-1	N/A	N/A
-	ECSI Loans	 Needs 	 Bills 	 Checking 	7/13/2021	 $ (260.00)	 $ 368.74 		FALSE	-1	N/A	N/A
+	ECSI Loans	 Needs 	Student Loans	 Checking 	7/13/2021	 $ (260.00)	 $ 368.74 		FALSE	-1	N/A	N/A
 	Savings Transfer	 Income 	Savings Transfer	 Checking 	7/14/2021	 $ 100.00 	 $ 468.74 		FALSE	-1	N/A	N/A
 	El Pollo Loco	 Wants 	 Free Spending 	 Chase CC 	7/14/2021	 $ (12.37)	 $ 468.74 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	7/14/2021	 $ (108.05)	 $ 360.69 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	7/14/2021	 $ (108.05)	 $ 360.69 		FALSE	-1	N/A	N/A
 	Chick-Fil-A	 Wants 	 Free Spending 	 Chase CC 	7/15/2021	 $ (14.70)	 $ 360.69 		FALSE	-1	N/A	N/A
 	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	7/15/2021	 $ (111.65)	 $ 360.69 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	7/16/2021	 $ (50.00)	 $ 310.69 		FALSE	-1	N/A	N/A
@@ -329,7 +329,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Hen House	 Wants 	 Free Spending 	 Chase CC 	7/18/2021	 $ (37.65)	 $ 310.69 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	7/18/2021	 $ (56.20)	 $ 310.69 		FALSE	-1	N/A	N/A
 	SoFi	 Savings 	 Taxable Brokerage 	 Checking 	7/19/2021	 $ (20.00)	 $ 290.69 		FALSE	-1	N/A	N/A
-	DMV Registration	 Needs 	 Bills 	 Chase CC 	7/20/2021	 $ (30.69)	 $ 290.69 		FALSE	-1	N/A	N/A
+	DMV Registration	 Needs 	 Misc. 	 Chase CC 	7/20/2021	 $ (30.69)	 $ 290.69 		FALSE	-1	N/A	N/A
 	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	7/20/2021	 $ (34.99)	 $ 290.69 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	7/22/2021	 $ (8.40)	 $ 290.69 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	7/23/2021	 $ 1,642.19 	 $ 1,932.88 		FALSE	-1	N/A	N/A
@@ -348,8 +348,8 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Petsmart	 Wants 	 Free Spending 	 Chase CC 	7/27/2021	 $ (19.52)	 $ 1,322.70 		FALSE	-1	N/A	N/A
 	Costco	 Needs 	 Groceries 	 Chase CC 	7/27/2021	 $ (164.41)	 $ 1,322.70 		FALSE	-1	N/A	N/A
 	Disney+	 Wants 	Subscriptions	Chase CC	7/28/2021	 $ (13.99)	 $ 1,322.70 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	Bills	Checking	7/28/2021	 $ (73.99)	 $ 1,248.71 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	Bills	Checking	7/29/2021	 $ (139.00)	 $ 1,109.71 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	Checking	7/28/2021	 $ (73.99)	 $ 1,248.71 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	Checking	7/29/2021	 $ (139.00)	 $ 1,109.71 		FALSE	-1	N/A	N/A
 	Misc	 Wants 	 Free Spending 	 Citi CC 	7/30/2021	 $ (5.55)	 $ 1,109.71 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	7/30/2021	 $ (50.00)	 $ 1,059.71 		FALSE	-1	N/A	N/A
 	Valhalla	 Wants 	 Subscriptions 	 Checking 	7/30/2021	 $ (100.00)	 $ 959.71 		FALSE	-1	N/A	N/A
@@ -363,10 +363,10 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Stock Portfolio	 Income 	 Earnings 	 Checking 	8/3/2021	 $ 341.78 	 $ 1,375.69 		FALSE	-1	N/A	N/A
 	Stock Portfolio	 Income 	 Earnings 	 Checking 	8/3/2021	 $ 340.18 	 $ 1,715.87 		FALSE	-1	N/A	N/A
 	Stock Portfolio	 Income 	 Earnings 	 Checking 	8/3/2021	 $ 0.59 	 $ 1,716.46 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	8/3/2021	 $ (120.49)	 $ 1,595.97 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	8/3/2021	 $ (120.49)	 $ 1,595.97 		FALSE	-1	N/A	N/A
 	Oaxaca Airbnb	 Wants 	 Free Spending 	 Chase CC 	8/3/2021	 $ (581.39)	 $ 1,595.97 		FALSE	-1	N/A	N/A
 	Oaxaca Flight	 Wants 	 Free Spending 	 Chase CC 	8/3/2021	 $ (687.90)	 $ 1,595.97 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	8/3/2021	 $ (913.43)	 $ 682.54 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	8/3/2021	 $ (913.43)	 $ 682.54 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	8/5/2021	 $ (8.40)	 $ 682.54 		FALSE	-1	N/A	N/A
 	Carls Jr	 Wants 	 Free Spending 	 Chase CC 	8/5/2021	 $ (12.92)	 $ 682.54 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	8/6/2021	 $ 1,642.20 	 $ 2,324.74 		FALSE	-1	N/A	N/A
@@ -382,7 +382,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Ralphs	 Wants 	 Free Spending 	 Citi CC 	8/8/2021	 $ (42.31)	 $ 1,030.69 		FALSE	-1	N/A	N/A
 	Airbnb	 Wants 	 Free Spending 	 Chase CC 	8/8/2021	 $ (279.26)	 $ 1,030.69 		FALSE	-1	N/A	N/A
 	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	8/10/2021	 $ (84.34)	 $ 946.35 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	8/10/2021	 $ (106.06)	 $ 840.29 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	8/10/2021	 $ (106.06)	 $ 840.29 		FALSE	-1	N/A	N/A
 	Laundry	 Needs 	 Laundry 	 Chase CC 	8/11/2021	 $ (10.00)	 $ 840.29 		FALSE	-1	N/A	N/A
 	Reimbursement	 Wants 	 Free Spending 	 Checking 	8/12/2021	 $ 20.00 	 $ 860.29 		FALSE	-1	N/A	N/A
 	OC Fair	 Wants 	 Free Spending 	 Chase CC 	8/12/2021	 $ (21.44)	 $ 860.29 		FALSE	-1	N/A	N/A
@@ -398,7 +398,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	7 Eleven	 Wants 	 Free Spending 	 Chase CC 	8/14/2021	 $ (10.18)	 $ 710.29 		FALSE	-1	N/A	N/A
 	Target	 Wants 	 Free Spending 	 Chase CC 	8/14/2021	 $ (15.48)	 $ 710.29 		FALSE	-1	N/A	N/A
 	Bear & the Wren	 Wants 	 Free Spending 	 Chase CC 	8/14/2021	 $ (30.00)	 $ 710.29 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	8/14/2021	 $ (108.05)	 $ 602.24 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	8/14/2021	 $ (108.05)	 $ 602.24 		FALSE	-1	N/A	N/A
 	Sushi O Sushi	 Wants 	 Free Spending 	 Chase CC 	8/14/2021	 $ (115.00)	 $ 602.24 		FALSE	-1	N/A	N/A
 	Vending Machine	 Wants 	 Free Spending 	 Chase CC 	8/16/2021	 $ (2.85)	 $ 602.24 		FALSE	-1	N/A	N/A
 	Chevron	 Wants 	 Free Spending 	 Citi CC 	8/16/2021	 $ (4.47)	 $ 602.24 		FALSE	-1	N/A	N/A
@@ -413,7 +413,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	8/20/2021	 $ (11.29)	 $ 2,844.48 		FALSE	-1	N/A	N/A
 	Karl Strauss	 Wants 	 Free Spending 	 Chase CC 	8/20/2021	 $ (33.00)	 $ 2,844.48 		FALSE	-1	N/A	N/A
 	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	8/20/2021	 $ (34.99)	 $ 2,844.48 		FALSE	-1	N/A	N/A
-	Jiffy Lube	 Needs 	 Bills 	 Chase CC 	8/20/2021	 $ (42.99)	 $ 2,844.48 		FALSE	-1	N/A	N/A
+	Jiffy Lube	 Needs 	 Misc. 	 Chase CC 	8/20/2021	 $ (42.99)	 $ 2,844.48 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	8/20/2021	 $ (50.00)	 $ 2,794.48 		FALSE	-1	N/A	N/A
 	Withdrawal	 Wants 	 Free Spending 	 Checking 	8/20/2021	 $ (60.00)	 $ 2,734.48 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	8/20/2021	 $ (69.92)	 $ 2,734.48 		FALSE	-1	N/A	N/A
@@ -424,23 +424,23 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Reimbursement	 Income 	 Reimbursements 	 Checking 	8/23/2021	 $ 46.00 	 $ 1,563.99 		FALSE	-1	N/A	N/A
 	Reimbursement	 Income 	 Reimbursements 	 Checking 	8/23/2021	 $ 18.00 	 $ 1,581.99 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	8/23/2021	 $ (8.38)	 $ 1,581.99 		FALSE	-1	N/A	N/A
-	Renter's Insurance	 Needs 	 Bills 	 Checking 	8/24/2021	 $ (59.50)	 $ 1,522.49 		FALSE	-1	N/A	N/A
+	Renter's Insurance	 Needs 	 Renter's Insurance 	 Checking 	8/24/2021	 $ (59.50)	 $ 1,522.49 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	8/26/2021	 $ (50.00)	 $ 1,472.49 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	8/27/2021	 $ (11.21)	 $ 1,472.49 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	8/28/2021	 $ 124.78 	 $ 1,597.27 		FALSE	-1	N/A	N/A
-	Disney+	 Wants 	Subscriptions	Chase CC	8/28/2021	 $ (13.99)	 $ 1,597.27 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	Bills	Checking	8/28/2021	 $ (83.99)	 $ 1,513.28 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	Bills	Checking	8/28/2021	 $ (143.95)	 $ 1,369.33 		FALSE	-1	N/A	N/A
-	Raising Cane's	 Wants 	 Free Spending 	 Chase CC 	8/29/2021	 $ (13.75)	 $ 1,369.33 		FALSE	-1	N/A	N/A
-	85C Bakery	 Wants 	 Free Spending 	 Chase CC 	8/29/2021	 $ (22.63)	 $ 1,369.33 		FALSE	-1	N/A	N/A
-	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	8/30/2021	 $ (10.00)	 $ 1,369.33 		FALSE	-1	N/A	N/A
-	El Pollo Loco	 Wants 	 Free Spending 	 Chase CC 	8/30/2021	 $ (10.01)	 $ 1,369.33 		FALSE	-1	N/A	N/A
-	Salt and Straw	 Wants 	 Free Spending 	 Chase CC 	8/30/2021	 $ (15.52)	 $ 1,369.33 		FALSE	-1	N/A	N/A
-	Valhalla	 Wants 	 Subscriptions 	 Checking 	8/30/2021	 $ (100.00)	 $ 1,269.33 		FALSE	-1	N/A	N/A
+	Disney+	 Wants 	Subscriptions	Chase CC	8/28/2021	 $ (13.99)	 $ 1,472.49 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	Checking	8/28/2021	 $ (83.99)	 $ 1,388.50 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	Checking	8/28/2021	 $ (143.95)	 $ 1,244.55 		FALSE	-1	N/A	N/A
+	Raising Cane's	 Wants 	 Free Spending 	 Chase CC 	8/29/2021	 $ (13.75)	 $ 1,244.55 		FALSE	-1	N/A	N/A
+	85C Bakery	 Wants 	 Free Spending 	 Chase CC 	8/29/2021	 $ (22.63)	 $ 1,244.55 		FALSE	-1	N/A	N/A
+	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	8/30/2021	 $ (10.00)	 $ 1,244.55 		FALSE	-1	N/A	N/A
+	El Pollo Loco	 Wants 	 Free Spending 	 Chase CC 	8/30/2021	 $ (10.01)	 $ 1,244.55 		FALSE	-1	N/A	N/A
+	Salt and Straw	 Wants 	 Free Spending 	 Chase CC 	8/30/2021	 $ (15.52)	 $ 1,244.55 		FALSE	-1	N/A	N/A
+	Valhalla	 Wants 	 Subscriptions 	 Checking 	8/30/2021	 $ (100.00)	 $ 1,144.55 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	8/31/2021	 $ 124.78 	 $ 1,269.33 		FALSE	-1	N/A	N/A
 	FivePoint	 Wants 	 Free Spending 	 Chase CC 	9/1/2021	 $ (17.25)	 $ 1,269.33 		FALSE	-1	N/A	N/A
 	FivePoint	 Wants 	 Free Spending 	 Chase CC 	9/1/2021	 $ (19.55)	 $ 1,269.33 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	9/1/2021	 $ (64.38)	 $ 1,269.33 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	9/1/2021	 $ (1,101.11)	 $ 168.22 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	9/1/2021	 $ (1,101.11)	 $ 168.22 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	9/2/2021	 $ (8.89)	 $ 168.22 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	9/3/2021	 $ 1,642.19 	 $ 1,810.41 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	9/3/2021	 $ (50.00)	 $ 1,760.41 		FALSE	-1	N/A	N/A
@@ -457,7 +457,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Costco	 Wants 	 Free Spending 	 Chase CC 	9/8/2021	 $ (69.62)	 $ 139.98 		FALSE	-1	N/A	N/A
 	Manaow	 Wants 	 Free Spending 	 Chase CC 	9/8/2021	 $ (90.00)	 $ 139.98 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	9/9/2021	 $ (19.00)	 $ 139.98 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	9/9/2021	 $ (83.82)	 $ 56.16 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	9/9/2021	 $ (83.82)	 $ 56.16 		FALSE	-1	N/A	N/A
 	Stock Portfolio	 Income 	 Earnings 	 Checking 	9/10/2021	 $ 809.89 	 $ 866.05 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	9/10/2021	 $ (50.00)	 $ 816.05 		FALSE	-1	N/A	N/A
 	Gelato Paradiso	 Wants 	 Free Spending 	 Chase CC 	9/11/2021	 $ (11.50)	 $ 816.05 		FALSE	-1	N/A	N/A
@@ -469,7 +469,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Withdrawal for MX	 Wants 	 Free Spending 	 Checking 	9/13/2021	 $ (520.00)	 $ 249.05 		FALSE	-1	N/A	N/A
 	Collectivo Taxi	 Wants 	 Free Spending 	 Amazon CC 	9/14/2021	 $ (16.12)	 $ 249.05 		FALSE	-1	N/A	N/A
 	Los Pacos	 Wants 	 Free Spending 	 Amazon CC 	9/14/2021	 $ (30.94)	 $ 249.05 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	9/14/2021	 $ (108.05)	 $ 141.00 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	9/14/2021	 $ (108.05)	 $ 141.00 		FALSE	-1	N/A	N/A
 	Lyft	 Wants 	 Free Spending 	 Chase CC 	9/15/2021	 $ (31.99)	 $ 141.00 		FALSE	-1	N/A	N/A
 	Los Danzantes	 Wants 	 Free Spending 	 Amazon CC 	9/15/2021	 $ (65.69)	 $ 141.00 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	9/17/2021	 $ 1,642.21 	 $ 1,783.21 		FALSE	-1	N/A	N/A
@@ -495,17 +495,17 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Costco	 Needs 	 Groceries 	 Chase CC 	9/24/2021	 $ (115.76)	 $ 1,208.87 		FALSE	-1	N/A	N/A
 	HBO Max	 Wants 	Subscriptions	Chase CC	9/26/2021	 $ (7.49)	 $ 1,208.87 		FALSE	-1	N/A	N/A
 	Venmo	 Wants 	Free Spending	Checking	9/27/2021	 $ (40.00)	 $ 1,168.87 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	Bills	Checking	9/28/2021	 $ (83.99)	 $ 1,084.88 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	Bills	Checking	9/28/2021	 $ (142.80)	 $ 942.08 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	9/29/2021	 $ 83.91 	 $ 1,025.99 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	Subscriptions	Chase CC	9/29/2021	 $ (6.99)	 $ 1,025.99 		FALSE	-1	N/A	N/A
-	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	9/29/2021	 $ (75.24)	 $ 1,025.99 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	Checking	9/28/2021	 $ (83.99)	 $ 1,084.88 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	Checking	9/28/2021	 $ (142.80)	 $ 942.08 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	Subscriptions	Chase CC	9/29/2021	 $ (6.99)	 $ 942.08 		FALSE	-1	N/A	N/A
+	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	9/29/2021	 $ (75.24)	 $ 942.08 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	9/30/2021	 $ 83.91 	 $ 1,025.99 		FALSE	-1	N/A	N/A
 	Savings Transfer	 Income 	Savings Transfer	 Checking 	9/30/2021	 $ 1,500.00 	 $ 2,525.99 		FALSE	-1	N/A	N/A
-	ECSI Loans	 Needs 	 Bills 	 Checking 	9/30/2021	 $ (1,546.98)	 $ 979.01 		FALSE	-1	N/A	N/A
+	ECSI Loans	 Needs 	Student Loans	 Checking 	9/30/2021	 $ (1,546.98)	 $ 979.01 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	10/1/2021	 $ 1,642.19 	 $ 2,621.20 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	10/1/2021	 $ (50.00)	 $ 2,571.20 		FALSE	-1	N/A	N/A
 	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	10/1/2021	 $ (200.00)	 $ 2,371.20 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	10/1/2021	 $ (1,116.95)	 $ 1,254.25 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	10/1/2021	 $ (1,116.95)	 $ 1,254.25 		FALSE	-1	N/A	N/A
 	Northgate	 Wants 	Free Spending	Citi CC	10/2/2021	 $ (0.99)	 $ 1,254.25 		FALSE	-1	N/A	N/A
 	Target	 Wants 	Free Spending	Chase CC	10/2/2021	 $ (25.31)	 $ 1,254.25 		FALSE	-1	N/A	N/A
 	Withdrawal	 Wants 	Free Spending	Checking	10/2/2021	 $ (200.00)	 $ 1,054.25 		FALSE	-1	N/A	N/A
@@ -529,9 +529,9 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Knife Convention	 Wants 	Free Spending	Chase CC	10/9/2021	 $ (40.00)	 $ 921.10 		FALSE	-1	N/A	N/A
 	Top Shelf Tacos	 Wants 	Free Spending	Chase CC	10/9/2021	 $ (49.61)	 $ 921.10 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	Groceries	Citi CC	10/10/2021	 $ (65.98)	 $ 921.10 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	10/10/2021	 $ (68.52)	 $ 852.58 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	10/10/2021	 $ (68.52)	 $ 852.58 		FALSE	-1	N/A	N/A
 	Triunfo Jiu Jitsu	 Wants 	Subscriptions	Chase CC	10/12/2021	 $ (125.00)	 $ 852.58 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	10/14/2021	 $ (308.05)	 $ 544.53 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	10/14/2021	 $ (308.05)	 $ 544.53 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	10/15/2021	 $ 1,642.20 	 $ 2,186.73 		FALSE	-1	N/A	N/A
 	Chipotle	 Wants 	Free Spending	Chase CC	10/15/2021	 $ (10.99)	 $ 2,186.73 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	10/15/2021	 $ (50.00)	 $ 2,136.73 		FALSE	-1	N/A	N/A
@@ -558,20 +558,20 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	HBO Max	 Wants 	Subscriptions	Chase CC	10/26/2021	 $ (7.49)	 $ 310.40 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	Free Spending	Amazon CC	10/26/2021	 $ (35.00)	 $ 310.40 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	Free Spending	Amazon CC	10/26/2021	 $ (38.72)	 $ 310.40 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	10/27/2021	 $ 76.26 	 $ 386.66 		FALSE	-1	N/A	N/A
-	Venmo	 Wants 	 Free Spending 	 Checking 	10/27/2021	 $ (60.00)	 $ 326.66 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	10/28/2021	 $ (83.99)	 $ 242.67 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	10/28/2021	 $ (142.80)	 $ 99.87 		FALSE	-1	N/A	N/A
-	Idaho Plan Tickets	 Wants 	Free Spending	Chase CC	10/28/2021	 $ (173.26)	 $ 99.87 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	10/29/2021	 $ 1,642.19 	 $ 1,742.06 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	Subscriptions	Chase CC	10/29/2021	 $ (6.99)	 $ 1,742.06 		FALSE	-1	N/A	N/A
-	McDonald's	 Wants 	Free Spending	Chase CC	10/29/2021	 $ (14.84)	 $ 1,742.06 		FALSE	-1	N/A	N/A
-	Pho Crystal 3	 Wants 	Free Spending	Chase CC	10/29/2021	 $ (45.00)	 $ 1,742.06 		FALSE	-1	N/A	N/A
-	Coinbase	 Savings 	 Crypto Savings 	 Checking 	10/29/2021	 $ (60.00)	 $ 1,682.06 		FALSE	-1	N/A	N/A
-	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	10/29/2021	 $ (200.00)	 $ 1,482.06 		FALSE	-1	N/A	N/A
-	Amazon	 Wants 	Free Spending	Amazon CC	10/30/2021	 $ (53.64)	 $ 1,482.06 		FALSE	-1	N/A	N/A
+	Venmo	 Wants 	 Free Spending 	 Checking 	10/27/2021	 $ (60.00)	 $ 250.40 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	10/28/2021	 $ (83.99)	 $ 166.41 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	10/28/2021	 $ (142.80)	 $ 23.61 		FALSE	-1	N/A	N/A
+	Idaho Plan Tickets	 Wants 	Free Spending	Chase CC	10/28/2021	 $ (173.26)	 $ 23.61 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	10/29/2021	 $ 1,642.19 	 $ 1,665.80 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	Subscriptions	Chase CC	10/29/2021	 $ (6.99)	 $ 1,665.80 		FALSE	-1	N/A	N/A
+	McDonald's	 Wants 	Free Spending	Chase CC	10/29/2021	 $ (14.84)	 $ 1,665.80 		FALSE	-1	N/A	N/A
+	Pho Crystal 3	 Wants 	Free Spending	Chase CC	10/29/2021	 $ (45.00)	 $ 1,665.80 		FALSE	-1	N/A	N/A
+	Coinbase	 Savings 	 Crypto Savings 	 Checking 	10/29/2021	 $ (60.00)	 $ 1,605.80 		FALSE	-1	N/A	N/A
+	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	10/29/2021	 $ (200.00)	 $ 1,405.80 		FALSE	-1	N/A	N/A
+	Amazon	 Wants 	Free Spending	Amazon CC	10/30/2021	 $ (53.64)	 $ 1,405.80 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	10/31/2021	 $ 76.26 	 $ 1,482.06 		FALSE	-1	N/A	N/A
 	Ralphs	 Needs 	 Groceries 	 Citi CC 	11/1/2021	 $ (46.74)	 $ 1,482.06 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	11/1/2021	 $ (1,117.60)	 $ 364.46 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	11/1/2021	 $ (1,117.60)	 $ 364.46 		FALSE	-1	N/A	N/A
 	Chipotle	 Wants 	 Free Spending 	 Chase CC 	11/5/2021	 $ (12.55)	 $ 364.46 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	11/5/2021	 $ (50.00)	 $ 314.46 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	11/5/2021	 $ (65.54)	 $ 314.46 		FALSE	-1	N/A	N/A
@@ -582,7 +582,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	A&J Restaurant	 Wants 	 Free Spending 	 Chase CC 	11/7/2021	 $ (52.00)	 $ 314.46 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	11/8/2021	 $ (10.00)	 $ 314.46 		FALSE	-1	N/A	N/A
 	Wholesome Choice	 Wants 	 Free Spending 	 Chase CC 	11/8/2021	 $ (31.52)	 $ 314.46 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	11/9/2021	 $ (32.24)	 $ 282.22 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	11/9/2021	 $ (32.24)	 $ 282.22 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	11/12/2021	 $ 1,723.27 	 $ 2,005.49 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	11/12/2021	 $ (50.00)	 $ 1,955.49 		FALSE	-1	N/A	N/A
 	Apple CC	 CC Payment 	 CC Payment 	 Checking 	11/12/2021	 $ (55.78)	 $ 1,899.71 		FALSE	-1	N/A	N/A
@@ -596,12 +596,12 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	11/14/2021	 $ (21.62)	 $ 654.72 		FALSE	-1	N/A	N/A
 	Petsmart	 Wants 	 Free Spending 	 Chase CC 	11/14/2021	 $ (43.57)	 $ 654.72 		FALSE	-1	N/A	N/A
 	Siam Wala Thai Massage	 Wants 	 Free Spending 	 Chase CC 	11/14/2021	 $ (80.00)	 $ 654.72 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	11/14/2021	 $ (308.05)	 $ 346.67 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	11/14/2021	 $ (308.05)	 $ 346.67 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	11/15/2021	 $ (9.47)	 $ 346.67 		FALSE	-1	N/A	N/A
-	Jamboree Smog	 Needs 	 Bills 	 Chase CC 	11/15/2021	 $ (38.00)	 $ 346.67 		FALSE	-1	N/A	N/A
+	Jamboree Smog	 Needs 	 Misc. 	 Chase CC 	11/15/2021	 $ (38.00)	 $ 346.67 		FALSE	-1	N/A	N/A
 	Costco	 Wants 	 Free Spending 	 Chase CC 	11/15/2021	 $ (152.78)	 $ 346.67 		FALSE	-1	N/A	N/A
 	Target	 Wants 	 Free Spending 	 Chase CC 	11/17/2021	 $ (84.02)	 $ 346.67 		FALSE	-1	N/A	N/A
-	DMV Registration	 Needs 	 Bills 	 Checking 	11/17/2021	 $ (201.00)	 $ 145.67 		FALSE	-1	N/A	N/A
+	DMV Registration	 Needs 	 Misc. 	 Checking 	11/17/2021	 $ (201.00)	 $ 145.67 		FALSE	-1	N/A	N/A
 	Chipotle	 Wants 	 Free Spending 	 Chase CC 	11/19/2021	 $ (9.91)	 $ 145.67 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	11/19/2021	 $ (50.00)	 $ 95.67 		FALSE	-1	N/A	N/A
 	Stock Portfolio	 Income 	 Earnings 	 Checking 	11/20/2021	 $ 1,085.08 	 $ 1,180.75 		FALSE	-1	N/A	N/A
@@ -617,7 +617,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Starbucks	 Wants 	 Vacation Spending 	 Chase CC 	11/24/2021	 $ (7.00)	 $ 1,038.75 		FALSE	-1	N/A	N/A
 	Jersey Mike's	 Wants 	 Vacation Spending 	 Chase CC 	11/24/2021	 $ (11.87)	 $ 1,038.75 		FALSE	-1	N/A	N/A
 	Zenko Sushi	 Wants 	 Free Spending 	 Chase CC 	11/24/2021	 $ (43.95)	 $ 1,038.75 		FALSE	-1	N/A	N/A
-	Renter's Insurance	 Needs 	 Bills 	 Checking 	11/24/2021	 $ (59.50)	 $ 979.25 		FALSE	-1	N/A	N/A
+	Renter's Insurance	 Needs 	 Renter's Insurance 	 Checking 	11/24/2021	 $ (59.50)	 $ 979.25 		FALSE	-1	N/A	N/A
 	Cinemark	 Wants 	 Vacation Spending 	 Chase CC 	11/25/2021	 $ (10.08)	 $ 979.25 		FALSE	-1	N/A	N/A
 	Uber	 Wants 	 Vacation Spending 	 Chase CC 	11/25/2021	 $ (68.90)	 $ 979.25 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	11/26/2021	 $ 2,594.77 	 $ 3,574.02 		FALSE	-1	N/A	N/A
@@ -627,20 +627,20 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	11/26/2021	 $ (200.00)	 $ 3,324.02 		FALSE	-1	N/A	N/A
 	Chevron	 Wants 	 Vacation Spending 	 Citi CC 	11/27/2021	 $ (5.82)	 $ 3,324.02 		FALSE	-1	N/A	N/A
 	10 Barrel Brewery	 Wants 	 Vacation Spending 	 Chase CC 	11/27/2021	 $ (37.00)	 $ 3,324.02 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	11/29/2021	 $ 85.37 	 $ 3,409.39 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	Subscriptions	Chase CC	11/29/2021	 $ (6.99)	 $ 3,409.39 		FALSE	-1	N/A	N/A
-	Ishtar Market	 Wants 	 Vacation Spending 	 Chase CC 	11/29/2021	 $ (12.51)	 $ 3,409.39 		FALSE	-1	N/A	N/A
-	Moe Joe's	 Wants 	 Vacation Spending 	 Chase CC 	11/29/2021	 $ (33.00)	 $ 3,409.39 		FALSE	-1	N/A	N/A
-	Chevron	 Wants 	 Vacation Spending 	 Citi CC 	11/29/2021	 $ (39.00)	 $ 3,409.39 		FALSE	-1	N/A	N/A
-	JC Penney	 Wants 	 Free Spending 	 Chase CC 	11/29/2021	 $ (48.76)	 $ 3,409.39 		FALSE	-1	N/A	N/A
-	Venmo	 Wants 	 Free Spending 	 Checking 	11/29/2021	 $ (50.00)	 $ 3,359.39 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	11/29/2021	 $ (83.99)	 $ 3,275.40 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	Subscriptions	Chase CC	11/29/2021	 $ (6.99)	 $ 3,324.02 		FALSE	-1	N/A	N/A
+	Ishtar Market	 Wants 	 Vacation Spending 	 Chase CC 	11/29/2021	 $ (12.51)	 $ 3,324.02 		FALSE	-1	N/A	N/A
+	Moe Joe's	 Wants 	 Vacation Spending 	 Chase CC 	11/29/2021	 $ (33.00)	 $ 3,324.02 		FALSE	-1	N/A	N/A
+	Chevron	 Wants 	 Vacation Spending 	 Citi CC 	11/29/2021	 $ (39.00)	 $ 3,324.02 		FALSE	-1	N/A	N/A
+	JC Penney	 Wants 	 Free Spending 	 Chase CC 	11/29/2021	 $ (48.76)	 $ 3,324.02 		FALSE	-1	N/A	N/A
+	Venmo	 Wants 	 Free Spending 	 Checking 	11/29/2021	 $ (50.00)	 $ 3,274.02 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	11/29/2021	 $ (83.99)	 $ 3,190.03 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	11/30/2021	 $ 85.37 	 $ 3,275.40 		FALSE	-1	N/A	N/A
 	Albertson's	 Wants 	 Vacation Spending 	 Citi CC 	11/30/2021	 $ (41.65)	 $ 3,275.40 		FALSE	-1	N/A	N/A
 	Taxi	 Wants 	 Vacation Spending 	 Chase CC 	11/30/2021	 $ (68.25)	 $ 3,275.40 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	11/30/2021	 $ (142.80)	 $ 3,132.60 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	11/30/2021	 $ (142.80)	 $ 3,132.60 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	12/1/2021	 $ (39.91)	 $ 3,132.60 		FALSE	-1	N/A	N/A
 	Tijuana Airbnb	 Wants 	 Vacation Spending 	 Checking 	12/1/2021	 $ (112.58)	 $ 3,020.02 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	12/1/2021	 $ (1,119.20)	 $ 1,900.82 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	12/1/2021	 $ (1,119.20)	 $ 1,900.82 		FALSE	-1	N/A	N/A
 	Chase CC	 CC Payment 	 CC Payment 	 Checking 	12/1/2021	 $ (1,363.06)	 $ 537.76 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	12/3/2021	 $ (50.00)	 $ 487.76 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	12/4/2021	 $ (18.57)	 $ 487.76 		FALSE	-1	N/A	N/A
@@ -657,7 +657,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Nate's Korner	 Wants 	 Free Spending 	 Chase CC 	12/10/2021	 $ (14.10)	 $ 2,074.18 		FALSE	-1	N/A	N/A
 	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	12/10/2021	 $ (20.00)	 $ 2,054.18 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	12/10/2021	 $ (50.00)	 $ 2,004.18 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	12/10/2021	 $ (63.49)	 $ 1,940.69 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	12/10/2021	 $ (63.49)	 $ 1,940.69 		FALSE	-1	N/A	N/A
 	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	12/10/2021	 $ (200.00)	 $ 1,740.69 		FALSE	-1	N/A	N/A
 	Citi CC	 CC Payment 	 CC Payment 	 Checking 	12/10/2021	 $ (324.76)	 $ 1,415.93 		FALSE	-1	N/A	N/A
 	El Mejor Pan De Tecate	 Wants 	 Vacation Spending 	 Amazon CC 	12/11/2021	 $ (12.34)	 $ 1,415.93 		FALSE	-1	N/A	N/A
@@ -670,7 +670,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Chipotle	 Wants 	 Free Spending 	 Chase CC 	12/13/2021	 $ (13.25)	 $ 1,415.93 		FALSE	-1	N/A	N/A
 	Chevron	 Wants 	 Vacation Spending 	 Citi CC 	12/13/2021	 $ (37.42)	 $ 1,415.93 		FALSE	-1	N/A	N/A
 	Q-Redew	 Wants 	 Free Spending 	 Chase CC 	12/14/2021	 $ (81.00)	 $ 1,415.93 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	12/14/2021	 $ (308.05)	 $ 1,107.88 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	12/14/2021	 $ (308.05)	 $ 1,107.88 		FALSE	-1	N/A	N/A
 	Total Wine	 Wants 	 Free Spending 	 Chase CC 	12/15/2021	 $ (47.58)	 $ 1,107.88 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	 Free Spending 	 Amazon CC 	12/15/2021	 $ (53.09)	 $ 1,107.88 		FALSE	-1	N/A	N/A
 	Costco	 Needs 	 Groceries 	 Chase CC 	12/15/2021	 $ (107.04)	 $ 1,107.88 		FALSE	-1	N/A	N/A
@@ -697,16 +697,16 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	AMC	 Wants 	 Free Spending 	 Chase CC 	12/26/2021	 $ (13.44)	 $ 2,410.07 		FALSE	-1	N/A	N/A
 	AMC	 Wants 	 Free Spending 	 Chase CC 	12/26/2021	 $ (31.65)	 $ 2,410.07 		FALSE	-1	N/A	N/A
 	Circle K	 Wants 	 Free Spending 	 Citi CC 	12/27/2021	 $ (68.73)	 $ 2,410.07 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	12/28/2021	 $ 143.73 	 $ 2,553.80 		FALSE	-1	N/A	N/A
-	Jackrabbit Java	 Wants 	 Free Spending 	 Chase CC 	12/28/2021	 $ (11.82)	 $ 2,553.80 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	12/28/2021	 $ (83.99)	 $ 2,469.81 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	12/28/2021	 $ (142.80)	 $ 2,327.01 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	Subscriptions	Chase CC	12/29/2021	 $ (6.99)	 $ 2,327.01 		FALSE	-1	N/A	N/A
+	Jackrabbit Java	 Wants 	 Free Spending 	 Chase CC 	12/28/2021	 $ (11.82)	 $ 2,410.07 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	12/28/2021	 $ (83.99)	 $ 2,326.08 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	12/28/2021	 $ (142.80)	 $ 2,183.28 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	Subscriptions	Chase CC	12/29/2021	 $ (6.99)	 $ 2,183.28 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	12/31/2021	 $ 143.73 	 $ 2,327.01 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	12/31/2021	 $ (14.51)	 $ 2,327.01 		FALSE	-1	N/A	N/A
 	Coinbase	 Savings 	 Crypto Savings 	 Checking 	12/31/2021	 $ (50.00)	 $ 2,277.01 		FALSE	-1	N/A	N/A
 	Target	 Wants 	 Free Spending 	 Chase CC 	12/31/2021	 $ (52.96)	 $ 2,277.01 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	12/31/2021	 $ (70.42)	 $ 2,277.01 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	1/1/2022	 $ (1,121.51)	 $ 1,155.50 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	1/1/2022	 $ (1,121.51)	 $ 1,155.50 		FALSE	-1	N/A	N/A
 	Love Letter Pizza	 Wants 	 Free Spending 	 Chase CC 	1/2/2022	 $ (68.87)	 $ 1,155.50 		FALSE	-1	N/A	N/A
 	Bird	 Wants 	 Free Spending 	 Chase CC 	1/3/2022	 $ (11.96)	 $ 1,155.50 		FALSE	-1	N/A	N/A
 	The Breakfast Bar	 Wants 	 Free Spending 	 Chase CC 	1/3/2022	 $ (38.00)	 $ 1,155.50 		FALSE	-1	N/A	N/A
@@ -724,10 +724,10 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	1/9/2022	 $ (11.10)	 $ 516.85 		FALSE	-1	N/A	N/A
 	Sushi Damu	 Wants 	 Free Spending 	 Chase CC 	1/9/2022	 $ (45.00)	 $ 516.85 		FALSE	-1	N/A	N/A
 	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	1/10/2022	 $ (22.58)	 $ 516.85 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	1/10/2022	 $ (66.39)	 $ 450.46 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	1/10/2022	 $ (66.39)	 $ 450.46 		FALSE	-1	N/A	N/A
 	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	1/12/2022	 $ (125.00)	 $ 450.46 		FALSE	-1	N/A	N/A
 	Withdrawal	 Wants 	 Free Spending 	 Checking 	1/14/2022	 $ (60.00)	 $ 390.46 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	1/14/2022	 $ (308.05)	 $ 82.41 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	1/14/2022	 $ (308.05)	 $ 82.41 		FALSE	-1	N/A	N/A
 	Northgate Market	 Wants 	 Free Spending 	 Citi CC 	1/15/2022	 $ (15.06)	 $ 82.41 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Chase CC 	1/16/2022	 $ (9.50)	 $ 82.41 		FALSE	-1	N/A	N/A
 	99 Cents Store	 Wants 	 Free Spending 	 Citi CC 	1/16/2022	 $ (15.39)	 $ 82.41 		FALSE	-1	N/A	N/A
@@ -742,19 +742,19 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Shell	 Needs 	 Gas 	 Citi CC 	1/23/2022	 $ (77.22)	 $ 1,411.06 		FALSE	-1	N/A	N/A
 	Cholada	 Wants 	 Free Spending 	 Chase CC 	1/23/2022	 $ (98.60)	 $ 1,411.06 		FALSE	-1	N/A	N/A
 	HBO Max	 Wants 	 Subscriptions 	 Chase CC 	1/26/2022	 $ (7.49)	 $ 1,411.06 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	1/28/2022	 $ 75.19 	 $ 1,486.25 		FALSE	-1	N/A	N/A
-	Chipotle	 Wants 	 Free Spending 	 Citi CC 	1/28/2022	 $ (13.25)	 $ 1,486.25 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	1/28/2022	 $ (83.99)	 $ 1,402.26 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	1/28/2022	 $ (142.80)	 $ 1,259.46 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	1/29/2022	 $ (6.99)	 $ 1,259.46 		FALSE	-1	N/A	N/A
-	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	1/29/2022	 $ (10.00)	 $ 1,259.46 		FALSE	-1	N/A	N/A
-	Nate's Korner	 Wants 	 Free Spending 	 Chase CC 	1/29/2022	 $ (14.10)	 $ 1,259.46 		FALSE	-1	N/A	N/A
-	Laundry	 Needs 	 Laundry 	 Chase CC 	1/29/2022	 $ (15.00)	 $ 1,259.46 		FALSE	-1	N/A	N/A
-	Ambrosia Coffee	 Wants 	 Free Spending 	 Chase CC 	1/30/2022	 $ (12.65)	 $ 1,259.46 		FALSE	-1	N/A	N/A
-	Northgate Market	 Wants 	 Free Spending 	 Citi CC 	1/30/2022	 $ (16.75)	 $ 1,259.46 		FALSE	-1	N/A	N/A
+	Chipotle	 Wants 	 Free Spending 	 Citi CC 	1/28/2022	 $ (13.25)	 $ 1,411.06 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	1/28/2022	 $ (83.99)	 $ 1,327.07 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	1/28/2022	 $ (142.80)	 $ 1,184.27 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	1/29/2022	 $ (6.99)	 $ 1,184.27 		FALSE	-1	N/A	N/A
+	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	1/29/2022	 $ (10.00)	 $ 1,184.27 		FALSE	-1	N/A	N/A
+	Nate's Korner	 Wants 	 Free Spending 	 Chase CC 	1/29/2022	 $ (14.10)	 $ 1,184.27 		FALSE	-1	N/A	N/A
+	Laundry	 Needs 	 Laundry 	 Chase CC 	1/29/2022	 $ (15.00)	 $ 1,184.27 		FALSE	-1	N/A	N/A
+	Ambrosia Coffee	 Wants 	 Free Spending 	 Chase CC 	1/30/2022	 $ (12.65)	 $ 1,184.27 		FALSE	-1	N/A	N/A
+	Northgate Market	 Wants 	 Free Spending 	 Citi CC 	1/30/2022	 $ (16.75)	 $ 1,184.27 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	1/31/2022	 $ 75.19 	 $ 1,259.46 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	1/31/2022	 $ (18.24)	 $ 1,259.46 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	 Free Spending 	 Amazon CC 	2/1/2022	 $ (2.98)	 $ 1,259.46 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	2/1/2022	 $ (1,120.61)	 $ 138.85 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	2/1/2022	 $ (1,120.61)	 $ 138.85 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	2/2/2022	 $ (74.77)	 $ 138.85 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	2/4/2022	 $ 1,639.97 	 $ 1,778.82 		FALSE	-1	N/A	N/A
 	Apple CC	 CC Payment 	 CC Payment 	 Checking 	2/4/2022	 $ (55.78)	 $ 1,723.04 		FALSE	-1	N/A	N/A
@@ -770,7 +770,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	2/7/2022	 $ (20.00)	 $ 252.90 		FALSE	-1	N/A	N/A
 	See's Candies	 Wants 	 Free Spending 	 Chase CC 	2/7/2022	 $ (34.00)	 $ 252.90 		FALSE	-1	N/A	N/A
 	V-Day Gift	 Wants 	 Free Spending 	 Amazon CC 	2/7/2022	 $ (66.22)	 $ 252.90 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	2/9/2022	 $ (86.68)	 $ 166.22 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	2/9/2022	 $ (86.68)	 $ 166.22 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	2/10/2022	 $ (8.89)	 $ 166.22 		FALSE	-1	N/A	N/A
 	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	2/10/2022	 $ (12.98)	 $ 153.24 		FALSE	-1	N/A	N/A
 	Cigars Intl	 Wants 	 Free Spending 	 Chase CC 	2/10/2022	 $ (20.24)	 $ 153.24 		FALSE	-1	N/A	N/A
@@ -781,7 +781,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	2/13/2022	 $ (37.46)	 $ 153.24 		FALSE	-1	N/A	N/A
 	Petit Trois	 Wants 	 Free Spending 	 Chase CC 	2/13/2022	 $ (207.13)	 $ 153.24 		FALSE	-1	N/A	N/A
 	Savings Transfer	 Income 	Savings Transfer	 Checking 	2/14/2022	 $ 235.02 	 $ 388.26 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	2/14/2022	 $ (308.05)	 $ 80.21 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	2/14/2022	 $ (308.05)	 $ 80.21 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	2/16/2022	 $ (70.81)	 $ 80.21 		FALSE	-1	N/A	N/A
 	El Pollo Loco	 Wants 	 Free Spending 	 Chase CC 	2/17/2022	 $ (16.68)	 $ 80.21 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	2/18/2022	 $ 2,600.83 	 $ 2,681.04 		FALSE	-1	N/A	N/A
@@ -807,7 +807,7 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	2/24/2022	 $ (5.81)	 $ 4,544.18 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	2/24/2022	 $ (10.00)	 $ 4,544.18 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	2/24/2022	 $ (19.63)	 $ 4,544.18 		FALSE	-1	N/A	N/A
-	Renter's Insurance	 Needs 	 Bills 	 Checking 	2/24/2022	 $ (59.50)	 $ 4,484.68 		FALSE	-1	N/A	N/A
+	Renter's Insurance	 Needs 	 Renter's Insurance 	 Checking 	2/24/2022	 $ (59.50)	 $ 4,484.68 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	2/25/2022	 $ (12.91)	 $ 4,484.68 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	2/25/2022	 $ (20.00)	 $ 4,484.68 		FALSE	-1	N/A	N/A
 	HBO Max	 Wants 	 Subscriptions 	 Chase CC 	2/26/2022	 $ (7.49)	 $ 4,484.68 		FALSE	-1	N/A	N/A
@@ -817,12 +817,12 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Classic Tobacco	 Wants 	 Free Spending 	 Chase CC 	2/27/2022	 $ (66.75)	 $ 4,484.68 		FALSE	-1	N/A	N/A
 	Costco	 Needs 	 Groceries 	 Chase CC 	2/27/2022	 $ (150.40)	 $ 4,484.68 		FALSE	-1	N/A	N/A
 	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	2/28/2022	 $ (6.99)	 $ 4,484.68 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	2/28/2022	 $ (83.99)	 $ 4,400.69 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	2/28/2022	 $ (143.88)	 $ 4,256.81 		FALSE	-1	N/A	N/A
-	Classic Tobacco	 Wants 	 Free Spending 	 Chase CC 	3/1/2022	 $ (52.54)	 $ 4,256.81 		FALSE	-1	N/A	N/A
-	JetBlue - Cancun	 Wants 	 Vacation Spending 	 Chase CC 	3/1/2022	 $ (821.56)	 $ 4,256.81 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	3/1/2022	 $ (1,121.21)	 $ 3,135.60 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	3/2/2022	 $ 112.80 	 $ 3,248.40 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	2/28/2022	 $ (83.99)	 $ 4,400.69 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	2/28/2022	 $ (143.88)	 $ 4,256.81 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	2/28/2022	 $ 112.80 	 $ 4,369.61 		FALSE	-1	N/A	N/A
+	Classic Tobacco	 Wants 	 Free Spending 	 Chase CC 	3/1/2022	 $ (52.54)	 $ 4,369.61 		FALSE	-1	N/A	N/A
+	JetBlue - Cancun	 Wants 	 Vacation Spending 	 Chase CC 	3/1/2022	 $ (821.56)	 $ 4,369.61 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	3/1/2022	 $ (1,121.21)	 $ 3,248.40 		FALSE	-1	N/A	N/A
 	Currency Exchange	 Wants 	 Vacation Spending 	 Checking 	3/2/2022	 $ (597.25)	 $ 2,651.15 		FALSE	-1	N/A	N/A
 	Chase CC	 CC Payment 	 CC Payment 	 Checking 	3/2/2022	 $ (1,192.25)	 $ 1,458.90 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	3/3/2022	 $ (8.07)	 $ 1,458.90 		FALSE	-1	N/A	N/A
@@ -865,8 +865,8 @@ Ericka Reimbursement	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2021	 $ 
 	Trader Joe's	 Needs 	 Groceries 	 Amazon CC 	3/13/2022	 $ (27.93)	 $ 952.53 		FALSE	-1	N/A	N/A
 	Uber	 Wants 	 Vacation Spending 	 Chase CC 	3/13/2022	 $ (59.91)	 $ 952.53 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	3/14/2022	 $ (19.00)	 $ 952.53 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	3/14/2022	 $ (86.80)	 $ 865.73 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	3/14/2022	 $ (308.05)	 $ 557.68 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	3/14/2022	 $ (86.80)	 $ 865.73 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	3/14/2022	 $ (308.05)	 $ 557.68 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	3/18/2022	 $ 1,466.58 	 $ 2,024.26 		FALSE	-1	N/A	N/A
 a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 		FALSE	-1	N/A	N/A
 	Nate's Korner	 Wants 	 Free Spending 	 Chase CC 	3/19/2022	 $ (14.10)	 $ 2,024.26 		FALSE	-1	N/A	N/A
@@ -886,20 +886,20 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	AMC	 Wants 	 Free Spending 	 Chase CC 	3/27/2022	 $ (24.29)	 $ 1,924.26 		FALSE	-1	N/A	N/A
 	Fandango	 Wants 	 Free Spending 	 Chase CC 	3/27/2022	 $ (43.96)	 $ 1,924.26 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	3/28/2022	 $ (20.49)	 $ 1,924.26 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	3/28/2022	 $ (83.99)	 $ 1,840.27 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	3/28/2022	 $ (83.99)	 $ 1,840.27 		FALSE	-1	N/A	N/A
 	Baekjeong KBBQ	 Wants 	 Free Spending 	 Chase CC 	3/28/2022	 $ (100.00)	 $ 1,840.27 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	3/29/2022	 $ 85.39 	 $ 1,925.66 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	3/29/2022	 $ (6.99)	 $ 1,925.66 		FALSE	-1	N/A	N/A
-	Speedway	 Needs 	 Gas 	 Citi CC 	3/29/2022	 $ (92.50)	 $ 1,925.66 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	3/29/2022	 $ (142.80)	 $ 1,782.86 		FALSE	-1	N/A	N/A
-	Lemonade	 Wants 	 Free Spending 	 Chase CC 	3/30/2022	 $ (27.26)	 $ 1,782.86 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	3/29/2022	 $ (6.99)	 $ 1,840.27 		FALSE	-1	N/A	N/A
+	Speedway	 Needs 	 Gas 	 Citi CC 	3/29/2022	 $ (92.50)	 $ 1,840.27 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	3/29/2022	 $ (142.80)	 $ 1,697.47 		FALSE	-1	N/A	N/A
+	Lemonade	 Wants 	 Free Spending 	 Chase CC 	3/30/2022	 $ (27.26)	 $ 1,697.47 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	3/31/2022	 $ 85.39 	 $ 1,782.86 		FALSE	-1	N/A	N/A
 	Del Taco	 Wants 	 Free Spending 	 Chase CC 	3/31/2022	 $ (12.69)	 $ 1,782.86 		FALSE	-1	N/A	N/A
 	Public Cafe	 Wants 	 Free Spending 	 Chase CC 	3/31/2022	 $ (13.47)	 $ 1,782.86 		FALSE	-1	N/A	N/A
 	Sign-on Bonus	 Income 	 Earnings 	 Checking 	4/1/2022	 $ 3,251.60 	 $ 5,034.46 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	4/1/2022	 $ 2,002.83 	 $ 7,037.29 		FALSE	-1	N/A	N/A
 	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	4/1/2022	 $ (250.00)	 $ 6,787.29 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	4/1/2022	 $ (350.00)	 $ 6,437.29 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	4/1/2022	 $ (1,120.78)	 $ 5,316.51 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	4/1/2022	 $ (1,120.78)	 $ 5,316.51 		FALSE	-1	N/A	N/A
 	Chase CC	 CC Payment 	 CC Payment 	 Checking 	4/1/2022	 $ (1,950.88)	 $ 3,365.63 		FALSE	-1	N/A	N/A
 	Domino's	 Wants 	 Free Spending 	 Chase CC 	4/2/2022	 $ (33.52)	 $ 3,365.63 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	4/2/2022	 $ (486.87)	 $ 2,878.76 		FALSE	-1	N/A	N/A
@@ -912,7 +912,7 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Zelle	 Needs 	 Groceries 	 Checking 	4/8/2022	 $ (110.00)	 $ 1,268.71 		FALSE	-1	N/A	N/A
 	Speedway	 Wants 	 Free Spending 	 Citi CC 	4/9/2022	 $ (6.69)	 $ 1,268.71 		FALSE	-1	N/A	N/A
 	Venmo - The Cut	 Wants 	 Free Spending 	 Checking 	4/9/2022	 $ (26.00)	 $ 1,242.71 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	4/9/2022	 $ (57.64)	 $ 1,185.07 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	4/9/2022	 $ (57.64)	 $ 1,185.07 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	4/10/2022	 $ (20.00)	 $ 1,185.07 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	4/11/2022	 $ (7.80)	 $ 1,185.07 		FALSE	-1	N/A	N/A
 	Jiffy Lube	 Wants 	 Free Spending 	 Chase CC 	4/11/2022	 $ (52.99)	 $ 1,185.07 		FALSE	-1	N/A	N/A
@@ -920,9 +920,9 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Shell	 Needs 	 Gas 	 Citi CC 	4/11/2022	 $ (85.00)	 $ 1,185.07 		FALSE	-1	N/A	N/A
 	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	4/12/2022	 $ (125.00)	 $ 1,185.07 		FALSE	-1	N/A	N/A
 	El Pollo Loco	 Wants 	 Free Spending 	 Chase CC 	4/13/2022	 $ (10.76)	 $ 1,185.07 		FALSE	-1	N/A	N/A
-	Federal Taxes	 Needs 	 Bills 	 Checking 	4/13/2022	 $ (18.00)	 $ 1,167.07 		FALSE	-1	N/A	N/A
-	Tax Preparation Fee	 Needs 	 Bills 	 Checking 	4/13/2022	 $ (400.00)	 $ 767.07 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	4/14/2022	 $ (308.05)	 $ 459.02 		FALSE	-1	N/A	N/A
+	Federal Taxes	 Needs 	 Taxes 	 Checking 	4/13/2022	 $ (18.00)	 $ 1,167.07 		FALSE	-1	N/A	N/A
+	Tax Preparation Fee	 Needs 	 Taxes 	 Checking 	4/13/2022	 $ (400.00)	 $ 767.07 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	4/14/2022	 $ (308.05)	 $ 459.02 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	4/15/2022	 $ 2,032.77 	 $ 2,491.79 		FALSE	-1	N/A	N/A
 	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	4/15/2022	 $ (250.00)	 $ 2,241.79 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	4/15/2022	 $ (300.00)	 $ 1,941.79 		FALSE	-1	N/A	N/A
@@ -951,19 +951,19 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	4/28/2022	 $ (10.00)	 $ 1,355.98 		FALSE	-1	N/A	N/A
 	Poke Me	 Wants 	 Free Spending 	 Chase CC 	4/28/2022	 $ (16.15)	 $ 1,355.98 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	4/28/2022	 $ (47.25)	 $ 1,355.98 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	4/28/2022	 $ (83.99)	 $ 1,271.99 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	4/28/2022	 $ (142.80)	 $ 1,129.19 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	4/28/2022	 $ (83.99)	 $ 1,271.99 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	4/28/2022	 $ (142.80)	 $ 1,129.19 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	4/29/2022	 $ 2,032.77 	 $ 3,161.96 		FALSE	-1	N/A	N/A
 	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	4/29/2022	 $ (6.99)	 $ 3,161.96 		FALSE	-1	N/A	N/A
 	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	4/29/2022	 $ (500.00)	 $ 2,661.96 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	4/29/2022	 $ (500.00)	 $ 2,161.96 		FALSE	-1	N/A	N/A
 	Chronic Tacos	 Wants 	 Free Spending 	 Chase CC 	4/30/2022	 $ (12.82)	 $ 2,161.96 		FALSE	-1	N/A	N/A
-	Speedway	 Wants 	 Free Spending 	 Citi CC 	5/1/2022	 $ (10.86)	 $ 2,161.96 		FALSE	-1	N/A	N/A
-	Target	 Wants 	 Free Spending 	 Chase CC 	5/1/2022	 $ (26.93)	 $ 2,161.96 		FALSE	-1	N/A	N/A
-	Nordstrom Rack	 Wants 	 Free Spending 	 Chase CC 	5/1/2022	 $ (44.15)	 $ 2,161.96 		FALSE	-1	N/A	N/A
-	Karl Strauss	 Wants 	 Free Spending 	 Chase CC 	5/1/2022	 $ (63.09)	 $ 2,161.96 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	5/1/2022	 $ (1,121.70)	 $ 1,040.26 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	5/2/2022	 $ 70.81 	 $ 1,111.07 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	4/30/2022	 $ 70.81 	 $ 2,232.77 		FALSE	-1	N/A	N/A
+	Speedway	 Wants 	 Free Spending 	 Citi CC 	5/1/2022	 $ (10.86)	 $ 2,232.77 		FALSE	-1	N/A	N/A
+	Target	 Wants 	 Free Spending 	 Chase CC 	5/1/2022	 $ (26.93)	 $ 2,232.77 		FALSE	-1	N/A	N/A
+	Nordstrom Rack	 Wants 	 Free Spending 	 Chase CC 	5/1/2022	 $ (44.15)	 $ 2,232.77 		FALSE	-1	N/A	N/A
+	Karl Strauss	 Wants 	 Free Spending 	 Chase CC 	5/1/2022	 $ (63.09)	 $ 2,232.77 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	5/1/2022	 $ (1,121.70)	 $ 1,111.07 		FALSE	-1	N/A	N/A
 	Cold Stone	 Wants 	 Free Spending 	 Chase CC 	5/2/2022	 $ (9.49)	 $ 1,111.07 		FALSE	-1	N/A	N/A
 	Ha Long	 Wants 	 Free Spending 	 Chase CC 	5/2/2022	 $ (27.80)	 $ 1,111.07 		FALSE	-1	N/A	N/A
 	Laundry	 Needs 	 Laundry 	 Chase CC 	5/3/2022	 $ (10.00)	 $ 1,111.07 		FALSE	-1	N/A	N/A
@@ -977,7 +977,7 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Smoke and Fire	 Wants 	 Free Spending 	 Chase CC 	5/8/2022	 $ (55.00)	 $ 770.07 		FALSE	-1	N/A	N/A
 	Shell	 Needs 	 Gas 	 Citi CC 	5/8/2022	 $ (75.00)	 $ 770.07 		FALSE	-1	N/A	N/A
 	Apple CC	 CC Payment 	 CC Payment 	 Checking 	5/9/2022	 $ (9.69)	 $ 760.38 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	5/11/2022	 $ (6.66)	 $ 753.72 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	5/11/2022	 $ (6.66)	 $ 753.72 		FALSE	-1	N/A	N/A
 	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	5/11/2022	 $ (129.00)	 $ 753.72 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	5/12/2022	 $ (10.00)	 $ 753.72 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	5/12/2022	 $ (10.00)	 $ 753.72 		FALSE	-1	N/A	N/A
@@ -990,7 +990,7 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Citi CC	 CC Payment 	 CC Payment 	 Checking 	5/13/2022	 $ (450.02)	 $ 1,726.47 		FALSE	-1	N/A	N/A
 	Chase CC	 CC Payment 	 CC Payment 	 Checking 	5/13/2022	 $ (855.48)	 $ 870.99 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	5/14/2022	 $ (23.45)	 $ 870.99 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	5/14/2022	 $ (308.05)	 $ 562.94 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	5/14/2022	 $ (308.05)	 $ 562.94 		FALSE	-1	N/A	N/A
 	Nate's Korner	 Wants 	 Free Spending 	 Chase CC 	5/15/2022	 $ (14.10)	 $ 562.94 		FALSE	-1	N/A	N/A
 	CVS	 Wants 	 Free Spending 	 Chase CC 	5/15/2022	 $ (17.30)	 $ 562.94 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	5/16/2022	 $ (17.13)	 $ 562.94 		FALSE	-1	N/A	N/A
@@ -1008,7 +1008,7 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Norm's	 Wants 	 Free Spending 	 Chase CC 	5/22/2022	 $ (49.14)	 $ 562.94 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	5/23/2022	 $ (10.00)	 $ 562.94 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	5/23/2022	 $ (96.78)	 $ 562.94 		FALSE	-1	N/A	N/A
-	Renter's Insurance	 Needs 	 Bills 	 Checking 	5/24/2022	 $ (59.50)	 $ 503.44 		FALSE	-1	N/A	N/A
+	Renter's Insurance	 Needs 	 Renter's Insurance 	 Checking 	5/24/2022	 $ (59.50)	 $ 503.44 		FALSE	-1	N/A	N/A
 	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	5/25/2022	 $ (41.12)	 $ 503.44 		FALSE	-1	N/A	N/A
 	HBO Max	 Wants 	 Subscriptions 	 Chase CC 	5/26/2022	 $ (7.49)	 $ 503.44 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	5/27/2022	 $ 2,032.78 	 $ 2,536.22 		FALSE	-1	N/A	N/A
@@ -1019,21 +1019,21 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Chevron	 Wants 	 Free Spending 	 Citi CC 	5/27/2022	 $ (75.30)	 $ 2,536.22 		FALSE	-1	N/A	N/A
 	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	5/27/2022	 $ (250.00)	 $ 2,286.22 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	5/27/2022	 $ (300.00)	 $ 1,986.22 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	5/28/2022	 $ 75.07 	 $ 2,061.29 		FALSE	-1	N/A	N/A
-	McDonald's	 Wants 	 Free Spending 	 Chase CC 	5/28/2022	 $ (17.20)	 $ 2,061.29 		FALSE	-1	N/A	N/A
-	Jack in the Box	 Wants 	 Free Spending 	 Chase CC 	5/28/2022	 $ (17.40)	 $ 2,061.29 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	5/28/2022	 $ (83.99)	 $ 1,977.30 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	5/28/2022	 $ (142.80)	 $ 1,834.50 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	5/29/2022	 $ (6.99)	 $ 1,834.50 		FALSE	-1	N/A	N/A
-	Jackrabbit Java	 Wants 	 Free Spending 	 Chase CC 	5/30/2022	 $ (13.83)	 $ 1,834.50 		FALSE	-1	N/A	N/A
-	In N Out	 Wants 	 Free Spending 	 Chase CC 	5/30/2022	 $ (18.10)	 $ 1,834.50 		FALSE	-1	N/A	N/A
-	Amazon	 Wants 	 Free Spending 	 Amazon CC 	5/30/2022	 $ (31.25)	 $ 1,834.50 		FALSE	-1	N/A	N/A
-	Circle K	 Wants 	 Free Spending 	 Citi CC 	5/30/2022	 $ (74.27)	 $ 1,834.50 		FALSE	-1	N/A	N/A
+	McDonald's	 Wants 	 Free Spending 	 Chase CC 	5/28/2022	 $ (17.20)	 $ 1,986.22 		FALSE	-1	N/A	N/A
+	Jack in the Box	 Wants 	 Free Spending 	 Chase CC 	5/28/2022	 $ (17.40)	 $ 1,986.22 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	5/28/2022	 $ (83.99)	 $ 1,902.23 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	5/28/2022	 $ (142.80)	 $ 1,759.43 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	5/29/2022	 $ (6.99)	 $ 1,759.43 		FALSE	-1	N/A	N/A
+	Jackrabbit Java	 Wants 	 Free Spending 	 Chase CC 	5/30/2022	 $ (13.83)	 $ 1,759.43 		FALSE	-1	N/A	N/A
+	In N Out	 Wants 	 Free Spending 	 Chase CC 	5/30/2022	 $ (18.10)	 $ 1,759.43 		FALSE	-1	N/A	N/A
+	Amazon	 Wants 	 Free Spending 	 Amazon CC 	5/30/2022	 $ (31.25)	 $ 1,759.43 		FALSE	-1	N/A	N/A
+	Circle K	 Wants 	 Free Spending 	 Citi CC 	5/30/2022	 $ (74.27)	 $ 1,759.43 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	5/31/2022	 $ 75.07 	 $ 1,834.50 		FALSE	-1	N/A	N/A
 	Target	 Wants 	 Free Spending 	 Chase CC 	5/31/2022	 $ (35.51)	 $ 1,834.50 		FALSE	-1	N/A	N/A
 	Zelle	 Wants 	 Free Spending 	 Checking 	6/1/2022	 $ (5.00)	 $ 1,829.50 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	6/1/2022	 $ (97.33)	 $ 1,829.50 		FALSE	-1	N/A	N/A
 	Costco	 Needs 	 Groceries 	 Chase CC 	6/1/2022	 $ (221.90)	 $ 1,829.50 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	6/1/2022	 $ (1,114.01)	 $ 715.49 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	6/1/2022	 $ (1,114.01)	 $ 715.49 		FALSE	-1	N/A	N/A
 	Zelle	 Needs 	 Groceries 	 Checking 	6/2/2022	 $ (309.46)	 $ 406.03 		FALSE	-1	N/A	N/A
 	AutoZone	 Needs 	 Emergency 	 Chase CC 	6/3/2022	 $ (24.77)	 $ 406.03 		FALSE	-1	N/A	N/A
 	Ascendant Automotive	 Needs 	 Emergency 	 Chase CC 	6/3/2022	 $ (40.00)	 $ 406.03 		FALSE	-1	N/A	N/A
@@ -1045,10 +1045,10 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Withdrawal	 Wants 	 Free Spending 	 Checking 	6/7/2022	 $ (40.00)	 $ 334.03 		FALSE	-1	N/A	N/A
 	Apple CC	 CC Payment 	 CC Payment 	 Checking 	6/8/2022	 $ (9.69)	 $ 324.34 		FALSE	-1	N/A	N/A
 	Savings Transfer	 Income 	Savings Transfer	 Checking 	6/8/2022	 $ 200.00 	 $ 524.34 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	6/8/2022	 $ (65.26)	 $ 459.08 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	6/8/2022	 $ (65.26)	 $ 459.08 		FALSE	-1	N/A	N/A
 	Photasia	 Wants 	 Free Spending 	 Chase CC 	6/9/2022	 $ (17.80)	 $ 459.08 		FALSE	-1	N/A	N/A
-	Cash Back - Chase CC	 Income 	 Rewards 	 Checking 	6/9/2022	 $ 73.52 	 $ 532.60 		FALSE	-1	N/A	N/A
-	Cash Back - Amazon CC	 Income 	 Rewards 	 Checking 	6/9/2022	 $ 18.53 	 $ 551.13 		FALSE	-1	N/A	N/A
+	Cash Back - Chase CC	 Income 	 Reimbursements 	 Checking 	6/9/2022	 $ 73.52 	 $ 532.60 		FALSE	-1	N/A	N/A
+	Cash Back - Amazon CC	 Income 	 Reimbursements 	 Checking 	6/9/2022	 $ 18.53 	 $ 551.13 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	6/10/2022	 $ 2,032.76 	 $ 2,583.89 		FALSE	-1	N/A	N/A
 	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	6/10/2022	 $ (250.00)	 $ 2,333.89 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	6/10/2022	 $ (300.00)	 $ 2,033.89 		FALSE	-1	N/A	N/A
@@ -1060,7 +1060,7 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Zelle	 Wants 	 Free Spending 	 Checking 	6/13/2022	 $ (20.00)	 $ 2,013.89 		FALSE	-1	N/A	N/A
 	Chronic Tacos	 Wants 	 Free Spending 	 Chase CC 	6/13/2022	 $ (9.64)	 $ 2,013.89 		FALSE	-1	N/A	N/A
 	O'Reilly	 Needs 	 Emergency 	 Chase CC 	6/14/2022	 $ (472.38)	 $ 2,013.89 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	6/14/2022	 $ (308.05)	 $ 1,705.84 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	6/14/2022	 $ (308.05)	 $ 1,705.84 		FALSE	-1	N/A	N/A
 	Hatam Restaurant	 Wants 	 Free Spending 	 Chase CC 	6/15/2022	 $ (25.00)	 $ 1,705.84 		FALSE	-1	N/A	N/A
 	Ascendant Automotive	 Needs 	 Emergency 	 Chase CC 	6/15/2022	 $ (400.00)	 $ 1,705.84 		FALSE	-1	N/A	N/A
 	Citi CC	 CC Payment 	 CC Payment 	 Checking 	6/15/2022	 $ (590.41)	 $ 1,115.43 		FALSE	-1	N/A	N/A
@@ -1092,11 +1092,11 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Groceries	 Needs 	 Placeholder 	 Chase CC 	6/27/2022	 $ -   	 $ 1,936.75 		FALSE	-1	N/A	N/A
 	Gas	 Needs 	 Placeholder 	 Citi CC 	6/27/2022	 $ -   	 $ 1,936.75 		FALSE	-1	N/A	N/A
 	Free Spending	 Wants 	 Placeholder 	 Chase CC 	6/27/2022	 $ -   	 $ 1,936.75 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	6/28/2022	 $ 74.62 	 $ 2,011.37 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	6/28/2022	 $ (83.99)	 $ 1,927.38 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	6/28/2022	 $ (142.80)	 $ 1,784.58 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	6/29/2022	 $ (6.99)	 $ 1,784.58 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	7/1/2022	 $ (1,123.02)	 $ 661.56 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	6/28/2022	 $ (83.99)	 $ 1,852.76 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	6/28/2022	 $ (142.80)	 $ 1,709.96 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	6/29/2022	 $ (6.99)	 $ 1,709.96 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	6/30/2022	 $ 74.62 	 $ 1,784.58 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	7/1/2022	 $ (1,123.02)	 $ 661.56 		FALSE	-1	N/A	N/A
 	Aloha Catering Service	 Wants 	 Free Spending 	 Chase CC 	7/3/2022	 $ (35.31)	 $ 661.56 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	7/3/2022	 $ (28.75)	 $ 661.56 		FALSE	-1	N/A	N/A
 	Total Wine	 Wants 	 Free Spending 	 Chase CC 	7/3/2022	 $ (27.43)	 $ 661.56 		FALSE	-1	N/A	N/A
@@ -1110,7 +1110,7 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	7/8/2022	 $ (200.00)	 $ 3,117.49 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	7/8/2022	 $ (250.00)	 $ 2,867.49 		FALSE	-1	N/A	N/A
 	Chase CC	 CC Payment 	 CC Payment 	 Checking 	7/8/2022	 $ (2,207.03)	 $ 660.46 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	7/9/2022	 $ (114.37)	 $ 546.09 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	7/9/2022	 $ (114.37)	 $ 546.09 		FALSE	-1	N/A	N/A
 	Yard House	 Wants 	 Free Spending 	 Chase CC 	7/9/2022	 $ (47.00)	 $ 546.09 		FALSE	-1	N/A	N/A
 	Thai Curry Pizza	 Wants 	 Free Spending 	 Chase CC 	7/9/2022	 $ (25.00)	 $ 546.09 		FALSE	-1	N/A	N/A
 	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	7/9/2022	 $ (54.71)	 $ 546.09 		FALSE	-1	N/A	N/A
@@ -1123,7 +1123,7 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	7/11/2022	 $ (88.15)	 $ 536.40 		FALSE	-1	N/A	N/A
 	Yard House	 Income 	 Reimbursements 	 Checking 	7/11/2022	 $ 12.00 	 $ 548.40 		FALSE	-1	N/A	N/A
 	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	7/12/2022	 $ (125.00)	 $ 548.40 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	7/14/2022	 $ (308.05)	 $ 240.35 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	7/14/2022	 $ (308.05)	 $ 240.35 		FALSE	-1	N/A	N/A
 	Zelle	 Wants 	 Free Spending 	 Checking 	7/16/2022	 $ (10.00)	 $ 230.35 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	7/16/2022	 $ (12.01)	 $ 230.35 		FALSE	-1	N/A	N/A
 	Taco Bell	 Wants 	 Free Spending 	 Chase CC 	7/16/2022	 $ (5.27)	 $ 230.35 		FALSE	-1	N/A	N/A
@@ -1163,14 +1163,14 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Free Spending	 Wants 	 Placeholder 	 Chase CC 	7/27/2022	 $ -   	 $ 1,701.50 		FALSE	-1	N/A	N/A
 	Gas	 Needs 	 Placeholder 	 Chase CC 	7/27/2022	 $ -   	 $ 1,701.50 		FALSE	-1	N/A	N/A
 	El Pollo Loco	 Wants 	 Free Spending 	 Chase CC 	7/28/2022	 $ (10.78)	 $ 1,701.50 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	7/28/2022	 $ (83.99)	 $ 1,617.51 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	7/28/2022	 $ (142.80)	 $ 1,474.71 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	7/28/2022	 $ (83.99)	 $ 1,617.51 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	7/28/2022	 $ (142.80)	 $ 1,474.71 		FALSE	-1	N/A	N/A
 	Taco Bell	 Wants 	 Free Spending 	 Chase CC 	7/29/2022	 $ (10.54)	 $ 1,474.71 		FALSE	-1	N/A	N/A
 	Citi CC	 Wants 	 Free Spending 	 Citi CC 	7/29/2022	 $ (13.24)	 $ 1,474.71 		FALSE	-1	N/A	N/A
 	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	7/29/2022	 $ (6.99)	 $ 1,474.71 		FALSE	-1	N/A	N/A
 	Green Dragon	 Wants 	 Free Spending 	 Chase CC 	7/30/2022	 $ (71.00)	 $ 1,474.71 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	7/30/2022	 $ 99.18 	 $ 1,573.89 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	8/1/2022	 $ (1,125.41)	 $ 448.48 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	7/31/2022	 $ 99.18 	 $ 1,573.89 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	8/1/2022	 $ (1,125.41)	 $ 448.48 		FALSE	-1	N/A	N/A
 	Costco	 Needs 	 Groceries 	 Chase CC 	8/1/2022	 $ (337.91)	 $ 448.48 		FALSE	-1	N/A	N/A
 	Target	 Needs 	 Groceries 	 Chase CC 	8/1/2022	 $ (44.43)	 $ 448.48 		FALSE	-1	N/A	N/A
 	Target	 Needs 	 Groceries 	 Chase CC 	8/1/2022	 $ (7.85)	 $ 448.48 		FALSE	-1	N/A	N/A
@@ -1189,7 +1189,7 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	V-Cut Cigar Lounge	 Wants 	 Free Spending 	 Chase CC 	8/5/2022	 $ (20.72)	 $ 448.48 		FALSE	-1	N/A	N/A
 	Chevron	 Needs 	 Gas 	 Citi CC 	8/5/2022	 $ (50.00)	 $ 448.48 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	8/5/2022	 $ 2,091.10 	 $ 2,539.58 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	8/5/2022	 $ (541.64)	 $ 1,997.94 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	8/5/2022	 $ (541.64)	 $ 1,997.94 		FALSE	-1	N/A	N/A
 	Apple CC	 CC Payment 	 CC Payment 	 Checking 	8/5/2022	 $ (9.69)	 $ 1,988.25 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	8/5/2022	 $ (250.00)	 $ 1,738.25 		FALSE	-1	N/A	N/A
 	Messenger Pizza	 Wants 	 Free Spending 	 Chase CC 	8/5/2022	 $ (48.76)	 $ 1,738.25 		FALSE	-1	N/A	N/A
@@ -1208,8 +1208,8 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Carousel Restaurant	 Wants 	 Free Spending 	 Chase CC 	8/13/2022	 $ (77.19)	 $ 762.02 		FALSE	-1	N/A	N/A
 	House of Pies	 Wants 	 Free Spending 	 Chase CC 	8/13/2022	 $ (23.00)	 $ 762.02 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	8/14/2022	 $ (10.00)	 $ 762.02 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	8/14/2022	 $ (118.86)	 $ 643.16 		FALSE	-1	N/A	N/A
-	Federal Loans	 Needs 	 Bills 	 Checking 	8/14/2022	 $ (300.00)	 $ 343.16 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	8/14/2022	 $ (118.86)	 $ 643.16 		FALSE	-1	N/A	N/A
+	Federal Loans	 Needs 	Student Loans	 Checking 	8/14/2022	 $ (300.00)	 $ 343.16 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	 Free Spending 	 Amazon CC 	8/15/2022	 $ (68.75)	 $ 343.16 		FALSE	-1	N/A	N/A
 	YouTube Premium	 Wants 	 Subscriptions 	 Chase CC 	8/16/2022	 $ (11.99)	 $ 343.16 		FALSE	-1	N/A	N/A
 	Gym Reimbursement	 Income 	 Earnings 	 Checking 	8/19/2022	 $ 104.97 	 $ 448.13 		FALSE	-1	N/A	N/A
@@ -1223,10 +1223,10 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Coffee Tomo	 Wants 	 Free Spending 	 Chase CC 	8/21/2022	 $ (11.75)	 $ 1,038.32 		FALSE	-1	N/A	N/A
 	Nate's Korner	 Wants 	 Free Spending 	 Chase CC 	8/21/2022	 $ (29.38)	 $ 1,038.32 		FALSE	-1	N/A	N/A
 	Target	 Wants 	 Free Spending 	 Chase CC 	8/21/2022	 $ (94.80)	 $ 1,038.32 		FALSE	-1	N/A	N/A
-	Charles Security Deposit	 Income 	 Reimbursements 	 Checking 	8/21/2022	 $ (542.00)	 $ 496.32 		FALSE	-1	N/A	N/A
+	Charles Security Deposit	 Needs 	 Misc. 	 Checking 	8/21/2022	 $ (542.00)	 $ 496.32 		FALSE	-1	N/A	N/A
 	Laundry	 Needs 	 Laundry 	 Chase CC 	8/24/2022	 $ (10.00)	 $ 496.32 		FALSE	-1	N/A	N/A
-	Renter's Insurance	 Needs 	 Bills 	 Chase CC 	8/24/2022	 $ (59.50)	 $ 496.32 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	8/25/2022	 $ (146.88)	 $ 349.44 		FALSE	-1	N/A	N/A
+	Renter's Insurance	 Needs 	 Renter's Insurance 	 Chase CC 	8/24/2022	 $ (59.50)	 $ 496.32 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	8/25/2022	 $ (146.88)	 $ 349.44 		FALSE	-1	N/A	N/A
 	Chipotle	 Wants 	 Free Spending 	 Chase CC 	8/26/2022	 $ (18.28)	 $ 349.44 		FALSE	-1	N/A	N/A
 	Stephanie Payment	 Income 	 Reimbursements 	 Checking 	8/26/2022	 $ 550.00 	 $ 899.44 		FALSE	-1	N/A	N/A
 	HBO Max	 Wants 	 Subscriptions 	 Chase CC 	8/26/2022	 $ (7.49)	 $ 899.44 		FALSE	-1	N/A	N/A
@@ -1236,7 +1236,7 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	Gas	 Needs 	 Placeholder 	 Chase CC 	8/27/2022	 $ -   	 $ 899.44 		FALSE	-1	N/A	N/A
 	Tacos Super Gallito	 Wants 	 Free Spending 	 Chase CC 	8/28/2022	 $ (23.51)	 $ 899.44 		FALSE	-1	N/A	N/A
 	El Kiosco Pupuseria	 Wants 	 Free Spending 	 Chase CC 	8/28/2022	 $ (37.77)	 $ 899.44 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	8/28/2022	 $ (83.99)	 $ 815.45 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	8/28/2022	 $ (83.99)	 $ 815.45 		FALSE	-1	N/A	N/A
 	ESPN+	 Wants 	 Subscriptions 	 Chase CC 	8/28/2022	 $ (9.99)	 $ 815.45 		FALSE	-1	N/A	N/A
 	Subway	 Wants 	 Free Spending 	 Chase CC 	8/29/2022	 $ (10.98)	 $ 815.45 		FALSE	-1	N/A	N/A
 	Culver Auto Spa	 Wants 	 Free Spending 	 Chase CC 	8/29/2022	 $ (25.99)	 $ 815.45 		FALSE	-1	N/A	N/A
@@ -1245,7 +1245,7 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	9/1/2022	 $ (9.05)	 $ 815.45 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	9/2/2022	 $ 2,164.18 	 $ 2,979.63 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	9/2/2022	 $ (300.00)	 $ 2,679.63 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	9/2/2022	 $ (2,252.12)	 $ 427.51 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	9/2/2022	 $ (2,252.12)	 $ 427.51 		FALSE	-1	N/A	N/A
 	Chipotle	 Wants 	 Free Spending 	 Chase CC 	9/3/2022	 $ (31.92)	 $ 427.51 		FALSE	-1	N/A	N/A
 	Arc Food & Libations	 Wants 	 Free Spending 	 Chase CC 	9/3/2022	 $ (72.62)	 $ 427.51 		FALSE	-1	N/A	N/A
 	Shell	 Needs 	 Gas 	 Citi CC 	9/3/2022	 $ (65.84)	 $ 427.51 		FALSE	-1	N/A	N/A
@@ -1258,7 +1258,7 @@ a	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/18/2022	 $ (15.19)	 $ 2,024.26 	
 Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	9/7/2022	 $ (10.00)	 $ 375.82 		FALSE	-1	N/A	N/A
 	Photasia	 Wants 	 Free Spending 	 Chase CC 	9/7/2022	 $ (15.62)	 $ 375.82 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	9/8/2022	 $ (110.56)	 $ 265.26 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	9/8/2022	 $ (110.56)	 $ 265.26 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/8/2022	 $ (2.13)	 $ 265.26 		FALSE	-1	N/A	N/A
 	7/11	 Wants 	 Free Spending 	 Chase CC 	9/10/2022	 $ (27.96)	 $ 265.26 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	9/10/2022	 $ (10.00)	 $ 265.26 		FALSE	-1	N/A	N/A
@@ -1302,15 +1302,16 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Free Spending	 Wants 	 Placeholder 	 Chase CC 	9/27/2022	 $ -   	 $ 748.93 		FALSE	-1	N/A	N/A
 	Gas	 Needs 	 Placeholder 	 Chase CC 	9/27/2022	 $ -   	 $ 748.93 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	9/28/2022	 $ (10.00)	 $ 748.93 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	9/28/2022	 $ (83.99)	 $ 664.94 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	9/28/2022	 $ (83.99)	 $ 664.94 		FALSE	-1	N/A	N/A
 	Shell	 Needs 	 Gas 	 Citi CC 	9/29/2022	 $ (98.60)	 $ 664.94 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	9/29/2022	 $ (145.60)	 $ 519.34 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	9/29/2022	 $ (145.60)	 $ 519.34 		FALSE	-1	N/A	N/A
 	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	9/29/2022	 $ (9.99)	 $ 519.34 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	9/30/2022	 $ 2,164.18 	 $ 2,683.52 		FALSE	-1	N/A	N/A
 	Emergency Savings	 Savings 	 Emergency Savings 	 Checking 	9/30/2022	 $ (300.00)	 $ 2,383.52 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	9/30/2022	 $ (19.90)	 $ 2,383.52 		FALSE	-1	N/A	N/A
-	Rent	 Income 	 Reimbursements 	 Checking 	10/1/2022	 $ 900.00 	 $ 3,283.52 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	10/1/2022	 $ (2,271.49)	 $ 1,012.03 		FALSE	-1	N/A	N/A
+	Rent	 Income 	 Reimbursements 	 Checking 	9/30/2022	 $ 300.00 	 $ 2,683.52 		FALSE	-1	N/A	N/A
+	Rent	 Income 	 Reimbursements 	 Checking 	10/1/2022	 $ 600.00 	 $ 3,283.52 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	10/1/2022	 $ (2,271.49)	 $ 1,012.03 		FALSE	-1	N/A	N/A
 	Ha Long	 Wants 	 Free Spending 	 Chase CC 	10/1/2022	 $ (30.39)	 $ 1,012.03 		FALSE	-1	N/A	N/A
 	Target	 Wants 	 Free Spending 	 Amazon CC 	10/1/2022	 $ (124.66)	 $ 1,012.03 		FALSE	-1	N/A	N/A
 	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	10/1/2022	 $ (40.53)	 $ 1,012.03 		FALSE	-1	N/A	N/A
@@ -1322,7 +1323,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Wholesome Choice	 Wants 	 Free Spending 	 Chase CC 	10/5/2022	 $ (28.64)	 $ 1,012.03 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	 Free Spending 	 Amazon CC 	10/6/2022	 $ (129.25)	 $ 1,012.03 		FALSE	-1	N/A	N/A
 	Deposit	 Income 	 Reimbursements 	 Checking 	10/7/2022	 $ 40.00 	 $ 1,052.03 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	10/8/2022	 $ (103.78)	 $ 948.25 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	10/8/2022	 $ (103.78)	 $ 948.25 		FALSE	-1	N/A	N/A
 	Vitaly Cafe	 Wants 	 Free Spending 	 Chase CC 	10/8/2022	 $ (45.00)	 $ 948.25 		FALSE	-1	N/A	N/A
 	Doordash - Chipotle	 Wants 	 Free Spending 	 Chase CC 	10/8/2022	 $ (20.00)	 $ 948.25 		FALSE	-1	N/A	N/A
 	Scratch Bakery	 Wants 	 Free Spending 	 Chase CC 	10/9/2022	 $ (37.22)	 $ 948.25 		FALSE	-1	N/A	N/A
@@ -1347,7 +1348,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Citi CC	 CC Payment 	 CC Payment 	 Checking 	10/14/2022	 $ (325.86)	 $ 2,317.10 		FALSE	-1	N/A	N/A
 	Chase CC	 CC Payment 	 CC Payment 	 Checking 	10/14/2022	 $ (1,491.99)	 $ 825.11 		FALSE	-1	N/A	N/A
 	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	10/14/2022	 $ (564.90)	 $ 260.21 		FALSE	-1	N/A	N/A
-	Cash Back - Capital One CC	 Income 	 Rewards 	 Checking 	10/14/2022	 $ 217.55 	 $ 477.76 		FALSE	-1	N/A	N/A
+	Cash Back - Capital One CC	 Income 	 Reimbursements 	 Checking 	10/14/2022	 $ 217.55 	 $ 477.76 		FALSE	-1	N/A	N/A
 	Walmart Refund	 Wants 	 Free Spending 	 Chase CC 	10/15/2022	 $ 27.72 	 $ 477.76 		FALSE	-1	N/A	N/A
 	Lowe's	 Wants 	 Free Spending 	 Chase CC 	10/15/2022	 $ (24.03)	 $ 477.76 		FALSE	-1	N/A	N/A
 	Anaheim Parking	 Wants 	 Free Spending 	 Chase CC 	10/16/2022	 $ (3.00)	 $ 477.76 		FALSE	-1	N/A	N/A
@@ -1369,7 +1370,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Laundry	 Needs 	 Laundry 	 Chase CC 	10/22/2022	 $ (10.00)	 $ 492.76 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	10/22/2022	 $ (86.54)	 $ 492.76 		FALSE	-1	N/A	N/A
 	Tanaka Farms	 Wants 	 Free Spending 	 Chase CC 	10/23/2022	 $ (20.00)	 $ 492.76 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	10/25/2022	 $ (145.60)	 $ 347.16 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	10/25/2022	 $ (145.60)	 $ 347.16 		FALSE	-1	N/A	N/A
 	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	10/26/2022	 $ (14.99)	 $ 347.16 		FALSE	-1	N/A	N/A
 	Groceries	 Needs 	 Placeholder 	 Citi CC 	10/27/2022	 $ -   	 $ 347.16 		FALSE	-1	N/A	N/A
 	Free Spending	 Wants 	 Placeholder 	 Chase CC 	10/27/2022	 $ -   	 $ 347.16 		FALSE	-1	N/A	N/A
@@ -1377,16 +1378,16 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	10/27/2022	 $ (10.00)	 $ 347.16 		FALSE	-1	N/A	N/A
 	Speedway	 Wants 	 Free Spending 	 Citi CC 	10/28/2022	 $ (12.14)	 $ 347.16 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	10/28/2022	 $ 2,091.11 	 $ 2,438.27 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	10/28/2022	 $ (83.99)	 $ 2,354.28 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	10/28/2022	 $ (83.99)	 $ 2,354.28 		FALSE	-1	N/A	N/A
 	Domino's	 Wants 	 Free Spending 	 Chase CC 	10/29/2022	 $ (27.22)	 $ 2,354.28 		FALSE	-1	N/A	N/A
 	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	10/29/2022	 $ (9.99)	 $ 2,354.28 		FALSE	-1	N/A	N/A
 	Dashpass	 Wants 	 Free Spending 	 Chase CC 	10/30/2022	 $ (9.99)	 $ 2,354.28 		FALSE	-1	N/A	N/A
 	Zion Mart	 Wants 	 Free Spending 	 Citi CC 	10/30/2022	 $ (18.23)	 $ 2,354.28 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	10/30/2022	 $ (18.47)	 $ 2,354.28 		FALSE	-1	N/A	N/A
 	Photasia	 Wants 	 Free Spending 	 Chase CC 	10/31/2022	 $ (47.24)	 $ 2,354.28 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	11/1/2022	 $ 93.88 	 $ 2,448.16 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	10/31/2022	 $ 93.88 	 $ 2,448.16 		FALSE	-1	N/A	N/A
 	Rent	 Income 	 Reimbursements 	 Checking 	11/1/2022	 $ 645.00 	 $ 3,093.16 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	11/1/2022	 $ (2,252.00)	 $ 841.16 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	11/1/2022	 $ (2,252.00)	 $ 841.16 		FALSE	-1	N/A	N/A
 	Petsmart	 Wants 	 Free Spending 	 Chase CC 	11/5/2022	 $ (44.69)	 $ 841.16 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	11/5/2022	 $ (25.89)	 $ 841.16 		FALSE	-1	N/A	N/A
 	Costco	 Needs 	 Groceries 	 Chase CC 	11/5/2022	 $ (381.08)	 $ 841.16 		FALSE	-1	N/A	N/A
@@ -1396,10 +1397,10 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Julian Cider Mill	 Wants 	 Free Spending 	 Chase CC 	11/6/2022	 $ (15.30)	 $ 841.16 		FALSE	-1	N/A	N/A
 	Romano's Restaurant	 Wants 	 Free Spending 	 Chase CC 	11/6/2022	 $ (88.00)	 $ 841.16 		FALSE	-1	N/A	N/A
 	Apple CC	 CC Payment 	 CC Payment 	 Checking 	11/8/2022	 $ (9.69)	 $ 831.47 		FALSE	-1	N/A	N/A
-	DMV Registration	 Needs 	 Bills 	 Checking 	11/8/2022	 $ (204.00)	 $ 627.47 		FALSE	-1	N/A	N/A
+	DMV Registration	 Needs 	 Misc. 	 Checking 	11/8/2022	 $ (204.00)	 $ 627.47 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	 Free Spending 	 Amazon CC 	11/9/2022	 $ (71.64)	 $ 627.47 		FALSE	-1	N/A	N/A
-	Ascendant Automotive	 Needs 	 Bills 	 Checking 	11/9/2022	 $ (25.00)	 $ 602.47 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	11/9/2022	 $ (19.95)	 $ 582.52 		FALSE	-1	N/A	N/A
+	Ascendant Automotive	 Needs 	 Misc. 	 Checking 	11/9/2022	 $ (25.00)	 $ 602.47 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	11/9/2022	 $ (19.95)	 $ 582.52 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	11/9/2022	 $ (84.94)	 $ 582.52 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	11/10/2022	 $ (10.00)	 $ 582.52 		FALSE	-1	N/A	N/A
 	Venmo	 Wants 	 Free Spending 	 Checking 	11/10/2022	 $ (35.00)	 $ 547.52 		FALSE	-1	N/A	N/A
@@ -1429,7 +1430,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	CVS	 Wants 	 Free Spending 	 Chase CC 	11/23/2022	 $ (15.61)	 $ 539.78 		FALSE	-1	N/A	N/A
 	Chronic Tacos	 Wants 	 Free Spending 	 Chase CC 	11/23/2022	 $ (36.42)	 $ 539.78 		FALSE	-1	N/A	N/A
 	Speedway	 Wants 	 Free Spending 	 Citi CC 	11/23/2022	 $ (2.95)	 $ 539.78 		FALSE	-1	N/A	N/A
-	Renter's Insurance	 Needs 	 Bills 	 Chase CC 	11/23/2022	 $ (59.50)	 $ 539.78 		FALSE	-1	N/A	N/A
+	Renter's Insurance	 Needs 	 Renter's Insurance 	 Chase CC 	11/23/2022	 $ (59.50)	 $ 539.78 		FALSE	-1	N/A	N/A
 	Speedway	 Wants 	 Free Spending 	 Citi CC 	11/23/2022	 $ (6.54)	 $ 539.78 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	11/23/2022	 $ (40.51)	 $ 539.78 		FALSE	-1	N/A	N/A
 	Circle K	 Needs 	 Gas 	 Citi CC 	11/24/2022	 $ (48.26)	 $ 539.78 		FALSE	-1	N/A	N/A
@@ -1448,18 +1449,18 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Circle K	 Needs 	 Gas 	 Citi CC 	11/27/2022	 $ (13.87)	 $ 2,040.93 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	11/27/2022	 $ (53.06)	 $ 2,040.93 		FALSE	-1	N/A	N/A
 	Speedway	 Wants 	 Free Spending 	 Citi CC 	11/27/2022	 $ (4.41)	 $ 2,040.93 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	11/28/2022	 $ (145.60)	 $ 1,895.33 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	11/28/2022	 $ (145.60)	 $ 1,895.33 		FALSE	-1	N/A	N/A
 	Photasia	 Wants 	 Free Spending 	 Chase CC 	11/28/2022	 $ (32.65)	 $ 1,895.33 		FALSE	-1	N/A	N/A
 	Pine Sol Recall	 Income 	 Reimbursements 	 Checking 	11/28/2022	 $ 6.00 	 $ 1,901.33 		FALSE	-1	N/A	N/A
 	Providence Refund	 Income 	 Reimbursements 	 Checking 	11/28/2022	 $ 40.00 	 $ 1,941.33 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	11/28/2022	 $ 51.97 	 $ 1,993.30 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	11/28/2022	 $ (83.99)	 $ 1,909.31 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	11/29/2022	 $ (9.99)	 $ 1,909.31 		FALSE	-1	N/A	N/A
-	CVS	 Wants 	 Free Spending 	 Chase CC 	11/29/2022	 $ (11.63)	 $ 1,909.31 		FALSE	-1	N/A	N/A
-	Ralph's	 Needs 	 Groceries 	 Citi CC 	11/29/2022	 $ (39.61)	 $ 1,909.31 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	11/28/2022	 $ (83.99)	 $ 1,857.34 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	11/29/2022	 $ (9.99)	 $ 1,857.34 		FALSE	-1	N/A	N/A
+	CVS	 Wants 	 Free Spending 	 Chase CC 	11/29/2022	 $ (11.63)	 $ 1,857.34 		FALSE	-1	N/A	N/A
+	Ralph's	 Needs 	 Groceries 	 Citi CC 	11/29/2022	 $ (39.61)	 $ 1,857.34 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	11/30/2022	 $ 51.97 	 $ 1,909.31 		FALSE	-1	N/A	N/A
 	Zion Mart	 Needs 	 Groceries 	 Citi CC 	12/1/2022	 $ (14.64)	 $ 1,909.31 		FALSE	-1	N/A	N/A
 	Rent	 Income 	 Reimbursements 	 Checking 	12/1/2022	 $ 645.00 	 $ 2,554.31 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	12/1/2022	 $ (2,248.86)	 $ 305.45 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	12/1/2022	 $ (2,248.86)	 $ 305.45 		FALSE	-1	N/A	N/A
 	Airbnb - Guadalajara	 Wants 	 Free Spending 	 Chase CC 	12/2/2022	 $ (193.87)	 $ 305.45 		FALSE	-1	N/A	N/A
 	El Pollo Loco	 Wants 	 Free Spending 	 Chase CC 	12/2/2022	 $ (21.55)	 $ 305.45 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	12/4/2022	 $ (17.13)	 $ 305.45 		FALSE	-1	N/A	N/A
@@ -1477,7 +1478,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Laundry	 Needs 	 Laundry 	 Chase CC 	12/9/2022	 $ (20.00)	 $ 540.75 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	12/10/2022	 $ (10.00)	 $ 540.75 		FALSE	-1	N/A	N/A
 	Speedway	 Wants 	 Free Spending 	 Citi CC 	12/10/2022	 $ (12.14)	 $ 540.75 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	12/10/2022	 $ (117.35)	 $ 423.40 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	12/10/2022	 $ (117.35)	 $ 423.40 		FALSE	-1	N/A	N/A
 	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	12/11/2022	 $ (129.00)	 $ 423.40 		FALSE	-1	N/A	N/A
 	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	12/12/2022	 $ (125.00)	 $ 423.40 		FALSE	-1	N/A	N/A
 	Suree Thai	 Wants 	 Free Spending 	 Chase CC 	12/12/2022	 $ (50.00)	 $ 423.40 		FALSE	-1	N/A	N/A
@@ -1535,10 +1536,10 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Free Spending	 Wants 	 Placeholder 	 Chase CC 	12/27/2022	 $ -   	 $ 2,746.11 		FALSE	-1	N/A	N/A
 	Gas	 Needs 	 Placeholder 	 Citi CC 	12/27/2022	 $ -   	 $ 2,746.11 		FALSE	-1	N/A	N/A
 	Subway	 Wants 	 Vacation Spending 	 Amazon CC 	12/27/2022	 $ (19.29)	 $ 2,746.11 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	12/28/2022	 $ (83.99)	 $ 2,662.12 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	12/28/2022	 $ (83.99)	 $ 2,662.12 		FALSE	-1	N/A	N/A
 	Lyft	 Wants 	 Vacation Spending 	 Chase CC 	12/29/2022	 $ (63.99)	 $ 2,662.12 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	12/29/2022	 $ (16.69)	 $ 2,662.12 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	12/29/2022	 $ (145.60)	 $ 2,516.52 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	12/29/2022	 $ (145.60)	 $ 2,516.52 		FALSE	-1	N/A	N/A
 	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	12/29/2022	 $ (9.99)	 $ 2,516.52 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	12/30/2022	 $ (21.17)	 $ 2,516.52 		FALSE	-1	N/A	N/A
 	Costco	 Needs 	 Groceries 	 Chase CC 	12/31/2022	 $ (213.61)	 $ 2,516.52 		FALSE	-1	N/A	N/A
@@ -1546,10 +1547,10 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Petsmart	 Wants 	 Free Spending 	 Chase CC 	12/31/2022	 $ (50.60)	 $ 2,516.52 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	12/31/2022	 $ (67.84)	 $ 2,516.52 		FALSE	-1	N/A	N/A
 	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	12/31/2022	 $ (73.72)	 $ 2,516.52 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	1/1/2023	 $ 100.67 	 $ 2,617.19 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	12/31/2022	 $ 100.67 	 $ 2,617.19 		FALSE	-1	N/A	N/A
 	Rent	 Income 	 Reimbursements 	 Checking 	1/1/2023	 $ 645.00 	 $ 3,262.19 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	 Free Spending 	 Amazon CC 	1/2/2023	 $ (41.45)	 $ 3,262.19 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	1/2/2023	 $ (2,379.21)	 $ 882.98 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	1/2/2023	 $ (2,379.21)	 $ 882.98 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	1/2/2023	 $ (89.21)	 $ 882.98 		FALSE	-1	N/A	N/A
 	Speedway	 Wants 	 Free Spending 	 Citi CC 	1/2/2023	 $ (4.41)	 $ 882.98 		FALSE	-1	N/A	N/A
 	Kushagram	 Wants 	 Free Spending 	 Checking 	1/3/2023	 $ (65.00)	 $ 817.98 		FALSE	-1	N/A	N/A
@@ -1568,7 +1569,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Capo Cigar Lounge	 Wants 	 Free Spending 	 Chase CC 	1/8/2023	 $ (16.15)	 $ 484.36 		FALSE	-1	N/A	N/A
 	Kaisen Kaiten Sushi	 Wants 	 Free Spending 	 Chase CC 	1/8/2023	 $ (45.00)	 $ 484.36 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	1/8/2023	 $ (20.00)	 $ 484.36 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	1/11/2023	 $ (152.69)	 $ 331.67 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	1/11/2023	 $ (152.69)	 $ 331.67 		FALSE	-1	N/A	N/A
 	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	1/11/2023	 $ (129.00)	 $ 331.67 		FALSE	-1	N/A	N/A
 	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	1/12/2023	 $ (125.00)	 $ 331.67 		FALSE	-1	N/A	N/A
 	Irvine Grill	 Wants 	 Free Spending 	 Chase CC 	1/13/2023	 $ (75.00)	 $ 331.67 		FALSE	-1	N/A	N/A
@@ -1601,25 +1602,25 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Free Spending	 Wants 	 Placeholder 	 Chase CC 	1/27/2023	 $ -   	 $ 1,376.99 		FALSE	-1	N/A	N/A
 	Gas	 Needs 	 Placeholder 	 Citi CC 	1/27/2023	 $ -   	 $ 1,376.99 		FALSE	-1	N/A	N/A
 	Laundry	 Needs 	 Placeholder 	 Chase CC 	1/27/2023	 $ -   	 $ 1,376.99 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	1/27/2023	 $ (145.60)	 $ 1,231.39 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	1/27/2023	 $ (145.60)	 $ 1,231.39 		FALSE	-1	N/A	N/A
 	Domino's	 Wants 	 Free Spending 	 Chase CC 	1/28/2023	 $ (41.00)	 $ 1,231.39 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	1/28/2023	 $ (19.38)	 $ 1,231.39 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	1/28/2023	 $ (89.99)	 $ 1,141.40 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	1/28/2023	 $ 118.34 	 $ 1,259.74 		FALSE	-1	N/A	N/A
-	Rent	 Income 	 Reimbursements 	 Checking 	1/28/2023	 $ 645.00 	 $ 1,904.74 		FALSE	-1	N/A	N/A
-	McDonald's	 Wants 	 Free Spending 	 Chase CC 	1/29/2023	 $ (10.85)	 $ 1,904.74 		FALSE	-1	N/A	N/A
-	The Boiling Crab	 Wants 	 Free Spending 	 Chase CC 	1/29/2023	 $ (76.64)	 $ 1,904.74 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	1/29/2023	 $ (9.99)	 $ 1,904.74 		FALSE	-1	N/A	N/A
-	Airbnb - San Francisco	 Wants 	 Free Spending 	 Chase CC 	1/30/2023	 $ (474.06)	 $ 1,904.74 		FALSE	-1	N/A	N/A
-	Wholesome Choice	 Wants 	 Free Spending 	 Citi CC 	1/30/2023	 $ (43.28)	 $ 1,904.74 		FALSE	-1	N/A	N/A
-	McDonald's	 Income 	 Reimbursements 	 Checking 	1/31/2023	 $ 20.00 	 $ 1,924.74 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	1/28/2023	 $ (89.99)	 $ 1,141.40 		FALSE	-1	N/A	N/A
+	McDonald's	 Wants 	 Free Spending 	 Chase CC 	1/29/2023	 $ (10.85)	 $ 1,141.40 		FALSE	-1	N/A	N/A
+	The Boiling Crab	 Wants 	 Free Spending 	 Chase CC 	1/29/2023	 $ (76.64)	 $ 1,141.40 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	1/29/2023	 $ (9.99)	 $ 1,141.40 		FALSE	-1	N/A	N/A
+	Airbnb - San Francisco	 Wants 	 Free Spending 	 Chase CC 	1/30/2023	 $ (474.06)	 $ 1,141.40 		FALSE	-1	N/A	N/A
+	Wholesome Choice	 Wants 	 Free Spending 	 Citi CC 	1/30/2023	 $ (43.28)	 $ 1,141.40 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	1/31/2023	 $ 118.34 	 $ 1,259.74 		FALSE	-1	N/A	N/A
+	McDonald's	 Income 	 Reimbursements 	 Checking 	1/31/2023	 $ 20.00 	 $ 1,279.74 		FALSE	-1	N/A	N/A
+	Rent	 Income 	 Reimbursements 	 Checking 	2/1/2023	 $ 645.00 	 $ 1,924.74 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	2/1/2023	 $ (10.00)	 $ 1,924.74 		FALSE	-1	N/A	N/A
 	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	2/3/2023	 $ (122.67)	 $ 1,924.74 		FALSE	-1	N/A	N/A
 	Pearl Vet Visit	 Needs 	 Emergency 	 Chase CC 	2/3/2023	 $ (208.18)	 $ 1,924.74 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	2/3/2023	 $ 2,310.83 	 $ 4,235.57 		FALSE	-1	N/A	N/A
 	Brokerage Contribution	 Savings 	 Taxable Brokerage 	 Checking 	2/3/2023	 $ (50.00)	 $ 4,185.57 		FALSE	-1	N/A	N/A
 	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	2/3/2023	 $ (350.00)	 $ 3,835.57 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	2/3/2023	 $ (2,380.08)	 $ 1,455.49 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	2/3/2023	 $ (2,380.08)	 $ 1,455.49 		FALSE	-1	N/A	N/A
 	Apple CC	 CC Payment 	 CC Payment 	 Checking 	2/3/2023	 $ (10.66)	 $ 1,444.83 		FALSE	-1	N/A	N/A
 	Chipotle	 Wants 	 Free Spending 	 Chase CC 	2/4/2023	 $ (23.00)	 $ 1,444.83 		FALSE	-1	N/A	N/A
 	Ikea	 Needs 	 Groceries 	 Chase CC 	2/4/2023	 $ (4.99)	 $ 1,444.83 		FALSE	-1	N/A	N/A
@@ -1633,7 +1634,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Costco	 Needs 	 Groceries 	 Chase CC 	2/8/2023	 $ (70.44)	 $ 1,444.83 		FALSE	-1	N/A	N/A
 	Costco	 Wants 	 Free Spending 	 Chase CC 	2/8/2023	 $ (3.76)	 $ 1,444.83 		FALSE	-1	N/A	N/A
 	Petsmart	 Wants 	 Free Spending 	 Chase CC 	2/8/2023	 $ (40.40)	 $ 1,444.83 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	2/8/2023	 $ (159.28)	 $ 1,285.55 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	2/8/2023	 $ (159.28)	 $ 1,285.55 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	 Free Spending 	 Amazon CC 	2/9/2023	 $ (20.69)	 $ 1,285.55 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	2/9/2023	 $ (10.00)	 $ 1,285.55 		FALSE	-1	N/A	N/A
 	McDonald's	 Wants 	 Free Spending 	 Chase CC 	2/10/2023	 $ (14.73)	 $ 1,285.55 		FALSE	-1	N/A	N/A
@@ -1677,7 +1678,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	2/20/2023	 $ (22.99)	 $ 1,643.49 		FALSE	-1	N/A	N/A
 	LA Fitness Annual Fee	 Wants 	 Free Spending 	 Chase CC 	2/20/2023	 $ (49.00)	 $ 1,643.49 		FALSE	-1	N/A	N/A
 	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	2/20/2023	 $ (34.99)	 $ 1,643.49 		FALSE	-1	N/A	N/A
-	Renter's Insurance	 Needs 	 Bills 	 Chase CC 	2/23/2023	 $ (59.50)	 $ 1,643.49 		FALSE	-1	N/A	N/A
+	Renter's Insurance	 Needs 	 Renter's Insurance 	 Chase CC 	2/23/2023	 $ (59.50)	 $ 1,643.49 		FALSE	-1	N/A	N/A
 	BJJHQ	 Wants 	 Free Spending 	 Chase CC 	2/23/2023	 $ (42.00)	 $ 1,643.49 		FALSE	-1	N/A	N/A
 	Trader Joe's	 Needs 	 Groceries 	 Citi CC 	2/25/2023	 $ (136.29)	 $ 1,643.49 		FALSE	-1	N/A	N/A
 	La Super Birria	 Wants 	 Free Spending 	 Chase CC 	2/25/2023	 $ (22.90)	 $ 1,643.49 		FALSE	-1	N/A	N/A
@@ -1689,15 +1690,15 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Free Spending	 Wants 	 Placeholder 	 Chase CC 	2/27/2023	 $ -   	 $ 1,672.14 		FALSE	-1	N/A	N/A
 	Gas	 Needs 	 Placeholder 	 Citi CC 	2/27/2023	 $ -   	 $ 1,672.14 		FALSE	-1	N/A	N/A
 	Laundry	 Needs 	 Placeholder 	 Chase CC 	2/27/2023	 $ -   	 $ 1,672.14 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	2/28/2023	 $ (146.88)	 $ 1,525.26 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	2/28/2023	 $ (67.99)	 $ 1,457.27 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	2/28/2023	 $ (146.88)	 $ 1,525.26 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	2/28/2023	 $ (67.99)	 $ 1,457.27 		FALSE	-1	N/A	N/A
 	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	2/28/2023	 $ (9.99)	 $ 1,457.27 		FALSE	-1	N/A	N/A
 	Starbucks	 Wants 	 Free Spending 	 Amazon CC 	2/28/2023	 $ (10.00)	 $ 1,457.27 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	3/1/2023	 $ 114.63 	 $ 1,571.90 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	2/28/2023	 $ 114.63 	 $ 1,571.90 		FALSE	-1	N/A	N/A
 	Rent	 Income 	 Reimbursements 	 Checking 	3/1/2023	 $ 645.00 	 $ 2,216.90 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	3/3/2023	 $ 2,383.91 	 $ 4,600.81 		FALSE	-1	N/A	N/A
 	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	3/3/2023	 $ (350.00)	 $ 4,250.81 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	3/3/2023	 $ (2,384.22)	 $ 1,866.59 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	3/3/2023	 $ (2,384.22)	 $ 1,866.59 		FALSE	-1	N/A	N/A
 	Apple CC	 CC Payment 	 CC Payment 	 Checking 	3/3/2023	 $ (10.66)	 $ 1,855.93 		FALSE	-1	N/A	N/A
 	Costco	 Needs 	 Groceries 	 Chase CC 	3/3/2023	 $ (197.47)	 $ 1,855.93 		FALSE	-1	N/A	N/A
 	Costco	 Wants 	 Free Spending 	 Chase CC 	3/3/2023	 $ (42.01)	 $ 1,855.93 		FALSE	-1	N/A	N/A
@@ -1707,7 +1708,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Laundry	 Needs 	 Laundry 	 Chase CC 	3/7/2023	 $ (25.00)	 $ 1,822.93 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	 Free Spending 	 Amazon CC 	3/8/2023	 $ (19.34)	 $ 1,822.93 		FALSE	-1	N/A	N/A
 	Amazon	 Needs 	 Groceries 	 Amazon CC 	3/8/2023	 $ (14.99)	 $ 1,822.93 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	3/8/2023	 $ (207.71)	 $ 1,615.22 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	3/8/2023	 $ (207.71)	 $ 1,615.22 		FALSE	-1	N/A	N/A
 	The Habit	 Wants 	 Free Spending 	 Chase CC 	3/9/2023	 $ (12.15)	 $ 1,615.22 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	3/9/2023	 $ (71.54)	 $ 1,615.22 		FALSE	-1	N/A	N/A
 	USPS	 Wants 	 Free Spending 	 Chase CC 	3/11/2023	 $ (5.50)	 $ 1,615.22 		FALSE	-1	N/A	N/A
@@ -1744,7 +1745,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	BJJHQ	 Income 	 Reimbursements 	 Checking 	3/21/2023	 $ 42.00 	 $ 1,594.91 		FALSE	-1	N/A	N/A
 	Northgate Market	 Needs 	 Groceries 	 Citi CC 	3/22/2023	 $ (19.87)	 $ 1,594.91 		FALSE	-1	N/A	N/A
 	Rosarito Beach Hotel	 Wants 	 Vacation Spending 	 Amazon CC 	3/22/2023	 $ (130.90)	 $ 1,594.91 		FALSE	-1	N/A	N/A
-	Tax Preparation Fee	 Needs 	 Bills 	 Checking 	3/23/2023	 $ (450.00)	 $ 1,144.91 		FALSE	-1	N/A	N/A
+	Tax Preparation Fee	 Needs 	 Taxes 	 Checking 	3/23/2023	 $ (450.00)	 $ 1,144.91 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	3/24/2023	 $ (28.45)	 $ 1,144.91 		FALSE	-1	N/A	N/A
 	Rosarito Beach Hotel	 Wants 	 Vacation Spending 	 Amazon CC 	3/24/2023	 $ (137.90)	 $ 1,144.91 		FALSE	-1	N/A	N/A
 	Zelle - Console Table	 Wants 	 Free Spending 	 Checking 	3/24/2023	 $ (280.00)	 $ 864.91 		FALSE	-1	N/A	N/A
@@ -1758,7 +1759,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Veronicas Curios	 Wants 	 Vacation Spending 	 Amazon CC 	3/26/2023	 $ (71.75)	 $ 864.91 		FALSE	-1	N/A	N/A
 	Taconazo	 Wants 	 Vacation Spending 	 Amazon CC 	3/26/2023	 $ (32.07)	 $ 864.91 		FALSE	-1	N/A	N/A
 	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	3/26/2023	 $ (15.99)	 $ 864.91 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	3/26/2023	 $ (145.60)	 $ 719.31 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	3/26/2023	 $ (145.60)	 $ 719.31 		FALSE	-1	N/A	N/A
 	KY Sushi	 Wants 	 Free Spending 	 Chase CC 	3/27/2023	 $ (41.99)	 $ 719.31 		FALSE	-1	N/A	N/A
 	Groceries	 Needs 	 Placeholder 	 Citi CC 	3/27/2023	 $ -   	 $ 719.31 		FALSE	-1	N/A	N/A
 	Free Spending	 Wants 	 Placeholder 	 Chase CC 	3/27/2023	 $ -   	 $ 719.31 		FALSE	-1	N/A	N/A
@@ -1768,15 +1769,15 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Levi's Store	 Wants 	 Free Spending 	 Chase CC 	3/28/2023	 $ (60.74)	 $ 719.31 		FALSE	-1	N/A	N/A
 	Levi's Store	 Wants 	 Free Spending 	 Chase CC 	3/28/2023	 $ (60.75)	 $ 719.31 		FALSE	-1	N/A	N/A
 	Cold Stone	 Wants 	 Free Spending 	 Chase CC 	3/28/2023	 $ (15.00)	 $ 719.31 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	3/28/2023	 $ (69.99)	 $ 649.32 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	3/28/2023	 $ (69.99)	 $ 649.32 		FALSE	-1	N/A	N/A
 	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	3/29/2023	 $ (9.99)	 $ 649.32 		FALSE	-1	N/A	N/A
 	Chipotle	 Wants 	 Free Spending 	 Chase CC 	3/30/2023	 $ (29.09)	 $ 649.32 		FALSE	-1	N/A	N/A
 	Coffee	 Wants 	 Free Spending 	 Checking 	3/30/2023	 $ (17.01)	 $ 632.31 		FALSE	-1	N/A	N/A
-	Rent	 Income 	 Reimbursements 	 Checking 	3/30/2023	 $ 645.00 	 $ 1,277.31 		FALSE	-1	N/A	N/A
-	Cash Back - Chase CC	 Income 	 Rewards 	 Checking 	3/31/2023	 $ 133.41 	 $ 1,410.72 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	3/31/2023	 $ 2,383.91 	 $ 3,794.63 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	3/31/2023	 $ (350.00)	 $ 3,444.63 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	4/1/2023	 $ (2,380.70)	 $ 1,063.93 		FALSE	-1	N/A	N/A
+	Cash Back - Chase CC	 Income 	 Reimbursements 	 Checking 	3/31/2023	 $ 133.41 	 $ 765.72 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	3/31/2023	 $ 2,383.91 	 $ 3,149.63 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	3/31/2023	 $ (350.00)	 $ 2,799.63 		FALSE	-1	N/A	N/A
+	Rent	 Income 	 Reimbursements 	 Checking 	4/1/2023	 $ 645.00 	 $ 3,444.63 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	4/1/2023	 $ (2,380.70)	 $ 1,063.93 		FALSE	-1	N/A	N/A
 	Stephanie Cash Deposit	 Wants 	 Free Spending 	 Checking 	4/1/2023	 $ (119.00)	 $ 944.93 		FALSE	-1	N/A	N/A
 	Angel's Landing Lottery Fee	 Wants 	 Free Spending 	 Chase CC 	4/1/2023	 $ (6.00)	 $ 944.93 		FALSE	-1	N/A	N/A
 	BB.Q Chicken	 Wants 	 Free Spending 	 Chase CC 	4/1/2023	 $ (57.67)	 $ 944.93 		FALSE	-1	N/A	N/A
@@ -1792,7 +1793,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	99 Cents Store	 Wants 	 Free Spending 	 Citi CC 	4/7/2023	 $ (32.66)	 $ 934.27 		FALSE	-1	N/A	N/A
 	Stephanie Cash Deposit	 Wants 	 Free Spending 	 Checking 	4/7/2023	 $ 117.25 	 $ 1,051.52 		FALSE	-1	N/A	N/A
 	Speedway	 Needs 	 Gas 	 Citi CC 	4/8/2023	 $ (68.32)	 $ 1,051.52 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	4/8/2023	 $ (16.35)	 $ 1,035.17 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	4/8/2023	 $ (16.35)	 $ 1,035.17 		FALSE	-1	N/A	N/A
 	Aloha Hawaiian BBQ	 Wants 	 Free Spending 	 Chase CC 	4/10/2023	 $ (34.99)	 $ 1,035.17 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	 Free Spending 	 Amazon CC 	4/10/2023	 $ (36.10)	 $ 1,035.17 		FALSE	-1	N/A	N/A
 	Amazon	 Wants 	 Free Spending 	 Amazon CC 	4/11/2023	 $ (49.80)	 $ 1,035.17 		FALSE	-1	N/A	N/A
@@ -1812,7 +1813,7 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	4/14/2023	 $ (71.96)	 $ 1,811.50 		FALSE	-1	N/A	N/A
 	Postmates - Wingstop	 Wants 	 Free Spending 	 Chase CC 	4/15/2023	 $ (31.32)	 $ 1,811.50 		FALSE	-1	N/A	N/A
 	Ralph's	 Needs 	 Groceries 	 Citi CC 	4/16/2023	 $ (16.42)	 $ 1,811.50 		FALSE	-1	N/A	N/A
-	Federal Taxes	 Needs 	 Bills 	 Checking 	4/17/2023	 $ (1,103.00)	 $ 708.50 		FALSE	-1	N/A	N/A
+	Federal Taxes	 Needs 	 Taxes 	 Checking 	4/17/2023	 $ (1,103.00)	 $ 708.50 		FALSE	-1	N/A	N/A
 	Cha for Tea	 Wants 	 Free Spending 	 Chase CC 	4/20/2023	 $ (14.20)	 $ 708.50 		FALSE	-1	N/A	N/A
 	Korean Food	 Wants 	 Free Spending 	 Checking 	4/20/2023	 $ (41.00)	 $ 667.50 		FALSE	-1	N/A	N/A
 	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	4/20/2023	 $ (22.99)	 $ 667.50 		FALSE	-1	N/A	N/A
@@ -1831,8 +1832,8 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	Free Spending	 Wants 	 Placeholder 	 Chase CC 	4/27/2023	 $ -   	 $ 667.50 		FALSE	-1	N/A	N/A
 	Gas	 Needs 	 Placeholder 	 Citi CC 	4/27/2023	 $ -   	 $ 667.50 		FALSE	-1	N/A	N/A
 	Laundry	 Needs 	 Placeholder 	 Chase CC 	4/27/2023	 $ -   	 $ 667.50 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	4/28/2023	 $ (145.60)	 $ 521.90 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	4/28/2023	 $ (69.99)	 $ 451.91 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	4/28/2023	 $ (145.60)	 $ 521.90 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	4/28/2023	 $ (69.99)	 $ 451.91 		FALSE	-1	N/A	N/A
 	Payday	 Income 	 Earnings 	 Checking 	4/28/2023	 $ 2,383.91 	 $ 2,835.82 		FALSE	-1	N/A	N/A
 	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	4/28/2023	 $ (350.00)	 $ 2,485.82 		FALSE	-1	N/A	N/A
 	Airbnb - Williams, AZ	 Wants 	 Vacation Spending 	 Checking 	4/28/2023	 $ (274.00)	 $ 2,211.82 		FALSE	-1	N/A	N/A
@@ -1842,139 +1843,139 @@ Ralphs	Ralph's	 Needs 	 Groceries 	 Citi CC 	9/6/2022	 $ (34.14)	 $ 375.82 		FAL
 	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	4/29/2023	 $ (9.99)	 $ 1,101.72 		FALSE	-1	N/A	N/A
 	In N Out	 Wants 	 Free Spending 	 Chase CC 	4/30/2023	 $ (20.36)	 $ 1,101.72 		FALSE	-1	N/A	N/A
 	Taco Bell	 Wants 	 Free Spending 	 Chase CC 	4/30/2023	 $ (5.38)	 $ 1,101.72 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	5/1/2023	 $ 40.17 	 $ 1,141.89 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	4/30/2023	 $ 40.17 	 $ 1,141.89 		FALSE	-1	N/A	N/A
 	Rent	 Income 	 Reimbursements 	 Checking 	5/1/2023	 $ 645.00 	 $ 1,786.89 		FALSE	-1	N/A	N/A
 	Savings Transfer	 Income 	 Savings Transfer 	 Checking 	5/2/2023	 $ 800.00 	 $ 2,586.89 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	5/2/2023	 $ (2,379.37)	 $ 207.52 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	5/2/2023	 $ (2,379.37)	 $ 207.52 		FALSE	-1	N/A	N/A
 	Apple CC	 CC Payment 	 CC Payment 	 Checking 	5/5/2023	 $ (10.66)	 $ 196.86 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	5/8/2023	 $ (78.22)	 $ 118.64 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	5/8/2023	 $ (78.22)	 $ 118.64 		FALSE	-1	N/A	N/A
 	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	5/11/2023	 $ (129.00)	 $ 118.64 		FALSE	-1	N/A	N/A
-	WDC Stock Vesting	 Income 	 Earnings 	 Checking 	5/12/2023	 $ 800.00 	 $ 918.64 		FALSE	-1	N/A	N/A
-	Savings Transfer	 Income 	 Savings Transfer 	 Checking 	5/12/2023	 $ (800.00)	 $ 118.64 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	5/12/2023	 $ 2,383.91 	 $ 2,502.55 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	5/12/2023	 $ (350.00)	 $ 2,152.55 		FALSE	-1	N/A	N/A
-	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	5/12/2023	 $ (125.00)	 $ 2,152.55 		FALSE	-1	N/A	N/A
-	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	5/15/2023	 $ (127.72)	 $ 2,024.83 		FALSE	-1	N/A	N/A
-	Citi CC	 CC Payment 	 CC Payment 	 Checking 	5/15/2023	 $ (243.49)	 $ 1,781.34 		FALSE	-1	N/A	N/A
-	Chase CC	 CC Payment 	 CC Payment 	 Checking 	5/15/2023	 $ (1,458.81)	 $ 322.53 		FALSE	-1	N/A	N/A
-	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	5/15/2023	 $ (48.97)	 $ 273.56 		FALSE	-1	N/A	N/A
-	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	5/20/2023	 $ (22.99)	 $ 273.56 		FALSE	-1	N/A	N/A
-	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2023	 $ (34.99)	 $ 273.56 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	5/26/2023	 $ 2,383.91 	 $ 2,657.47 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	5/26/2023	 $ (350.00)	 $ 2,307.47 		FALSE	-1	N/A	N/A
-	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	5/26/2023	 $ (15.99)	 $ 2,307.47 		FALSE	-1	N/A	N/A
-	Groceries	 Needs 	 Placeholder 	 Citi CC 	5/27/2023	 $ (400.00)	 $ 2,307.47 		FALSE	-1	N/A	N/A
-	Free Spending	 Wants 	 Placeholder 	 Chase CC 	5/27/2023	 $ (781.51)	 $ 2,307.47 		FALSE	-1	N/A	N/A
-	Gas	 Needs 	 Placeholder 	 Citi CC 	5/27/2023	 $ (180.00)	 $ 2,307.47 		FALSE	-1	N/A	N/A
-	Laundry	 Needs 	 Placeholder 	 Chase CC 	5/27/2023	 $ (60.00)	 $ 2,307.47 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	5/28/2023	 $ (145.60)	 $ 2,161.87 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	5/28/2023	 $ (69.99)	 $ 2,091.88 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	5/29/2023	 $ (9.99)	 $ 2,091.88 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	6/1/2023	 $ 95.00 	 $ 2,186.88 		FALSE	-1	N/A	N/A
-	Rent	 Income 	 Reimbursements 	 Checking 	6/1/2023	 $ 645.00 	 $ 2,831.88 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	6/1/2023	 $ (2,390.00)	 $ 441.88 		FALSE	-1	N/A	N/A
-	Apple CC	 CC Payment 	 CC Payment 	 Checking 	6/5/2023	 $ (10.66)	 $ 431.22 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	6/8/2023	 $ (120.00)	 $ 311.22 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	6/9/2023	 $ 2,383.91 	 $ 2,695.13 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	6/9/2023	 $ (350.00)	 $ 2,345.13 		FALSE	-1	N/A	N/A
-	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	6/11/2023	 $ (129.00)	 $ 2,345.13 		FALSE	-1	N/A	N/A
-	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	6/12/2023	 $ (125.00)	 $ 2,345.13 		FALSE	-1	N/A	N/A
-	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	6/15/2023	 $ -   	 $ 2,345.13 		FALSE	-1	N/A	N/A
-	Citi CC	 CC Payment 	 CC Payment 	 Checking 	6/15/2023	 $ (580.00)	 $ 1,765.13 		FALSE	-1	N/A	N/A
-	Chase CC	 CC Payment 	 CC Payment 	 Checking 	6/15/2023	 $ (1,268.08)	 $ 497.05 		FALSE	-1	N/A	N/A
-	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	6/15/2023	 $ (48.97)	 $ 448.08 		FALSE	-1	N/A	N/A
-	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	6/20/2023	 $ (22.99)	 $ 448.08 		FALSE	-1	N/A	N/A
-	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	6/20/2023	 $ (34.99)	 $ 448.08 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	6/23/2023	 $ 2,383.91 	 $ 2,831.99 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	6/23/2023	 $ (350.00)	 $ 2,481.99 		FALSE	-1	N/A	N/A
-	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	6/26/2023	 $ (15.99)	 $ 2,481.99 		FALSE	-1	N/A	N/A
-	Vacation Spending	 Needs 	 Placeholder 	 Chase CC 	6/27/2023	 $ (400.00)	 $ 2,481.99 		FALSE	-1	N/A	N/A
-	Groceries	 Needs 	 Placeholder 	 Citi CC 	6/27/2023	 $ (400.00)	 $ 2,481.99 		FALSE	-1	N/A	N/A
-	Free Spending	 Wants 	 Placeholder 	 Chase CC 	6/27/2023	 $ (919.09)	 $ 2,481.99 		FALSE	-1	N/A	N/A
-	Gas	 Needs 	 Placeholder 	 Citi CC 	6/27/2023	 $ (180.00)	 $ 2,481.99 		FALSE	-1	N/A	N/A
-	Laundry	 Needs 	 Placeholder 	 Chase CC 	6/27/2023	 $ (60.00)	 $ 2,481.99 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	6/28/2023	 $ (145.60)	 $ 2,336.39 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	6/28/2023	 $ (69.99)	 $ 2,266.40 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	6/29/2023	 $ (9.99)	 $ 2,266.40 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	7/1/2023	 $ 95.00 	 $ 2,361.40 		FALSE	-1	N/A	N/A
-	Rent	 Income 	 Reimbursements 	 Checking 	7/1/2023	 $ 645.00 	 $ 3,006.40 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	7/1/2023	 $ (2,390.00)	 $ 616.40 		FALSE	-1	N/A	N/A
-	Apple CC	 CC Payment 	 CC Payment 	 Checking 	7/5/2023	 $ (10.66)	 $ 605.74 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	7/7/2023	 $ 2,383.91 	 $ 2,989.65 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	7/7/2023	 $ (350.00)	 $ 2,639.65 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	7/8/2023	 $ (120.00)	 $ 2,519.65 		FALSE	-1	N/A	N/A
-	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	7/11/2023	 $ (129.00)	 $ 2,519.65 		FALSE	-1	N/A	N/A
-	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	7/12/2023	 $ (125.00)	 $ 2,519.65 		FALSE	-1	N/A	N/A
-	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	7/15/2023	 $ -   	 $ 2,519.65 		FALSE	-1	N/A	N/A
-	Citi CC	 CC Payment 	 CC Payment 	 Checking 	7/15/2023	 $ (580.00)	 $ 1,939.65 		FALSE	-1	N/A	N/A
-	Chase CC	 CC Payment 	 CC Payment 	 Checking 	7/15/2023	 $ (1,668.08)	 $ 271.57 		FALSE	-1	N/A	N/A
-	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	7/15/2023	 $ (48.97)	 $ 222.60 		FALSE	-1	N/A	N/A
-	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	7/20/2023	 $ (22.99)	 $ 222.60 		FALSE	-1	N/A	N/A
-	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	7/20/2023	 $ (34.99)	 $ 222.60 		FALSE	-1	N/A	N/A
-	WDC Stock Vesting	 Income 	 Earnings 	 Checking 	7/20/2023	 $ 300.00 	 $ 522.60 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	7/21/2023	 $ 2,383.91 	 $ 2,906.51 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	7/21/2023	 $ (350.00)	 $ 2,556.51 		FALSE	-1	N/A	N/A
-	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	7/26/2023	 $ (15.99)	 $ 2,556.51 		FALSE	-1	N/A	N/A
-	Groceries	 Needs 	 Placeholder 	 Citi CC 	7/27/2023	 $ (400.00)	 $ 2,556.51 		FALSE	-1	N/A	N/A
-	Free Spending	 Wants 	 Placeholder 	 Chase CC 	7/27/2023	 $ (919.09)	 $ 2,556.51 		FALSE	-1	N/A	N/A
-	Gas	 Needs 	 Placeholder 	 Citi CC 	7/27/2023	 $ (180.00)	 $ 2,556.51 		FALSE	-1	N/A	N/A
-	Laundry	 Needs 	 Placeholder 	 Chase CC 	7/27/2023	 $ (60.00)	 $ 2,556.51 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	7/28/2023	 $ (145.60)	 $ 2,410.91 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	7/28/2023	 $ (69.99)	 $ 2,340.92 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	7/29/2023	 $ (9.99)	 $ 2,340.92 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	8/1/2023	 $ 95.00 	 $ 2,435.92 		FALSE	-1	N/A	N/A
-	Rent	 Income 	 Reimbursements 	 Checking 	8/1/2023	 $ 645.00 	 $ 3,080.92 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	8/1/2023	 $ (2,390.00)	 $ 690.92 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	8/4/2023	 $ 2,383.91 	 $ 3,074.83 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	8/4/2023	 $ (350.00)	 $ 2,724.83 		FALSE	-1	N/A	N/A
-	Apple CC	 CC Payment 	 CC Payment 	 Checking 	8/5/2023	 $ (10.66)	 $ 2,714.17 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	8/8/2023	 $ (120.00)	 $ 2,594.17 		FALSE	-1	N/A	N/A
-	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	8/11/2023	 $ (129.00)	 $ 2,594.17 		FALSE	-1	N/A	N/A
-	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	8/12/2023	 $ (125.00)	 $ 2,594.17 		FALSE	-1	N/A	N/A
-	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	8/15/2023	 $ -   	 $ 2,594.17 		FALSE	-1	N/A	N/A
-	Citi CC	 CC Payment 	 CC Payment 	 Checking 	8/15/2023	 $ (580.00)	 $ 2,014.17 		FALSE	-1	N/A	N/A
-	Chase CC	 CC Payment 	 CC Payment 	 Checking 	8/15/2023	 $ (1,268.08)	 $ 746.08 		FALSE	-1	N/A	N/A
-	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	8/15/2023	 $ (48.97)	 $ 697.11 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	8/18/2023	 $ 2,383.91 	 $ 3,081.02 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	8/18/2023	 $ (350.00)	 $ 2,731.02 		FALSE	-1	N/A	N/A
-	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	8/20/2023	 $ (22.99)	 $ 2,731.02 		FALSE	-1	N/A	N/A
-	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	8/20/2023	 $ (34.99)	 $ 2,731.02 		FALSE	-1	N/A	N/A
-	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	8/26/2023	 $ (15.99)	 $ 2,731.02 		FALSE	-1	N/A	N/A
-	Groceries	 Needs 	 Placeholder 	 Citi CC 	8/27/2023	 $ (400.00)	 $ 2,731.02 		FALSE	-1	N/A	N/A
-	Free Spending	 Wants 	 Placeholder 	 Chase CC 	8/27/2023	 $ (919.09)	 $ 2,731.02 		FALSE	-1	N/A	N/A
-	Gas	 Needs 	 Placeholder 	 Citi CC 	8/27/2023	 $ (180.00)	 $ 2,731.02 		FALSE	-1	N/A	N/A
-	Laundry	 Needs 	 Placeholder 	 Chase CC 	8/27/2023	 $ (60.00)	 $ 2,731.02 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	8/28/2023	 $ (145.60)	 $ 2,585.42 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	8/28/2023	 $ (69.99)	 $ 2,515.43 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	8/29/2023	 $ (9.99)	 $ 2,515.43 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	9/1/2023	 $ 95.00 	 $ 2,610.43 		FALSE	-1	N/A	N/A
-	Rent	 Income 	 Reimbursements 	 Checking 	9/1/2023	 $ 645.00 	 $ 3,255.43 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	9/1/2023	 $ (2,390.00)	 $ 865.43 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	9/1/2023	 $ 2,383.91 	 $ 3,249.34 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	9/1/2023	 $ (350.00)	 $ 2,899.34 		FALSE	-1	N/A	N/A
-	Apple CC	 CC Payment 	 CC Payment 	 Checking 	9/5/2023	 $ (10.66)	 $ 2,888.68 		FALSE	-1	N/A	N/A
-	Electric Bill	 Needs 	 Bills 	 Checking 	9/8/2023	 $ (120.00)	 $ 2,768.68 		FALSE	-1	N/A	N/A
-	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	9/11/2023	 $ (129.00)	 $ 2,768.68 		FALSE	-1	N/A	N/A
-	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	9/12/2023	 $ (125.00)	 $ 2,768.68 		FALSE	-1	N/A	N/A
-	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	9/15/2023	 $ -   	 $ 2,768.68 		FALSE	-1	N/A	N/A
-	Citi CC	 CC Payment 	 CC Payment 	 Checking 	9/15/2023	 $ (580.00)	 $ 2,188.68 		FALSE	-1	N/A	N/A
-	Chase CC	 CC Payment 	 CC Payment 	 Checking 	9/15/2023	 $ (1,268.08)	 $ 920.60 		FALSE	-1	N/A	N/A
-	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	9/15/2023	 $ (48.97)	 $ 871.63 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	9/15/2023	 $ 2,383.91 	 $ 3,255.54 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	9/15/2023	 $ (350.00)	 $ 2,905.54 		FALSE	-1	N/A	N/A
-	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	9/20/2023	 $ (22.99)	 $ 2,905.54 		FALSE	-1	N/A	N/A
-	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	9/20/2023	 $ (34.99)	 $ 2,905.54 		FALSE	-1	N/A	N/A
-	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	9/26/2023	 $ (15.99)	 $ 2,905.54 		FALSE	-1	N/A	N/A
-	Groceries	 Needs 	 Placeholder 	 Citi CC 	9/27/2023	 $ (400.00)	 $ 2,905.54 		FALSE	-1	N/A	N/A
-	Free Spending	 Wants 	 Placeholder 	 Chase CC 	9/27/2023	 $ (919.09)	 $ 2,905.54 		FALSE	-1	N/A	N/A
-	Gas	 Needs 	 Placeholder 	 Citi CC 	9/27/2023	 $ (180.00)	 $ 2,905.54 		FALSE	-1	N/A	N/A
-	Laundry	 Needs 	 Placeholder 	 Chase CC 	9/27/2023	 $ (60.00)	 $ 2,905.54 		FALSE	-1	N/A	N/A
-	Car Insurance	 Needs 	 Bills 	 Checking 	9/28/2023	 $ (145.60)	 $ 2,759.94 		FALSE	-1	N/A	N/A
-	Internet Bill	 Needs 	 Bills 	 Checking 	9/28/2023	 $ (69.99)	 $ 2,689.95 		FALSE	-1	N/A	N/A
-	Payday	 Income 	 Earnings 	 Checking 	9/29/2023	 $ 2,383.91 	 $ 5,073.86 		FALSE	-1	N/A	N/A
-	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	9/29/2023	 $ (350.00)	 $ 4,723.86 		FALSE	-1	N/A	N/A
-	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	9/29/2023	 $ (9.99)	 $ 4,723.86 		FALSE	-1	N/A	N/A
-	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	10/1/2023	 $ 95.00 	 $ 4,818.86 		FALSE	-1	N/A	N/A
-	Rent	 Income 	 Reimbursements 	 Checking 	10/1/2023	 $ 645.00 	 $ 5,463.86 		FALSE	-1	N/A	N/A
-	Rent	 Needs 	 Bills 	 Checking 	10/1/2023	 $ (2,390.00)	 $ 3,073.86 		FALSE	-1	N/A	N/A
-					12/31/2023		 $ 3,073.86 		FALSE	-1	N/A	N/A
+	WDC Stock Vesting	 Income 	 Earnings 	 Checking 	5/12/2023	 $ 951.01 	 $ 1,069.65 		FALSE	-1	N/A	N/A
+	Savings Transfer	 Income 	 Savings Transfer 	 Checking 	5/12/2023	 $ (800.00)	 $ 269.65 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	5/12/2023	 $ 2,383.91 	 $ 2,653.56 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	5/12/2023	 $ (350.00)	 $ 2,303.56 		FALSE	-1	N/A	N/A
+	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	5/12/2023	 $ (125.00)	 $ 2,303.56 		FALSE	-1	N/A	N/A
+	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	5/15/2023	 $ (127.72)	 $ 2,175.84 		FALSE	-1	N/A	N/A
+	Citi CC	 CC Payment 	 CC Payment 	 Checking 	5/15/2023	 $ (243.49)	 $ 1,932.35 		FALSE	-1	N/A	N/A
+	Chase CC	 CC Payment 	 CC Payment 	 Checking 	5/15/2023	 $ (1,458.81)	 $ 473.54 		FALSE	-1	N/A	N/A
+	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	5/15/2023	 $ (48.97)	 $ 424.57 		FALSE	-1	N/A	N/A
+	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	5/20/2023	 $ (22.99)	 $ 424.57 		FALSE	-1	N/A	N/A
+	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	5/20/2023	 $ (34.99)	 $ 424.57 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	5/26/2023	 $ 2,383.91 	 $ 2,808.48 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	5/26/2023	 $ (350.00)	 $ 2,458.48 		FALSE	-1	N/A	N/A
+	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	5/26/2023	 $ (15.99)	 $ 2,458.48 		FALSE	-1	N/A	N/A
+	Groceries	 Needs 	 Placeholder 	 Citi CC 	5/27/2023	 $ (400.00)	 $ 2,458.48 		FALSE	-1	N/A	N/A
+	Free Spending	 Wants 	 Placeholder 	 Chase CC 	5/27/2023	 $ (781.51)	 $ 2,458.48 		FALSE	-1	N/A	N/A
+	Gas	 Needs 	 Placeholder 	 Citi CC 	5/27/2023	 $ (180.00)	 $ 2,458.48 		FALSE	-1	N/A	N/A
+	Laundry	 Needs 	 Placeholder 	 Chase CC 	5/27/2023	 $ (60.00)	 $ 2,458.48 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	5/28/2023	 $ (145.60)	 $ 2,312.88 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	5/28/2023	 $ (69.99)	 $ 2,242.89 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	5/29/2023	 $ (9.99)	 $ 2,242.89 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	5/31/2023	 $ 95.00 	 $ 2,337.89 		FALSE	-1	N/A	N/A
+	Rent	 Income 	 Reimbursements 	 Checking 	6/1/2023	 $ 645.00 	 $ 2,982.89 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	6/1/2023	 $ (2,390.00)	 $ 592.89 		FALSE	-1	N/A	N/A
+	Apple CC	 CC Payment 	 CC Payment 	 Checking 	6/5/2023	 $ (10.66)	 $ 582.23 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	6/8/2023	 $ (120.00)	 $ 462.23 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	6/9/2023	 $ 2,383.91 	 $ 2,846.14 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	6/9/2023	 $ (350.00)	 $ 2,496.14 		FALSE	-1	N/A	N/A
+	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	6/11/2023	 $ (129.00)	 $ 2,496.14 		FALSE	-1	N/A	N/A
+	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	6/12/2023	 $ (125.00)	 $ 2,496.14 		FALSE	-1	N/A	N/A
+	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	6/15/2023	 $ -   	 $ 2,496.14 		FALSE	-1	N/A	N/A
+	Citi CC	 CC Payment 	 CC Payment 	 Checking 	6/15/2023	 $ (580.00)	 $ 1,916.14 		FALSE	-1	N/A	N/A
+	Chase CC	 CC Payment 	 CC Payment 	 Checking 	6/15/2023	 $ (1,268.08)	 $ 648.06 		FALSE	-1	N/A	N/A
+	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	6/15/2023	 $ (48.97)	 $ 599.09 		FALSE	-1	N/A	N/A
+	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	6/20/2023	 $ (22.99)	 $ 599.09 		FALSE	-1	N/A	N/A
+	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	6/20/2023	 $ (34.99)	 $ 599.09 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	6/23/2023	 $ 2,383.91 	 $ 2,983.00 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	6/23/2023	 $ (350.00)	 $ 2,633.00 		FALSE	-1	N/A	N/A
+	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	6/26/2023	 $ (15.99)	 $ 2,633.00 		FALSE	-1	N/A	N/A
+	Vacation Spending	 Needs 	 Placeholder 	 Chase CC 	6/27/2023	 $ (400.00)	 $ 2,633.00 		FALSE	-1	N/A	N/A
+	Groceries	 Needs 	 Placeholder 	 Citi CC 	6/27/2023	 $ (400.00)	 $ 2,633.00 		FALSE	-1	N/A	N/A
+	Free Spending	 Wants 	 Placeholder 	 Chase CC 	6/27/2023	 $ (919.09)	 $ 2,633.00 		FALSE	-1	N/A	N/A
+	Gas	 Needs 	 Placeholder 	 Citi CC 	6/27/2023	 $ (180.00)	 $ 2,633.00 		FALSE	-1	N/A	N/A
+	Laundry	 Needs 	 Placeholder 	 Chase CC 	6/27/2023	 $ (60.00)	 $ 2,633.00 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	6/28/2023	 $ (145.60)	 $ 2,487.40 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	6/28/2023	 $ (69.99)	 $ 2,417.41 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	6/29/2023	 $ (9.99)	 $ 2,417.41 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	6/30/2023	 $ 95.00 	 $ 2,512.41 		FALSE	-1	N/A	N/A
+	Rent	 Income 	 Reimbursements 	 Checking 	7/1/2023	 $ 645.00 	 $ 3,157.41 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	7/1/2023	 $ (2,390.00)	 $ 767.41 		FALSE	-1	N/A	N/A
+	Apple CC	 CC Payment 	 CC Payment 	 Checking 	7/5/2023	 $ (10.66)	 $ 756.75 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	7/7/2023	 $ 2,383.91 	 $ 3,140.66 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	7/7/2023	 $ (350.00)	 $ 2,790.66 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	7/8/2023	 $ (120.00)	 $ 2,670.66 		FALSE	-1	N/A	N/A
+	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	7/11/2023	 $ (129.00)	 $ 2,670.66 		FALSE	-1	N/A	N/A
+	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	7/12/2023	 $ (125.00)	 $ 2,670.66 		FALSE	-1	N/A	N/A
+	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	7/15/2023	 $ -   	 $ 2,670.66 		FALSE	-1	N/A	N/A
+	Citi CC	 CC Payment 	 CC Payment 	 Checking 	7/15/2023	 $ (580.00)	 $ 2,090.66 		FALSE	-1	N/A	N/A
+	Chase CC	 CC Payment 	 CC Payment 	 Checking 	7/15/2023	 $ (1,668.08)	 $ 422.58 		FALSE	-1	N/A	N/A
+	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	7/15/2023	 $ (48.97)	 $ 373.61 		FALSE	-1	N/A	N/A
+	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	7/20/2023	 $ (22.99)	 $ 373.61 		FALSE	-1	N/A	N/A
+	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	7/20/2023	 $ (34.99)	 $ 373.61 		FALSE	-1	N/A	N/A
+	WDC Stock Vesting	 Income 	 Earnings 	 Checking 	7/20/2023	 $ 300.00 	 $ 673.61 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	7/21/2023	 $ 2,383.91 	 $ 3,057.52 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	7/21/2023	 $ (350.00)	 $ 2,707.52 		FALSE	-1	N/A	N/A
+	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	7/26/2023	 $ (15.99)	 $ 2,707.52 		FALSE	-1	N/A	N/A
+	Groceries	 Needs 	 Placeholder 	 Citi CC 	7/27/2023	 $ (400.00)	 $ 2,707.52 		FALSE	-1	N/A	N/A
+	Free Spending	 Wants 	 Placeholder 	 Chase CC 	7/27/2023	 $ (919.09)	 $ 2,707.52 		FALSE	-1	N/A	N/A
+	Gas	 Needs 	 Placeholder 	 Citi CC 	7/27/2023	 $ (180.00)	 $ 2,707.52 		FALSE	-1	N/A	N/A
+	Laundry	 Needs 	 Placeholder 	 Chase CC 	7/27/2023	 $ (60.00)	 $ 2,707.52 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	7/28/2023	 $ (145.60)	 $ 2,561.92 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	7/28/2023	 $ (69.99)	 $ 2,491.93 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	7/29/2023	 $ (9.99)	 $ 2,491.93 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	7/31/2023	 $ 95.00 	 $ 2,586.93 		FALSE	-1	N/A	N/A
+	Rent	 Income 	 Reimbursements 	 Checking 	8/1/2023	 $ 645.00 	 $ 3,231.93 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	8/1/2023	 $ (2,390.00)	 $ 841.93 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	8/4/2023	 $ 2,383.91 	 $ 3,225.84 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	8/4/2023	 $ (350.00)	 $ 2,875.84 		FALSE	-1	N/A	N/A
+	Apple CC	 CC Payment 	 CC Payment 	 Checking 	8/5/2023	 $ (10.66)	 $ 2,865.18 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	8/8/2023	 $ (120.00)	 $ 2,745.18 		FALSE	-1	N/A	N/A
+	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	8/11/2023	 $ (129.00)	 $ 2,745.18 		FALSE	-1	N/A	N/A
+	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	8/12/2023	 $ (125.00)	 $ 2,745.18 		FALSE	-1	N/A	N/A
+	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	8/15/2023	 $ -   	 $ 2,745.18 		FALSE	-1	N/A	N/A
+	Citi CC	 CC Payment 	 CC Payment 	 Checking 	8/15/2023	 $ (580.00)	 $ 2,165.18 		FALSE	-1	N/A	N/A
+	Chase CC	 CC Payment 	 CC Payment 	 Checking 	8/15/2023	 $ (1,268.08)	 $ 897.09 		FALSE	-1	N/A	N/A
+	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	8/15/2023	 $ (48.97)	 $ 848.12 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	8/18/2023	 $ 2,383.91 	 $ 3,232.03 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	8/18/2023	 $ (350.00)	 $ 2,882.03 		FALSE	-1	N/A	N/A
+	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	8/20/2023	 $ (22.99)	 $ 2,882.03 		FALSE	-1	N/A	N/A
+	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	8/20/2023	 $ (34.99)	 $ 2,882.03 		FALSE	-1	N/A	N/A
+	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	8/26/2023	 $ (15.99)	 $ 2,882.03 		FALSE	-1	N/A	N/A
+	Groceries	 Needs 	 Placeholder 	 Citi CC 	8/27/2023	 $ (400.00)	 $ 2,882.03 		FALSE	-1	N/A	N/A
+	Free Spending	 Wants 	 Placeholder 	 Chase CC 	8/27/2023	 $ (919.09)	 $ 2,882.03 		FALSE	-1	N/A	N/A
+	Gas	 Needs 	 Placeholder 	 Citi CC 	8/27/2023	 $ (180.00)	 $ 2,882.03 		FALSE	-1	N/A	N/A
+	Laundry	 Needs 	 Placeholder 	 Chase CC 	8/27/2023	 $ (60.00)	 $ 2,882.03 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	8/28/2023	 $ (145.60)	 $ 2,736.43 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	8/28/2023	 $ (69.99)	 $ 2,666.44 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	8/29/2023	 $ (9.99)	 $ 2,666.44 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	8/31/2023	 $ 95.00 	 $ 2,761.44 		FALSE	-1	N/A	N/A
+	Rent	 Income 	 Reimbursements 	 Checking 	9/1/2023	 $ 645.00 	 $ 3,406.44 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	9/1/2023	 $ (2,390.00)	 $ 1,016.44 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	9/1/2023	 $ 2,383.91 	 $ 3,400.35 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	9/1/2023	 $ (350.00)	 $ 3,050.35 		FALSE	-1	N/A	N/A
+	Apple CC	 CC Payment 	 CC Payment 	 Checking 	9/5/2023	 $ (10.66)	 $ 3,039.69 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	9/8/2023	 $ (120.00)	 $ 2,919.69 		FALSE	-1	N/A	N/A
+	Ra Yoga	 Wants 	 Subscriptions 	 Chase CC 	9/11/2023	 $ (129.00)	 $ 2,919.69 		FALSE	-1	N/A	N/A
+	Triunfo Jiu Jitsu	 Wants 	 Subscriptions 	 Chase CC 	9/12/2023	 $ (125.00)	 $ 2,919.69 		FALSE	-1	N/A	N/A
+	Amazon CC	 CC Payment 	 CC Payment 	 Checking 	9/15/2023	 $ -   	 $ 2,919.69 		FALSE	-1	N/A	N/A
+	Citi CC	 CC Payment 	 CC Payment 	 Checking 	9/15/2023	 $ (580.00)	 $ 2,339.69 		FALSE	-1	N/A	N/A
+	Chase CC	 CC Payment 	 CC Payment 	 Checking 	9/15/2023	 $ (1,268.08)	 $ 1,071.61 		FALSE	-1	N/A	N/A
+	Capital One CC	 CC Payment 	 CC Payment 	 Checking 	9/15/2023	 $ (48.97)	 $ 1,022.64 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	9/15/2023	 $ 2,383.91 	 $ 3,406.55 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	9/15/2023	 $ (350.00)	 $ 3,056.55 		FALSE	-1	N/A	N/A
+	YouTube Premium	 Wants 	 Subscriptions 	 Capital One CC 	9/20/2023	 $ (22.99)	 $ 3,056.55 		FALSE	-1	N/A	N/A
+	LA Fitness	 Wants 	 Subscriptions 	 Chase CC 	9/20/2023	 $ (34.99)	 $ 3,056.55 		FALSE	-1	N/A	N/A
+	HBO Max	 Wants 	 Subscriptions 	 Capital One CC 	9/26/2023	 $ (15.99)	 $ 3,056.55 		FALSE	-1	N/A	N/A
+	Groceries	 Needs 	 Placeholder 	 Citi CC 	9/27/2023	 $ (400.00)	 $ 3,056.55 		FALSE	-1	N/A	N/A
+	Free Spending	 Wants 	 Placeholder 	 Chase CC 	9/27/2023	 $ (919.09)	 $ 3,056.55 		FALSE	-1	N/A	N/A
+	Gas	 Needs 	 Placeholder 	 Citi CC 	9/27/2023	 $ (180.00)	 $ 3,056.55 		FALSE	-1	N/A	N/A
+	Laundry	 Needs 	 Placeholder 	 Chase CC 	9/27/2023	 $ (60.00)	 $ 3,056.55 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	9/28/2023	 $ (145.60)	 $ 2,910.95 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	9/28/2023	 $ (69.99)	 $ 2,840.96 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	9/29/2023	 $ 2,383.91 	 $ 5,224.87 		FALSE	-1	N/A	N/A
+	Roth IRA Contribution	 Savings 	 Retirement 	 Checking 	9/29/2023	 $ (350.00)	 $ 4,874.87 		FALSE	-1	N/A	N/A
+	ESPN+	 Wants 	 Subscriptions 	 Capital One CC 	9/29/2023	 $ (9.99)	 $ 4,874.87 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	 Reimbursements 	 Checking 	9/30/2023	 $ 95.00 	 $ 4,969.87 		FALSE	-1	N/A	N/A
+	Rent	 Income 	 Reimbursements 	 Checking 	10/1/2023	 $ 645.00 	 $ 5,614.87 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	10/1/2023	 $ (2,390.00)	 $ 3,224.87 		FALSE	-1	N/A	N/A
+					12/31/2023		 $ 3,224.87 		FALSE	-1	N/A	N/A
