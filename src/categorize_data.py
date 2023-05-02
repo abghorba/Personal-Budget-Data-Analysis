@@ -1,6 +1,7 @@
 import pandas as pd
-from src.clean_tsv_data import clean_data, CLEANED_TSV_FILEPATH
+
 from src.budget_items import BudgetSpending
+from src.clean_tsv_data import CLEANED_TSV_FILEPATH, clean_data
 
 
 def load_data_to_dataframe(verbose=False):
@@ -16,9 +17,9 @@ def load_data_to_dataframe(verbose=False):
 
     df = pd.read_table(CLEANED_TSV_FILEPATH, sep="\t")
 
-    df['Date'] = pd.to_datetime(df['Date'], format='%m/%d/%Y')
-    df['Gains/Expenses'] = abs(pd.to_numeric(df['Gains/Expenses']))
-    df['Checking Balance'] = pd.to_numeric(df['Checking Balance'])
+    df["Date"] = pd.to_datetime(df["Date"], format="%m/%d/%Y")
+    df["Gains/Expenses"] = abs(pd.to_numeric(df["Gains/Expenses"]))
+    df["Checking Balance"] = pd.to_numeric(df["Checking Balance"])
 
     if verbose:
         print(df)
@@ -37,16 +38,13 @@ def categorize_needs_spending(budget_df, budget_spending_obj):
     """
 
     for index, transaction in budget_df.iterrows():
-
         category = transaction["Category"]
         subcategory = transaction["Subcategory"]
         description = transaction["Description"]
         amount = transaction["Gains/Expenses"]
 
         if category == "Needs":
-
             if subcategory == "Bills":
-
                 if description == "Car Insurance":
                     budget_spending_obj.needs.car_insurance += amount
 
@@ -100,14 +98,12 @@ def categorize_wants_spending(budget_df, budget_spending_obj):
     """
 
     for index, transaction in budget_df.iterrows():
-
         category = transaction["Category"]
         subcategory = transaction["Subcategory"]
         description = transaction["Description"]
         amount = transaction["Gains/Expenses"]
 
         if category == "Wants":
-
             if subcategory == "Free Spending":
                 budget_spending_obj.wants.free_spending += amount
 
@@ -133,14 +129,12 @@ def categorize_savings_spending(budget_df, budget_spending_obj):
     """
 
     for index, transaction in budget_df.iterrows():
-
         category = transaction["Category"]
         subcategory = transaction["Subcategory"]
         description = transaction["Description"]
         amount = transaction["Gains/Expenses"]
 
         if category == "Savings":
-
             if subcategory == "Crypto Savings":
                 budget_spending_obj.savings.crypto += amount
 
@@ -169,14 +163,12 @@ def categorize_income(budget_df, budget_spending_obj):
     """
 
     for index, transaction in budget_df.iterrows():
-
         category = transaction["Category"]
         subcategory = transaction["Subcategory"]
         description = transaction["Description"]
         amount = transaction["Gains/Expenses"]
 
         if category == "Income":
-
             if subcategory == "Earnings":
                 budget_spending_obj.income.earnings += amount
 
@@ -214,7 +206,6 @@ def categorize_data(budget_df, date_range_start="1/1/2022", date_range_end="1/1/
 
 
 def main():
-
     budget_df = load_data_to_dataframe(verbose=True)
     date_range_start = "4/1/2023"
     date_range_end = "5/1/2023"

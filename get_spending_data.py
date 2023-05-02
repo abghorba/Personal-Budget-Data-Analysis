@@ -1,6 +1,7 @@
-from src.categorize_data import categorize_data, load_data_to_dataframe
-from datetime import datetime, timedelta
 import os
+from datetime import datetime, timedelta
+
+from src.categorize_data import categorize_data, load_data_to_dataframe
 
 
 def get_first_day_of_next_month(input_dt):
@@ -47,7 +48,7 @@ def compile_all_spending():
             "September": None,
             "October": None,
             "November": None,
-            "December": None
+            "December": None,
         },
         "2022": {
             "January": None,
@@ -61,7 +62,7 @@ def compile_all_spending():
             "September": None,
             "October": None,
             "November": None,
-            "December": None
+            "December": None,
         },
         "2023": {
             "January": None,
@@ -75,15 +76,13 @@ def compile_all_spending():
             "September": None,
             "October": None,
             "November": None,
-            "December": None
+            "December": None,
         },
     }
 
     # For each month, categorize the spending
     for year in budget_dict:
-
         for month in budget_dict[year]:
-
             date_string = f"{month} {year}"
             range_start = datetime.strptime(date_string, "%B %Y")
             range_end = get_first_day_of_next_month(range_start)
@@ -107,17 +106,14 @@ def save_spending_data_as_text_file(budget_dict):
     """
 
     with open(os.getcwd() + "/data/spending_data.txt", "w") as file:
-
         for year in budget_dict:
-
             for month in budget_dict[year]:
-
                 date_string = f"{month} {year}"
                 file.write(date_string + "\n")
                 file.write(str(budget_dict[year][month]) + "\n")
 
-def main():
 
+def main():
     budget_dict = compile_all_spending()
     save_spending_data_as_text_file(budget_dict)
 

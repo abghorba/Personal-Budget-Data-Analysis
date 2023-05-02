@@ -1,5 +1,4 @@
 class Category:
-
     @property
     def total_value(self):
         total_value = 0
@@ -11,12 +10,10 @@ class Category:
         return total_value
 
     def __str__(self):
-
         attributes_list = []
         attributes = vars(self)
 
         for key, value in sorted(attributes.items()):
-
             key = key.replace("_", " ").title()
             attribute_string = f"\t{key} = ${value:,.2f}"
             attributes_list.append(attribute_string)
@@ -87,7 +84,6 @@ class BudgetSpending:
         return self.income.total_value
 
     def __str__(self):
-
         deficit = self.total_income - self.total_spending
 
         budget_spending_string = []
@@ -122,7 +118,6 @@ class BudgetSpending:
 
 
 if __name__ == "__main__":
-
     monthly_spending = BudgetSpending()
 
     monthly_spending.needs.electric_bill = 10

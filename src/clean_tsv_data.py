@@ -18,16 +18,13 @@ def clean_tsv_file():
 
     # Import raw data as a TSV file
     with open(RAW_TSV_FILEPATH, "r") as file:
-
         spending_file = file.readlines()
 
         for line_index, line in enumerate(spending_file):
-
             current_line = line.replace("\t", "", 1).split("\t")[:7]
             cleaned_line = []
 
             for item_index, item in enumerate(current_line):
-
                 item = item.strip()
 
                 # Everything on index 7 and beyond is junk
@@ -36,7 +33,6 @@ def clean_tsv_file():
 
                 # These are monetary values and need extra cleaning
                 if item_index in [5, 6] and line_index >= 1:
-
                     multiplier = ""
                     item = item.replace("$", "").replace(",", "").strip()
 
@@ -75,7 +71,6 @@ def export_cleaned_data_to_tsv(cleaned_tsv_lines_list):
 
     # Export cleaned data into CSV format
     with open(CLEANED_TSV_FILEPATH, "w") as file:
-
         for line in cleaned_tsv_lines_list:
             file.write(line + "\n")
 
