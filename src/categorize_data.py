@@ -7,6 +7,21 @@ from src.budget_items import BudgetSpending
 from src.clean_tsv_data import CLEANED_TSV_FILEPATH, clean_data
 
 SPENDING_DATA_TXT_FILEPATH = os.getcwd() + "/data/spending_data.txt"
+YEARS = ["2021", "2022", "2023"]
+MONTHS = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+]
 
 
 def get_first_day_of_next_month(input_dt):
@@ -312,65 +327,30 @@ def categorize_data(budget_df, date_range_start="1/1/2022", date_range_end="1/1/
     return budget_spending
 
 
-def compile_all_spending():
+def compile_all_spending(years=None, months=None):
     """
     Compiles all the spending and loads the information into a dictionary.
 
+    :param years: List of strings containing the year. Ex. ["2021", "2022"]
+    :param months: List of strings containing month names. Ex. ["January", "April", "May"]
     :return: Dictionary containing BudgetSpending instances formatted as
              dict[year][month] --> BudgetSpending
     """
 
+    if months is None:
+        months = MONTHS
+
+    if years is None:
+        years = YEARS
+
     budget_df = load_data_to_dataframe(verbose=False)
+    budget_dict = {}
 
-    # dict[year][month] --> BudgetSpending object
-    budget_dict = {
-        "2021": {
-            "January": None,
-            "February": None,
-            "March": None,
-            "April": None,
-            "May": None,
-            "June": None,
-            "July": None,
-            "August": None,
-            "September": None,
-            "October": None,
-            "November": None,
-            "December": None,
-        },
-        "2022": {
-            "January": None,
-            "February": None,
-            "March": None,
-            "April": None,
-            "May": None,
-            "June": None,
-            "July": None,
-            "August": None,
-            "September": None,
-            "October": None,
-            "November": None,
-            "December": None,
-        },
-        "2023": {
-            "January": None,
-            "February": None,
-            "March": None,
-            "April": None,
-            "May": None,
-            "June": None,
-            "July": None,
-            "August": None,
-            "September": None,
-            "October": None,
-            "November": None,
-            "December": None,
-        },
-    }
+    # For each month and year, categorize the spending as dict[year][month] --> BudgetSpending object
+    for year in years:
+        budget_dict[year] = {}
 
-    # For each month, categorize the spending
-    for year in budget_dict:
-        for month in budget_dict[year]:
+        for month in months:
             date_string = f"{month} {year}"
             range_start = datetime.strptime(date_string, "%B %Y")
             range_end = get_first_day_of_next_month(range_start)
