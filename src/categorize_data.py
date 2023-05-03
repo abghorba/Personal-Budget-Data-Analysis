@@ -372,7 +372,7 @@ def compile_all_spending(years=None, months=None):
 
             budget_dict[year][month] = categorize_data(budget_df, date_string, date_range_start, date_range_end)
 
-    print("All transactions have been categorized for all specified months and years")
+    print("Each transaction has been categorized for all specified months and years")
 
     return budget_dict
 
