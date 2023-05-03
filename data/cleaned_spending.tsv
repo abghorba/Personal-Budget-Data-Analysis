@@ -315,7 +315,7 @@ McDonald's	Wants	Free Spending	Chase CC	7/12/2021	4.85	701.86
 Watermans	Wants	Free Spending	Chase CC	7/12/2021	23.00	701.86
 Photasia	Wants	Free Spending	Chase CC	7/12/2021	25.95	701.86
 Traffic School	Wants	Free Spending	Chase CC	7/12/2021	39.95	701.86
-Apple CC	CC Payment	CC Payment	Checking	7/12/2021	53.12	648.74
+Apple CC	Wants	Free Spending	Checking	7/12/2021	53.12	648.74
 SoFi	Savings	Taxable Brokerage	Checking	7/13/2021	20.00	628.74
 ECSI Loans	Needs	Student Loans	Checking	7/13/2021	260.00	368.74
 Savings Transfer	Income	Savings Transfer	Checking	7/14/2021	100.00	468.74
@@ -373,7 +373,7 @@ Payday	Income	Earnings	Checking	8/6/2021	1642.20	2324.74
 Chase CC Points	Income	Reimbursements	Chase CC	8/6/2021	425.00	2324.74
 Speedway	Wants	Free Spending	Chase CC	8/6/2021	23.39	2324.74
 Coinbase	Savings	Crypto Savings	Checking	8/6/2021	50.00	2274.74
-Apple CC	CC Payment	CC Payment	Checking	8/6/2021	63.11	2211.63
+Apple CC	Wants	Free Spending	Checking	8/6/2021	63.11	2211.63
 Costco	Wants	Free Spending	Chase CC	8/6/2021	68.12	2211.63
 Emergency Savings	Savings	Emergency Savings	Checking	8/6/2021	200.00	2011.63
 Chase CC	CC Payment	CC Payment	Checking	8/6/2021	980.94	1030.69
@@ -444,7 +444,7 @@ Rent	Needs	Rent	Checking	9/1/2021	1101.11	168.22
 In N Out	Wants	Free Spending	Chase CC	9/2/2021	8.89	168.22
 Payday	Income	Earnings	Checking	9/3/2021	1642.19	1810.41
 Coinbase	Savings	Crypto Savings	Checking	9/3/2021	50.00	1760.41
-Apple CC	CC Payment	CC Payment	Checking	9/3/2021	63.11	1697.30
+Apple CC	Wants	Free Spending	Checking	9/3/2021	63.11	1697.30
 Emergency Savings	Savings	Emergency Savings	Checking	9/3/2021	200.00	1497.30
 Chase CC	CC Payment	CC Payment	Checking	9/3/2021	1313.99	183.31
 Tacos Super Gallito	Wants	Free Spending	Chase CC	9/5/2021	12.02	183.31
@@ -520,7 +520,7 @@ Palma's Smoke Shop	Wants	Free Spending	Chase CC	10/8/2021	14.22	1054.25
 Van Gogh Parking	Wants	Free Spending	Chase CC	10/8/2021	26.00	1054.25
 Thai Patio	Wants	Free Spending	Chase CC	10/8/2021	48.00	1054.25
 Coinbase	Savings	Crypto Savings	Checking	10/8/2021	50.00	1004.25
-Apple CC	CC Payment	CC Payment	Checking	10/8/2021	63.15	941.10
+Apple CC	Wants	Free Spending	Checking	10/8/2021	63.15	941.10
 Parking	Wants	Free Spending	Chase CC	10/9/2021	15.00	941.10
 Parking	Wants	Free Spending	Checking	10/9/2021	20.00	921.10
 Starbucks	Wants	Free Spending	Amazon CC	10/9/2021	20.00	921.10
@@ -585,7 +585,7 @@ Wholesome Choice	Wants	Free Spending	Chase CC	11/8/2021	31.52	314.46
 Electric Bill	Needs	Electric Bill	Checking	11/9/2021	32.24	282.22
 Payday	Income	Earnings	Checking	11/12/2021	1723.27	2005.49
 Coinbase	Savings	Crypto Savings	Checking	11/12/2021	50.00	1955.49
-Apple CC	CC Payment	CC Payment	Checking	11/12/2021	55.78	1899.71
+Apple CC	Wants	Free Spending	Checking	11/12/2021	55.78	1899.71
 Amazon CC	CC Payment	CC Payment	Checking	11/12/2021	65.01	1834.70
 Triunfo Jiu Jitsu	Wants	Subscriptions	Chase CC	11/12/2021	125.00	1834.70
 Brokerage Contribution	Savings	Taxable Brokerage	Checking	11/12/2021	200.00	1634.70
@@ -647,7 +647,7 @@ McDonald's	Wants	Free Spending	Chase CC	12/4/2021	18.57	487.76
 76	Needs	Gas	Citi CC	12/4/2021	35.69	487.76
 Big Bear Brewery	Wants	Free Spending	Chase CC	12/4/2021	65.06	487.76
 Flores Markets	Wants	Free Spending	Chase CC	12/5/2021	18.59	487.76
-Apple CC	CC Payment	CC Payment	Checking	12/5/2021	55.78	431.98
+Apple CC	Wants	Free Spending	Checking	12/5/2021	55.78	431.98
 Target	Needs	Groceries	Chase CC	12/6/2021	52.69	431.98
 In N Out	Wants	Free Spending	Chase CC	12/7/2021	8.89	431.98
 Speedway	Needs	Gas	Citi CC	12/7/2021	76.10	431.98
@@ -712,7 +712,7 @@ Bird	Wants	Free Spending	Chase CC	1/3/2022	11.96	1155.50
 The Breakfast Bar	Wants	Free Spending	Chase CC	1/3/2022	38.00	1155.50
 Ralph's	Needs	Groceries	Citi CC	1/3/2022	79.77	1155.50
 Del Taco	Wants	Free Spending	Chase CC	1/4/2022	10.59	1155.50
-Apple CC	CC Payment	CC Payment	Checking	1/5/2022	55.78	1099.72
+Apple CC	Wants	Free Spending	Checking	1/5/2022	55.78	1099.72
 Olive Branch Express	Wants	Free Spending	Chase CC	1/6/2022	16.08	1099.72
 Stephanie	Wants	Free Spending	Chase CC	1/6/2022	175.00	1099.72
 Payday	Income	Earnings	Checking	1/7/2022	1639.97	2739.69
@@ -757,7 +757,7 @@ Amazon	Wants	Free Spending	Amazon CC	2/1/2022	2.98	1259.46
 Rent	Needs	Rent	Checking	2/1/2022	1120.61	138.85
 Ralph's	Needs	Groceries	Citi CC	2/2/2022	74.77	138.85
 Payday	Income	Earnings	Checking	2/4/2022	1639.97	1778.82
-Apple CC	CC Payment	CC Payment	Checking	2/4/2022	55.78	1723.04
+Apple CC	Wants	Free Spending	Checking	2/4/2022	55.78	1723.04
 Emergency Savings	Savings	Emergency Savings	Checking	2/4/2022	100.00	1623.04
 Brokerage Contribution	Savings	Taxable Brokerage	Checking	2/4/2022	200.00	1423.04
 Citi CC	CC Payment	CC Payment	Checking	2/4/2022	245.27	1177.77
@@ -826,7 +826,7 @@ Rent	Needs	Rent	Checking	3/1/2022	1121.21	3248.40
 Currency Exchange	Wants	Vacation Spending	Checking	3/2/2022	597.25	2651.15
 Chase CC	CC Payment	CC Payment	Checking	3/2/2022	1192.25	1458.90
 Ralph's	Needs	Groceries	Citi CC	3/3/2022	8.07	1458.90
-Apple CC	CC Payment	CC Payment	Checking	3/3/2022	76.25	1382.65
+Apple CC	Wants	Free Spending	Checking	3/3/2022	76.25	1382.65
 Ralph's	Needs	Groceries	Citi CC	3/4/2022	8.41	1382.65
 Chronic Tacos	Wants	Free Spending	Chase CC	3/4/2022	12.07	1382.65
 Airbnb	Wants	Vacation Spending	Chase CC	3/4/2022	377.28	1382.65
@@ -906,7 +906,7 @@ Emergency Savings	Savings	Emergency Savings	Checking	4/2/2022	486.87	2878.76
 McDonald's	Wants	Free Spending	Chase CC	4/3/2022	6.44	2878.76
 Wholesome Choice	Wants	Free Spending	Chase CC	4/4/2022	13.30	2878.76
 Citi CC	CC Payment	CC Payment	Checking	4/5/2022	232.81	2645.95
-Apple CC	CC Payment	CC Payment	Checking	4/5/2022	288.58	2357.37
+Apple CC	Wants	Free Spending	Checking	4/5/2022	288.58	2357.37
 Amazon CC	CC Payment	CC Payment	Checking	4/7/2022	943.66	1413.71
 Zelle	Wants	Free Spending	Checking	4/8/2022	35.00	1378.71
 Zelle	Needs	Groceries	Checking	4/8/2022	110.00	1268.71
@@ -976,7 +976,7 @@ Ambrosia Coffee	Wants	Free Spending	Chase CC	5/8/2022	12.04	770.07
 King Taco	Wants	Free Spending	Chase CC	5/8/2022	20.67	770.07
 Smoke and Fire	Wants	Free Spending	Chase CC	5/8/2022	55.00	770.07
 Shell	Needs	Gas	Citi CC	5/8/2022	75.00	770.07
-Apple CC	CC Payment	CC Payment	Checking	5/9/2022	9.69	760.38
+Apple CC	Wants	Subscriptions	Checking	5/9/2022	9.69	760.38
 Electric Bill	Needs	Electric Bill	Checking	5/11/2022	6.66	753.72
 Ra Yoga	Wants	Subscriptions	Chase CC	5/11/2022	129.00	753.72
 Starbucks	Wants	Free Spending	Amazon CC	5/12/2022	10.00	753.72
@@ -1043,7 +1043,7 @@ Abbot Kinney	Wants	Free Spending	Chase CC	6/5/2022	15.28	374.03
 Zion Mart	Needs	Groceries	Citi CC	6/6/2022	3.49	374.03
 Bird	Wants	Free Spending	Chase CC	6/6/2022	35.00	374.03
 Withdrawal	Wants	Free Spending	Checking	6/7/2022	40.00	334.03
-Apple CC	CC Payment	CC Payment	Checking	6/8/2022	9.69	324.34
+Apple CC	Wants	Subscriptions	Checking	6/8/2022	9.69	324.34
 Savings Transfer	Income	Savings Transfer	Checking	6/8/2022	200.00	524.34
 Electric Bill	Needs	Electric Bill	Checking	6/8/2022	65.26	459.08
 Photasia	Wants	Free Spending	Chase CC	6/9/2022	17.80	459.08
@@ -1114,7 +1114,7 @@ Electric Bill	Needs	Electric Bill	Checking	7/9/2022	114.37	546.09
 Yard House	Wants	Free Spending	Chase CC	7/9/2022	47.00	546.09
 Thai Curry Pizza	Wants	Free Spending	Chase CC	7/9/2022	25.00	546.09
 Trader Joe's	Needs	Groceries	Citi CC	7/9/2022	54.71	546.09
-Apple CC	CC Payment	CC Payment	Checking	7/9/2022	9.69	536.40
+Apple CC	Wants	Subscriptions	Checking	7/9/2022	9.69	536.40
 Afuri Ramen	Wants	Free Spending	Chase CC	7/10/2022	64.63	536.40
 Salt and Straw	Wants	Free Spending	Chase CC	7/10/2022	14.90	536.40
 Lyft	Wants	Free Spending	Chase CC	7/10/2022	6.50	536.40
@@ -1190,7 +1190,7 @@ V-Cut Cigar Lounge	Wants	Free Spending	Chase CC	8/5/2022	20.72	448.48
 Chevron	Needs	Gas	Citi CC	8/5/2022	50.00	448.48
 Payday	Income	Earnings	Checking	8/5/2022	2091.10	2539.58
 Rent	Needs	Rent	Checking	8/5/2022	541.64	1997.94
-Apple CC	CC Payment	CC Payment	Checking	8/5/2022	9.69	1988.25
+Apple CC	Wants	Subscriptions	Checking	8/5/2022	9.69	1988.25
 Emergency Savings	Savings	Emergency Savings	Checking	8/5/2022	250.00	1738.25
 Messenger Pizza	Wants	Free Spending	Chase CC	8/5/2022	48.76	1738.25
 Boise Parking	Wants	Free Spending	Chase CC	8/6/2022	12.40	1738.25
@@ -1252,7 +1252,7 @@ Shell	Needs	Gas	Citi CC	9/3/2022	65.84	427.51
 7 Leaves Cafe	Wants	Free Spending	Chase CC	9/4/2022	13.46	427.51
 Northgate Market	Wants	Free Spending	Capital One CC	9/5/2022	96.78	427.51
 Rossmoor Pastries	Wants	Free Spending	Capital One CC	9/5/2022	60.00	427.51
-Apple CC	CC Payment	CC Payment	Checking	9/6/2022	9.69	417.82
+Apple CC	Wants	Subscriptions	Checking	9/6/2022	9.69	417.82
 Venmo	Wants	Free Spending	Checking	9/6/2022	42.00	375.82
 McDonald's	Wants	Free Spending	Chase CC	9/6/2022	17.78	375.82
 RalphsRalph's	Needs	Groceries	Citi CC	9/6/2022	34.14	375.82
@@ -1343,7 +1343,7 @@ Doordash Credit	Wants	Free Spending	Chase CC	10/14/2022	1.50	888.25
 Amazon	Wants	Free Spending	Amazon CC	10/14/2022	51.23	888.25
 Payday	Income	Earnings	Checking	10/14/2022	2091.10	2979.35
 Emergency Savings	Savings	Emergency Savings	Checking	10/14/2022	300.00	2679.35
-Apple CC	CC Payment	CC Payment	Checking	10/14/2022	9.69	2669.66
+Apple CC	Wants	Subscriptions	Checking	10/14/2022	9.69	2669.66
 Amazon CC	CC Payment	CC Payment	Checking	10/14/2022	26.70	2642.96
 Citi CC	CC Payment	CC Payment	Checking	10/14/2022	325.86	2317.10
 Chase CC	CC Payment	CC Payment	Checking	10/14/2022	1491.99	825.11
@@ -1396,7 +1396,7 @@ Amazon	Wants	Free Spending	Amazon CC	11/5/2022	40.05	841.16
 Julian Pie Company	Wants	Free Spending	Chase CC	11/6/2022	19.95	841.16
 Julian Cider Mill	Wants	Free Spending	Chase CC	11/6/2022	15.30	841.16
 Romano's Restaurant	Wants	Free Spending	Chase CC	11/6/2022	88.00	841.16
-Apple CC	CC Payment	CC Payment	Checking	11/8/2022	9.69	831.47
+Apple CC	Wants	Subscriptions	Checking	11/8/2022	9.69	831.47
 DMV Registration	Needs	Misc.	Checking	11/8/2022	204.00	627.47
 Amazon	Wants	Free Spending	Amazon CC	11/9/2022	71.64	627.47
 Ascendant Automotive	Needs	Misc.	Checking	11/9/2022	25.00	602.47
@@ -1470,7 +1470,7 @@ CVS	Wants	Free Spending	Chase CC	12/7/2022	86.11	305.45
 Speedway	Wants	Free Spending	Citi CC	12/7/2022	4.41	305.45
 Amazon	Wants	Free Spending	Amazon CC	12/8/2022	118.37	305.45
 Payday	Income	Earnings	Checking	12/9/2022	2091.10	2396.55
-Apple CC	CC Payment	CC Payment	Checking	12/9/2022	10.66	2385.89
+Apple CC	Wants	Subscriptions	Checking	12/9/2022	10.66	2385.89
 Amazon CC	CC Payment	CC Payment	Checking	12/9/2022	168.86	2217.03
 Citi CC	CC Payment	CC Payment	Checking	12/9/2022	330.29	1886.74
 Chase CC	CC Payment	CC Payment	Checking	12/9/2022	1303.02	583.72
@@ -1554,7 +1554,7 @@ Rent	Needs	Rent	Checking	1/2/2023	2379.21	882.98
 Ralph's	Needs	Groceries	Citi CC	1/2/2023	89.21	882.98
 Speedway	Wants	Free Spending	Citi CC	1/2/2023	4.41	882.98
 Kushagram	Wants	Free Spending	Checking	1/3/2023	65.00	817.98
-Apple CC	CC Payment	CC Payment	Checking	1/6/2023	10.66	807.32
+Apple CC	Wants	Subscriptions	Checking	1/6/2023	10.66	807.32
 Payday	Income	Earnings	Checking	1/6/2023	2105.68	2913.00
 Brokerage Contribution	Savings	Taxable Brokerage	Checking	1/6/2023	50.00	2863.00
 Roth IRA Contribution	Savings	Retirement	Checking	1/6/2023	350.00	2513.00
@@ -1621,7 +1621,7 @@ Payday	Income	Earnings	Checking	2/3/2023	2310.83	4235.57
 Brokerage Contribution	Savings	Taxable Brokerage	Checking	2/3/2023	50.00	4185.57
 Roth IRA Contribution	Savings	Retirement	Checking	2/3/2023	350.00	3835.57
 Rent	Needs	Rent	Checking	2/3/2023	2380.08	1455.49
-Apple CC	CC Payment	CC Payment	Checking	2/3/2023	10.66	1444.83
+Apple CC	Wants	Subscriptions	Checking	2/3/2023	10.66	1444.83
 Chipotle	Wants	Free Spending	Chase CC	2/4/2023	23.00	1444.83
 Ikea	Needs	Groceries	Chase CC	2/4/2023	4.99	1444.83
 Ikea	Wants	Free Spending	Chase CC	2/4/2023	6.98	1444.83
@@ -1699,7 +1699,7 @@ Rent	Income	Reimbursements	Checking	3/1/2023	645.00	2216.90
 Payday	Income	Earnings	Checking	3/3/2023	2383.91	4600.81
 Roth IRA Contribution	Savings	Retirement	Checking	3/3/2023	350.00	4250.81
 Rent	Needs	Rent	Checking	3/3/2023	2384.22	1866.59
-Apple CC	CC Payment	CC Payment	Checking	3/3/2023	10.66	1855.93
+Apple CC	Wants	Subscriptions	Checking	3/3/2023	10.66	1855.93
 Costco	Needs	Groceries	Chase CC	3/3/2023	197.47	1855.93
 Costco	Wants	Free Spending	Chase CC	3/3/2023	42.01	1855.93
 Zelle - Stephanie	Wants	Free Spending	Checking	3/5/2023	33.00	1822.93
@@ -1787,7 +1787,7 @@ Costco	Needs	Groceries	Chase CC	4/2/2023	263.45	944.93
 Laundry	Needs	Laundry	Chase CC	4/3/2023	25.00	944.93
 McDonald's	Wants	Free Spending	Chase CC	4/4/2023	15.29	944.93
 Ralph's	Needs	Groceries	Citi CC	4/4/2023	0.10	944.93
-Apple CC	CC Payment	CC Payment	Checking	4/5/2023	10.66	934.27
+Apple CC	Wants	Subscriptions	Checking	4/5/2023	10.66	934.27
 Amazon	Wants	Free Spending	Amazon CC	4/5/2023	161.29	934.27
 Yoyo Tea Shoppe	Wants	Free Spending	Chase CC	4/6/2023	17.92	934.27
 99 Cents Store	Wants	Free Spending	Citi CC	4/7/2023	32.66	934.27
@@ -1847,7 +1847,7 @@ Bill Reimbursement	Income	Reimbursements	Checking	4/30/2023	40.17	1141.89
 Rent	Income	Reimbursements	Checking	5/1/2023	645.00	1786.89
 Savings Transfer	Income	Savings Transfer	Checking	5/2/2023	800.00	2586.89
 Rent	Needs	Rent	Checking	5/2/2023	2379.37	207.52
-Apple CC	CC Payment	CC Payment	Checking	5/5/2023	10.66	196.86
+Apple CC	Wants	Subscriptions	Checking	5/5/2023	10.66	196.86
 Electric Bill	Needs	Electric Bill	Checking	5/8/2023	78.22	118.64
 Ra Yoga	Wants	Subscriptions	Chase CC	5/11/2023	129.00	118.64
 WDC Stock Vesting	Income	Earnings	Checking	5/12/2023	951.01	1069.65
@@ -1874,7 +1874,7 @@ ESPN+	Wants	Subscriptions	Capital One CC	5/29/2023	9.99	2242.89
 Bill Reimbursement	Income	Reimbursements	Checking	5/31/2023	95.00	2337.89
 Rent	Income	Reimbursements	Checking	6/1/2023	645.00	2982.89
 Rent	Needs	Rent	Checking	6/1/2023	2390.00	592.89
-Apple CC	CC Payment	CC Payment	Checking	6/5/2023	10.66	582.23
+Apple CC	Wants	Subscriptions	Checking	6/5/2023	10.66	582.23
 Electric Bill	Needs	Electric Bill	Checking	6/8/2023	120.00	462.23
 Payday	Income	Earnings	Checking	6/9/2023	2383.91	2846.14
 Roth IRA Contribution	Savings	Retirement	Checking	6/9/2023	350.00	2496.14
@@ -1900,7 +1900,7 @@ ESPN+	Wants	Subscriptions	Capital One CC	6/29/2023	9.99	2417.41
 Bill Reimbursement	Income	Reimbursements	Checking	6/30/2023	95.00	2512.41
 Rent	Income	Reimbursements	Checking	7/1/2023	645.00	3157.41
 Rent	Needs	Rent	Checking	7/1/2023	2390.00	767.41
-Apple CC	CC Payment	CC Payment	Checking	7/5/2023	10.66	756.75
+Apple CC	Wants	Subscriptions	Checking	7/5/2023	10.66	756.75
 Payday	Income	Earnings	Checking	7/7/2023	2383.91	3140.66
 Roth IRA Contribution	Savings	Retirement	Checking	7/7/2023	350.00	2790.66
 Electric Bill	Needs	Electric Bill	Checking	7/8/2023	120.00	2670.66
@@ -1928,7 +1928,7 @@ Rent	Income	Reimbursements	Checking	8/1/2023	645.00	3231.93
 Rent	Needs	Rent	Checking	8/1/2023	2390.00	841.93
 Payday	Income	Earnings	Checking	8/4/2023	2383.91	3225.84
 Roth IRA Contribution	Savings	Retirement	Checking	8/4/2023	350.00	2875.84
-Apple CC	CC Payment	CC Payment	Checking	8/5/2023	10.66	2865.18
+Apple CC	Wants	Subscriptions	Checking	8/5/2023	10.66	2865.18
 Electric Bill	Needs	Electric Bill	Checking	8/8/2023	120.00	2745.18
 Ra Yoga	Wants	Subscriptions	Chase CC	8/11/2023	129.00	2745.18
 Triunfo Jiu Jitsu	Wants	Subscriptions	Chase CC	8/12/2023	125.00	2745.18
@@ -1953,7 +1953,7 @@ Rent	Income	Reimbursements	Checking	9/1/2023	645.00	3406.44
 Rent	Needs	Rent	Checking	9/1/2023	2390.00	1016.44
 Payday	Income	Earnings	Checking	9/1/2023	2383.91	3400.35
 Roth IRA Contribution	Savings	Retirement	Checking	9/1/2023	350.00	3050.35
-Apple CC	CC Payment	CC Payment	Checking	9/5/2023	10.66	3039.69
+Apple CC	Wants	Subscriptions	Checking	9/5/2023	10.66	3039.69
 Electric Bill	Needs	Electric Bill	Checking	9/8/2023	120.00	2919.69
 Ra Yoga	Wants	Subscriptions	Chase CC	9/11/2023	129.00	2919.69
 Triunfo Jiu Jitsu	Wants	Subscriptions	Chase CC	9/12/2023	125.00	2919.69

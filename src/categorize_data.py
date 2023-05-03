@@ -242,8 +242,8 @@ def categorize_income(transaction, budget_spending_obj, verbose=False):
     Categorizes the "Income" transactions in the given transaction and parses results into the given
     BudgetSpending instance.
 
-    :param transaction:
-    :param budget_spending_obj:
+    :param transaction: Row from the Budget DataFrame
+    :param budget_spending_obj: BudgetSpending instance
     :param verbose: True to print extra logging; False otherwise
     :return: Nothing, the information is stored in budget_spending_obj.income and
              budget_spending_obj.reimbursements
