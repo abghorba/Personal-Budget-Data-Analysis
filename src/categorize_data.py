@@ -1,6 +1,7 @@
 import os
 import time
 from datetime import datetime, timedelta
+from decimal import Decimal
 
 import pandas as pd
 
@@ -61,11 +62,9 @@ def load_data_to_dataframe(verbose=False):
 
     print("Creating pandas DataFrame with cleaned data")
 
-    df = pd.read_table(CLEANED_TSV_FILEPATH, sep="\t")
+    df = pd.read_table(CLEANED_TSV_FILEPATH, sep="\t", dtype=str)
 
     df["Date"] = pd.to_datetime(df["Date"], format="%m/%d/%Y")
-    df["Gains/Expenses"] = abs(pd.to_numeric(df["Gains/Expenses"]))
-    df["Checking Balance"] = pd.to_numeric(df["Checking Balance"])
 
     if verbose:
         print(df)
@@ -96,7 +95,7 @@ def categorize_needs_spending(transaction, budget_spending_obj, verbose=False):
     category = transaction["Category"]
     subcategory = transaction["Subcategory"]
     description = transaction["Description"]
-    amount = transaction["Gains/Expenses"]
+    amount = Decimal(transaction["Gains/Expenses"])
 
     if verbose:
         print(f"Categorizing {description} transaction on {transaction['Date']}")
@@ -168,7 +167,7 @@ def categorize_wants_spending(transaction, budget_spending_obj, verbose=False):
     category = transaction["Category"]
     subcategory = transaction["Subcategory"]
     description = transaction["Description"]
-    amount = transaction["Gains/Expenses"]
+    amount = Decimal(transaction["Gains/Expenses"])
 
     if verbose:
         print(f"Categorizing {description} transaction on {transaction['Date']}")
@@ -213,7 +212,7 @@ def categorize_savings_spending(transaction, budget_spending_obj, verbose=False)
     category = transaction["Category"]
     subcategory = transaction["Subcategory"]
     description = transaction["Description"]
-    amount = transaction["Gains/Expenses"]
+    amount = Decimal(transaction["Gains/Expenses"])
 
     if verbose:
         print(f"Categorizing {description} transaction on {transaction['Date']}")
@@ -262,7 +261,7 @@ def categorize_income(transaction, budget_spending_obj, verbose=False):
     category = transaction["Category"]
     subcategory = transaction["Subcategory"]
     description = transaction["Description"]
-    amount = transaction["Gains/Expenses"]
+    amount = Decimal(transaction["Gains/Expenses"])
 
     if verbose:
         print(f"Categorizing {description} transaction on {transaction['Date']}")

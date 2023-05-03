@@ -1,3 +1,6 @@
+from decimal import Decimal
+
+
 class Category:
     @property
     def subcategories(self):
@@ -5,7 +8,7 @@ class Category:
 
     @property
     def total_value(self):
-        total_value = 0
+        total_value = Decimal("0.00")
 
         for key, value in self.subcategories.items():
             total_value += value
@@ -17,64 +20,64 @@ class Category:
 
         for key, value in sorted(self.subcategories.items()):
             key = key.replace("_", " ").title()
-            attribute_string = f"\t{key} = ${value:,.2f}"
+            attribute_string = f"\t{key} = ${value:,}"
             attributes_list.append(attribute_string)
 
-        attributes_list.append(f"\tTOTAL = ${self.total_value:,.2f}")
+        attributes_list.append(f"\tTOTAL = ${self.total_value:,}")
 
         return "\n".join(attributes_list)
 
 
 class Needs(Category):
     def __init__(self):
-        self.car_insurance = 0
-        self.dental_insurance = 0
-        self.electric_bill = 0
-        self.emergencies = 0
-        self.gasoline = 0
-        self.groceries = 0
-        self.health_insurance = 0
-        self.internet_bill = 0
-        self.laundry = 0
-        self.misc = 0
-        self.mortgage = 0
-        self.other_insurance = 0
-        self.rent = 0
-        self.renters_insurance = 0
-        self.student_loans = 0
-        self.taxes = 0
-        self.vision_insurance = 0
+        self.car_insurance = Decimal("0.00")
+        self.dental_insurance = Decimal("0.00")
+        self.electric_bill = Decimal("0.00")
+        self.emergencies = Decimal("0.00")
+        self.gasoline = Decimal("0.00")
+        self.groceries = Decimal("0.00")
+        self.health_insurance = Decimal("0.00")
+        self.internet_bill = Decimal("0.00")
+        self.laundry = Decimal("0.00")
+        self.misc = Decimal("0.00")
+        self.mortgage = Decimal("0.00")
+        self.other_insurance = Decimal("0.00")
+        self.rent = Decimal("0.00")
+        self.renters_insurance = Decimal("0.00")
+        self.student_loans = Decimal("0.00")
+        self.taxes = Decimal("0.00")
+        self.vision_insurance = Decimal("0.00")
 
 
 class Wants(Category):
     def __init__(self):
-        self.free_spending = 0
-        self.misc = 0
-        self.subscriptions = 0
-        self.vacation_spending = 0
+        self.free_spending = Decimal("0.00")
+        self.misc = Decimal("0.00")
+        self.subscriptions = Decimal("0.00")
+        self.vacation_spending = Decimal("0.00")
 
 
 class Savings(Category):
     def __init__(self):
-        self.crypto = 0
-        self.emergency_fund = 0
-        self.investing = 0
-        self.misc = 0
-        self.retirement = 0
+        self.crypto = Decimal("0.00")
+        self.emergency_fund = Decimal("0.00")
+        self.investing = Decimal("0.00")
+        self.misc = Decimal("0.00")
+        self.retirement = Decimal("0.00")
 
 
 class Income(Category):
     def __init__(self):
-        self.earnings = 0
-        self.tax_returns = 0
+        self.earnings = Decimal("0.00")
+        self.tax_returns = Decimal("0.00")
 
 
 class Reimbursements(Category):
     def __init__(self):
-        self.bills = 0
-        self.credit_card_rewards = 0
-        self.free_spending = 0
-        self.rent = 0
+        self.bills = Decimal("0.00")
+        self.credit_card_rewards = Decimal("0.00")
+        self.free_spending = Decimal("0.00")
+        self.rent = Decimal("0.00")
 
 
 class BudgetSpending:
@@ -130,12 +133,12 @@ class BudgetSpending:
         budget_spending_string.append(str(self.reimbursements))
 
         budget_spending_string.append("-" * 40)
-        budget_spending_string.append(f"TOTAL SPENDING = ${self.total_spending:,.2f}")
+        budget_spending_string.append(f"TOTAL SPENDING = ${self.total_spending:,}")
 
         if self.deficit_or_surplus < 0:
-            budget_spending_string.append(f"DEFICIT = ${abs(self.deficit_or_surplus):,.2f}")
+            budget_spending_string.append(f"DEFICIT = ${abs(self.deficit_or_surplus):,}")
         else:
-            budget_spending_string.append(f"SURPLUS = ${self.deficit_or_surplus:,.2f}")
+            budget_spending_string.append(f"SURPLUS = ${self.deficit_or_surplus:,}")
 
         budget_spending_string.append("*" * 40)
 

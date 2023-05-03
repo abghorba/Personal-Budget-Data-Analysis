@@ -1,3 +1,6 @@
+from decimal import Decimal
+
+
 class SpendingAnalyzer:
     def __init__(self, budget_dict):
         self.budget_dict = budget_dict
@@ -25,11 +28,11 @@ class SpendingAnalyzer:
 
         # Initialize the dictionary
         averages = {"lifetime": {}}
-        lifetime_data_points = 0
+        lifetime_data_points = Decimal("0.00")
 
         for year in self.budget_dict:
             averages.update({year: {}})
-            yearly_data_points = 0
+            yearly_data_points = Decimal("0.00")
 
             for month in self.budget_dict[year]:
                 lifetime_data_points += 1
@@ -45,20 +48,20 @@ class SpendingAnalyzer:
 
                     for subcategory_name, value in budget_spending.categories[category_name].subcategories.items():
                         if subcategory_name not in averages["lifetime"][category_name]:
-                            averages["lifetime"][category_name].update({subcategory_name: 0.0})
+                            averages["lifetime"][category_name].update({subcategory_name: 0})
 
                         if subcategory_name not in averages[year][category_name]:
-                            averages[year][category_name].update({subcategory_name: 0.0})
+                            averages[year][category_name].update({subcategory_name: 0})
 
-                        averages["lifetime"][category_name][subcategory_name] += value
-                        averages[year][category_name][subcategory_name] += value
+                        averages["lifetime"][category_name][subcategory_name] += Decimal(value)
+                        averages[year][category_name][subcategory_name] += Decimal(value)
 
             for category_name in averages[year].keys():
-                for subcategory_name in averages[year][category_name].keys():
-                    averages[year][category_name][subcategory_name] /= yearly_data_points
+                for subcategory_name, value in averages[year][category_name].items():
+                    averages[year][category_name][subcategory_name] = round(value / yearly_data_points, 2)
 
         for category_name in averages["lifetime"].keys():
-            for subcategory_name in averages["lifetime"][category_name].keys():
-                averages["lifetime"][category_name][subcategory_name] /= lifetime_data_points
+            for subcategory_name, value in averages["lifetime"][category_name].items():
+                averages["lifetime"][category_name][subcategory_name] = round(value / lifetime_data_points, 2)
 
         return averages

@@ -33,19 +33,13 @@ def clean_tsv_file():
 
                 # These are monetary values and need extra cleaning
                 if item_index in [5, 6] and line_index >= 1:
-                    multiplier = ""
-                    item = item.replace("$", "").replace(",", "").strip()
-
-                    # The monetary value is negative in this case
-                    if "(" in item and ")" in item:
-                        multiplier = "-"
-                        item = item.replace("(", "").replace(")", "")
-
                     # Placeholder value, just convert to 0
-                    elif "-" in item:
+                    if "-" in item:
                         item = "0"
 
-                    item = multiplier + item
+                    # Not a placeholder value, so remove unnecessary characters
+                    else:
+                        item = item.replace("$", "").replace(",", "").replace("(", "").replace(")", "").strip()
 
                 cleaned_line.append(item)
 
@@ -53,6 +47,7 @@ def clean_tsv_file():
             cleaned_tsv_lines.append("\t".join(cleaned_line))
 
         assert len(cleaned_tsv_lines) == len(spending_file)
+        cleaned_tsv_lines.pop()
 
     return cleaned_tsv_lines
 
