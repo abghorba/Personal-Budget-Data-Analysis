@@ -6,7 +6,7 @@ from decimal import Decimal
 import pandas as pd
 
 from src.budget_items import BudgetSpending
-from src.clean_tsv_data import CLEANED_TSV_FILEPATH, clean_data
+from src.clean_tsv_data import CLEANED_TSV_FILEPATH, RAW_TSV_FILEPATH, clean_data
 
 SPENDING_DATA_TXT_FILEPATH = os.getcwd() + "/data/spending_data.txt"
 YEARS = ["2021", "2022", "2023"]
@@ -85,10 +85,11 @@ def get_date_ranges(years=None, months=None):
     return date_ranges
 
 
-def load_data_to_dataframe(verbose=False):
+def load_data_to_dataframe(raw_filepath=RAW_TSV_FILEPATH, verbose=False):
     """
     Cleans the data from spending.tsv and loads into a DataFrame object.
 
+    :param raw_filepath: Filepath to the raw spending.tsv file
     :param verbose: True to print out the DataFrame; False otherwise.
     :return: DataFrame object containing the data from cleaned_spending.tsv.
     """
@@ -96,7 +97,7 @@ def load_data_to_dataframe(verbose=False):
     if not isinstance(verbose, bool):
         raise TypeError("verbose is not a bool type")
 
-    if clean_data():
+    if clean_data(raw_filepath):
         raise RuntimeError("Something went wrong when trying to clean the data!")
 
     print("Creating pandas DataFrame with cleaned data")
