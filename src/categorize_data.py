@@ -441,22 +441,16 @@ def compile_transactions_into_dictionary(
                 args = (budget_df, date_ranges, year, month, False)
                 tasks.append((func, args))
 
-    if use_threading:
-        with concurrent.futures.ThreadPoolExecutor() as executor:
-            worker_threads = [executor.submit(func, *args) for (func, args) in tasks]
+    if use_threading or use_multiprocessing:
+        executor_callable = (
+            concurrent.futures.ThreadPoolExecutor if use_threading else concurrent.futures.ProcessPoolExecutor
+        )
 
-            for worker_thread in concurrent.futures.as_completed(worker_threads):
-                budget_spending, year, month = worker_thread.result()
+        with executor_callable() as executor:
+            workers = [executor.submit(func, *args) for (func, args) in tasks]
 
-                if budget_spending is not None:
-                    budget_dict[year][month] = budget_spending
-
-    elif use_multiprocessing:
-        with concurrent.futures.ProcessPoolExecutor() as executor:
-            worker_processes = [executor.submit(func, *args) for (func, args) in tasks]
-
-            for worker_process in concurrent.futures.as_completed(worker_processes):
-                budget_spending, year, month = worker_process.result()
+            for worker in concurrent.futures.as_completed(workers):
+                budget_spending, year, month = worker.result()
 
                 if budget_spending is not None:
                     budget_dict[year][month] = budget_spending
