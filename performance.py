@@ -114,9 +114,9 @@ def time_save_spending_data_as_text_file(budget_dict, run_times_list, iteration_
     run_times_list[iteration_number] = time() - start
 
 
-def time_get_averages(budget_dict, run_times_list, iteration_number=0):
+def time_get_analysis(budget_dict, run_times_list, iteration_number=0):
     """
-    Gathers and stores run time for SpendingAnalyzer.get_averages() in run_times_list[iteration_number].
+    Gathers and stores run time for SpendingAnalyzer.get_analysis() in run_times_list[iteration_number].
 
     :param budget_dict: Dictionary containing all budget spending
     :param run_times_list: List to hold each run time
@@ -125,9 +125,9 @@ def time_get_averages(budget_dict, run_times_list, iteration_number=0):
     """
 
     analyzer = SpendingAnalyzer(budget_dict)
-    analyzer.averages = {}
+    analyzer.analysis = {}
     start = time()
-    analyzer.get_averages()
+    analyzer.get_analysis()
     run_times_list[iteration_number] = time() - start
 
 
@@ -166,7 +166,7 @@ def test_performance():
             time_compile_transactions_into_dictionary_with_multithreading,
             time_compile_transactions_into_dictionary_with_multiprocessing,
             time_save_spending_data_as_text_file,
-            time_get_averages,
+            time_get_analysis,
         ]:
             run_times_list = [0 for _ in range(ITERATIONS)]
 
@@ -184,7 +184,7 @@ def test_performance():
                 ]:
                     args = (budget_df, run_times_list, iteration)
 
-                elif target in [time_save_spending_data_as_text_file, time_get_averages]:
+                elif target in [time_save_spending_data_as_text_file, time_get_analysis]:
                     args = (budget_dict, run_times_list, iteration)
 
                 else:
