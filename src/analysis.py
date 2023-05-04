@@ -32,7 +32,7 @@ def calculate_regression_coefficients(data):
     return slope, y_intercept
 
 
-def calculate_regression_value(x_coordinate, slope, y_intercept):
+def calculate_predicted_value(x_coordinate, slope, y_intercept):
     """
     Given a slope and y_intercept, calculate the value of the y_coordinate with equation:
 
@@ -50,6 +50,7 @@ def calculate_regression_value(x_coordinate, slope, y_intercept):
 class SpendingAnalyzer:
     def __init__(self, budget_dict):
         self.budget_dict = budget_dict
+        self.months_and_years_analyzed = []
         self._data_points = self._gather_all_data_points()
         self.analysis = self.get_analysis()
 
@@ -79,6 +80,8 @@ class SpendingAnalyzer:
 
             for month in sorted(self.budget_dict[year], key=MONTHS.index):
                 budget_spending = self.budget_dict[year][month]
+
+                self.months_and_years_analyzed.append((year, month))
 
                 for category_name in budget_spending.categories.keys():
                     if category_name not in data_points["lifetime"]:
@@ -123,7 +126,6 @@ class SpendingAnalyzer:
                         "variance": Decimal,
                         "standard_deviation: Decimal,
                         "linear_regression_coefficients": (Decimal, Decimal)
-
                     }
                 }
             }

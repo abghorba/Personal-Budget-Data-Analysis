@@ -376,7 +376,8 @@ def categorize_transactions(budget_df, date_ranges, year="2023", month="April", 
         elif category == "Income":
             categorize_income_transaction(transaction, budget_spending, verbose=verbose)
 
-    return budget_spending
+    # There is no data if the BudgetSpending object has all zero values for each subcategory
+    return budget_spending if not budget_spending.all_zeroes else None
 
 
 def categorize_transactions_worker(budget_df, date_ranges, year="2023", month="April", verbose=False):

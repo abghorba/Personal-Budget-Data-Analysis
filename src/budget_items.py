@@ -15,6 +15,14 @@ class Category:
 
         return total_value
 
+    @property
+    def all_zeroes(self):
+        """Returns True if and only if all attributes are 0."""
+        for value in self.subcategories.values():
+            if value != 0:
+                return False
+        return True
+
     def __str__(self):
         attributes_list = []
 
@@ -106,6 +114,14 @@ class BudgetSpending:
     @property
     def deficit_or_surplus(self):
         return self.total_income - self.total_spending
+
+    @property
+    def all_zeroes(self):
+        """Returns True if and only if each Category's attributes are all zeroes."""
+        for category in self.categories.values():
+            if not category.all_zeroes:
+                return False
+        return True
 
     def __str__(self):
         budget_spending_string = []
