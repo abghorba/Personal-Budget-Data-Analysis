@@ -1,5 +1,5 @@
+import concurrent.futures
 import os
-import time
 from datetime import datetime, timedelta
 from decimal import Decimal
 
@@ -46,6 +46,45 @@ def get_first_day_of_next_month(input_dt):
     return first_of_next_month
 
 
+def get_date_ranges(years=None, months=None):
+    """
+    For each month and year, get the start and ending date ranges in format MM/DD/YYYY.
+
+    :param years: List of strings containing the year. Ex. ["2021", "2022"]
+    :param months: List of strings containing month names. Ex. ["January", "April", "May"]
+    :return: Dictionary range_dict[date_string] = (start_date_range, end_date_range)
+    """
+
+    if months is None:
+        months = MONTHS
+
+    if years is None:
+        years = YEARS
+
+    date_ranges = {}
+
+    for year in years:
+        for month in months:
+            today = datetime.now()
+
+            date_string = f"{month} {year}"
+            range_start = datetime.strptime(date_string, "%B %Y")
+
+            # Skip any future time frames
+            if range_start.month >= today.month and range_start.year >= today.year:
+                continue
+
+            range_end = get_first_day_of_next_month(range_start)
+
+            # Format the dates
+            date_range_start = range_start.strftime("%m/%d/%Y")
+            date_range_end = range_end.strftime("%m/%d/%Y")
+
+            date_ranges[date_string] = (date_range_start, date_range_end)
+
+    return date_ranges
+
+
 def load_data_to_dataframe(verbose=False):
     """
     Cleans the data from spending.tsv and loads into a DataFrame object.
@@ -72,7 +111,7 @@ def load_data_to_dataframe(verbose=False):
     return df
 
 
-def categorize_needs_spending(transaction, budget_spending_obj, verbose=False):
+def categorize_needs_transaction(transaction, budget_spending_obj, verbose=False):
     """
     Categorizes the "Needs" transactions in the given spending DataFrame and records results in the given
     BudgetSpending instance.
@@ -144,7 +183,7 @@ def categorize_needs_spending(transaction, budget_spending_obj, verbose=False):
         budget_spending_obj.needs.misc += amount
 
 
-def categorize_wants_spending(transaction, budget_spending_obj, verbose=False):
+def categorize_wants_transaction(transaction, budget_spending_obj, verbose=False):
     """
     Categorizes the "Wants" transactions in the given spending DataFrame and records results in the given
     BudgetSpending instance.
@@ -189,7 +228,7 @@ def categorize_wants_spending(transaction, budget_spending_obj, verbose=False):
         budget_spending_obj.wants.misc += amount
 
 
-def categorize_savings_spending(transaction, budget_spending_obj, verbose=False):
+def categorize_savings_transaction(transaction, budget_spending_obj, verbose=False):
     """
     Categorizes the "Savings" transactions in the given spending DataFrame and records results in the given
     BudgetSpending instance.
@@ -237,7 +276,7 @@ def categorize_savings_spending(transaction, budget_spending_obj, verbose=False)
         budget_spending_obj.savings.misc += amount
 
 
-def categorize_income(transaction, budget_spending_obj, verbose=False):
+def categorize_income_transaction(transaction, budget_spending_obj, verbose=False):
     """
     Categorizes the "Income" transactions in the given transaction and parses results into the given
     BudgetSpending instance.
@@ -292,21 +331,28 @@ def categorize_income(transaction, budget_spending_obj, verbose=False):
         print(f"No known {subcategory} Income subcategory.")
 
 
-def categorize_data(budget_df, name="", date_range_start="1/1/2022", date_range_end="1/1/2023", verbose=False):
+def categorize_transactions(budget_df, date_ranges, year="2023", month="April", verbose=False):
     """
-    Categorizes spending/income data into their respective Category classes in a BudgetSpending instance.
+    Categorizes each transaction in budget_df into their respective Category classes in a BudgetSpending instance.
 
     :param budget_df: DataFrame object containing the data from cleaned_spending.tsv
-    :param name: Name of the BudgetSpending instance
-    :param date_range_start: Start date (inclusive) to filter by
-    :param date_range_end: End date (exclusive) to filter by
+    :param date_ranges: Dictionary containing date ranges formatted as
+                        date_ranges[date_string] --> (date_range_start, date_range_end)
+    :param year: String representing year in format YYYY
+    :param month: String containing name of the month
     :param verbose: True to print extra logging; False otherwise
-    :return: BudgetSpending instance
+    :return: BudgetSpending instance or None
     """
 
-    print(f"Categorizing each transaction for {name}")
+    date_string = f"{month} {year}"
 
-    budget_spending = BudgetSpending(name)
+    if date_string not in date_ranges:
+        return
+
+    print(f"Categorizing each transaction for {date_string}")
+
+    budget_spending = BudgetSpending(date_string)
+    date_range_start, date_range_end = date_ranges[date_string]
 
     # Restrict the DataFrame to the specified date range
     budget_df = budget_df[(budget_df["Date"] >= date_range_start) & (budget_df["Date"] < date_range_end)]
@@ -318,26 +364,50 @@ def categorize_data(budget_df, name="", date_range_start="1/1/2022", date_range_
         category = transaction["Category"]
 
         if category == "Needs":
-            categorize_needs_spending(transaction, budget_spending, verbose=verbose)
+            categorize_needs_transaction(transaction, budget_spending, verbose=verbose)
 
         elif category == "Wants":
-            categorize_wants_spending(transaction, budget_spending, verbose=verbose)
+            categorize_wants_transaction(transaction, budget_spending, verbose=verbose)
 
         elif category == "Savings":
-            categorize_savings_spending(transaction, budget_spending, verbose=verbose)
+            categorize_savings_transaction(transaction, budget_spending, verbose=verbose)
 
         elif category == "Income":
-            categorize_income(transaction, budget_spending, verbose=verbose)
+            categorize_income_transaction(transaction, budget_spending, verbose=verbose)
 
     return budget_spending
 
 
-def compile_all_spending(years=None, months=None):
+def categorize_transactions_worker(budget_df, date_ranges, year="2023", month="April", verbose=False):
     """
-    Compiles all the spending and loads the information into a dictionary.
+    Wrapper function to use in a multiprocessing.Process() class for categorize_transactions().
 
+    :param result_queue: multiprocessing.queues.Queue to hold the result in
+    :param budget_df: DataFrame object containing the data from cleaned_spending.tsv
+    :param date_ranges: Dictionary containing date ranges formatted as
+                        date_ranges[date_string] --> (date_range_start, date_range_end)
+    :param year: String representing year in format YYYY
+    :param month: String containing name of the month
+    :param verbose: True to print extra logging; False otherwise
+    :return: None, tuple of (BudgetSpending, year, month) put into result_queue
+    """
+
+    budget_spending = categorize_transactions(budget_df, date_ranges, year, month, verbose)
+
+    return budget_spending, year, month
+
+
+def compile_transactions_into_dictionary(
+    budget_df, years=None, months=None, use_threading=False, use_multiprocessing=False
+):
+    """
+    Categorizes all the transactions in budget_df, and loads the information into a dictionary.
+
+    :param budget_df: DataFrame object containing the data from cleaned_spending.tsv
     :param years: List of strings containing the year. Ex. ["2021", "2022"]
     :param months: List of strings containing month names. Ex. ["January", "April", "May"]
+    :param use_threading: True to use threading; False otherwise
+    :param use_multiprocessing: True to use multiprocessing; False otherwise
     :return: Dictionary containing BudgetSpending instances formatted as
              dict[year][month] --> BudgetSpending
     """
@@ -348,29 +418,40 @@ def compile_all_spending(years=None, months=None):
     if years is None:
         years = YEARS
 
-    budget_df = load_data_to_dataframe(verbose=False)
     budget_dict = {}
+    date_ranges = get_date_ranges(years, months)
+    tasks = []
 
     # For each month and year, categorize the spending as dict[year][month] --> BudgetSpending object
     for year in years:
         budget_dict[year] = {}
 
         for month in months:
-            today = datetime.now()
-            date_string = f"{month} {year}"
-            range_start = datetime.strptime(date_string, "%B %Y")
+            if not use_threading and not use_multiprocessing:
+                print("We are serializing!")
+                budget_spending = categorize_transactions(budget_df, date_ranges, year, month, False)
 
-            # Skip any future time frames
-            if range_start.month >= today.month and range_start.year >= today.year:
-                continue
+                if budget_spending is not None:
+                    budget_dict[year][month] = budget_spending
 
-            range_end = get_first_day_of_next_month(range_start)
+            else:
+                func = categorize_transactions_worker
+                args = (budget_df, date_ranges, year, month, False)
+                tasks.append((func, args))
 
-            # Format the dates
-            date_range_start = range_start.strftime("%m/%d/%Y")
-            date_range_end = range_end.strftime("%m/%d/%Y")
+    if use_threading or use_multiprocessing:
+        executor_callable = (
+            concurrent.futures.ThreadPoolExecutor if use_threading else concurrent.futures.ProcessPoolExecutor
+        )
 
-            budget_dict[year][month] = categorize_data(budget_df, date_string, date_range_start, date_range_end)
+        with executor_callable() as executor:
+            workers = [executor.submit(func, *args) for (func, args) in tasks]
+
+            for worker in concurrent.futures.as_completed(workers):
+                budget_spending, year, month = worker.result()
+
+                if budget_spending is not None:
+                    budget_dict[year][month] = budget_spending
 
     print("Each transaction has been categorized for all specified months and years")
 
@@ -388,9 +469,32 @@ def save_spending_data_as_text_file(budget_dict):
     print(f"Saving categorized data into .txt file at {SPENDING_DATA_TXT_FILEPATH}")
 
     with open(SPENDING_DATA_TXT_FILEPATH, "w") as file:
-        for year in budget_dict:
-            for month in budget_dict[year]:
+        for year in sorted(budget_dict, key=YEARS.index):
+            for month in sorted(budget_dict[year], key=MONTHS.index):
                 file.write(str(budget_dict[year][month]) + "\n")
 
-    # Wait a couple seconds for the file to be written
-    time.sleep(3)
+
+def perform_data_compilation(years=None, months=None, use_threading=False, use_multiprocessing=False):
+    """
+    Driver function to load data/cleaned_spending.tsv into a DataFrame, compile all the transactions into a dictionary,
+    and save the data into a text file.
+
+    :param years: List of strings containing the year. Ex. ["2021", "2022"]
+    :param months: List of strings containing month names. Ex. ["January", "April", "May"]
+    :param use_threading: True to use threading; False otherwise
+    :param use_multiprocessing: True to use multiprocessing; False otherwise
+    :return: Dictionary containing BudgetSpending instances formatted as
+             dict[year][month] --> BudgetSpending
+    """
+
+    if months is None:
+        months = MONTHS
+
+    if years is None:
+        years = YEARS
+
+    budget_df = load_data_to_dataframe(verbose=False)
+    budget_dict = compile_transactions_into_dictionary(budget_df, years, months, use_threading, use_multiprocessing)
+    save_spending_data_as_text_file(budget_dict)
+
+    return budget_dict

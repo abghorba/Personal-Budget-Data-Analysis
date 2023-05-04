@@ -1,10 +1,9 @@
 from src.analysis import SpendingAnalyzer
-from src.categorize_data import compile_all_spending, save_spending_data_as_text_file
+from src.categorize_data import perform_data_compilation
 
 
 def main():
-    budget_dict = compile_all_spending()
-    save_spending_data_as_text_file(budget_dict)
+    budget_dict = perform_data_compilation()
 
     # At this point, we can do whatever data analysis we'd like
     analyzer = SpendingAnalyzer(budget_dict)

@@ -1,5 +1,4 @@
 import os
-import time
 
 RAW_TSV_FILEPATH = os.getcwd() + "/data/spending.tsv"
 CLEANED_TSV_FILEPATH = os.getcwd() + "/data/cleaned_spending.tsv"
@@ -66,9 +65,6 @@ def export_cleaned_data_to_tsv(cleaned_tsv_lines_list):
     with open(CLEANED_TSV_FILEPATH, "w") as file:
         for line in cleaned_tsv_lines_list:
             file.write(line + "\n")
-
-    # Wait a couple seconds for the file to be written
-    time.sleep(3)
 
 
 def clean_data():
