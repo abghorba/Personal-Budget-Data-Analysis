@@ -59,7 +59,7 @@ def time_compile_transactions_into_dictionary_no_threading(budget_df, run_times_
     run_times_list[iteration_number] = time() - start
 
 
-def time_compile_transactions_into_dictionary_with_threading(budget_df, run_times_list, iteration_number=0):
+def time_compile_transactions_into_dictionary_with_multithreading(budget_df, run_times_list, iteration_number=0):
     """
     Gathers and stores run time for compile_transactions_into_dictionary(use_threading=True) in
     run_times_list[iteration_number].
@@ -72,6 +72,22 @@ def time_compile_transactions_into_dictionary_with_threading(budget_df, run_time
 
     start = time()
     compile_transactions_into_dictionary(budget_df, use_threading=True)
+    run_times_list[iteration_number] = time() - start
+
+
+def time_compile_transactions_into_dictionary_with_multiprocessing(budget_df, run_times_list, iteration_number=0):
+    """
+    Gathers and stores run time for compile_transactions_into_dictionary(use_threading=True) in
+    run_times_list[iteration_number].
+
+    :param budget_df: DataFrame object containing the data from cleaned_spending.tsv
+    :param run_times_list: List to hold each run time
+    :param iteration_number: Index in which to store run time in run_times_list
+    :return: None; information stored in run_times_list
+    """
+
+    start = time()
+    compile_transactions_into_dictionary(budget_df, use_multiprocessing=True)
     run_times_list[iteration_number] = time() - start
 
 
@@ -121,7 +137,7 @@ def main():
     log.basicConfig(filename=logfile, format=log_format, level=log.INFO)
     log.getLogger().addHandler(log.StreamHandler())
 
-    iterations = 1000
+    iterations = 100
     cleaned_tsv_lines_list = clean_tsv_file()
     budget_df = load_data_to_dataframe()
     budget_dict = compile_transactions_into_dictionary(budget_df)
@@ -132,7 +148,8 @@ def main():
         time_clean_tsv_file,
         time_export_cleaned_data_to_tsv,
         time_compile_transactions_into_dictionary_no_threading,
-        time_compile_transactions_into_dictionary_with_threading,
+        time_compile_transactions_into_dictionary_with_multithreading,
+        time_compile_transactions_into_dictionary_with_multiprocessing,
         time_save_spending_data_as_text_file,
         time_get_averages,
     ]:
@@ -144,7 +161,8 @@ def main():
 
             elif target in [
                 time_compile_transactions_into_dictionary_no_threading,
-                time_compile_transactions_into_dictionary_with_threading,
+                time_compile_transactions_into_dictionary_with_multithreading,
+                time_compile_transactions_into_dictionary_with_multiprocessing,
             ]:
                 args = (budget_df, run_times_list, iteration)
 

@@ -1,8 +1,9 @@
+import concurrent.futures
+import multiprocessing
 import os
-import time
+import threading
 from datetime import datetime, timedelta
 from decimal import Decimal
-from threading import Thread
 
 import pandas as pd
 
@@ -379,35 +380,36 @@ def categorize_transactions(budget_df, date_ranges, year="2023", month="April", 
     return budget_spending
 
 
-def threaded_categorize_transactions(budget_df, budget_dict, date_ranges, year="2023", month="April", verbose=False):
+def categorize_transactions_worker(budget_df, date_ranges, year="2023", month="April", verbose=False):
     """
-    Wrapper function to use in a threading.Thread() class for categorize_transactions().
+    Wrapper function to use in a multiprocessing.Process() class for categorize_transactions().
 
+    :param result_queue: multiprocessing.queues.Queue to hold the result in
     :param budget_df: DataFrame object containing the data from cleaned_spending.tsv
-    :param budget_dict: Dictionary containing BudgetSpending instances formatted as
-                        budget_dict[year][month] --> BudgetSpending
     :param date_ranges: Dictionary containing date ranges formatted as
                         date_ranges[date_string] --> (date_range_start, date_range_end)
     :param year: String representing year in format YYYY
     :param month: String containing name of the month
     :param verbose: True to print extra logging; False otherwise
-    :return: None, data stored in budget_dict
+    :return: None, tuple of (BudgetSpending, year, month) put into result_queue
     """
 
     budget_spending = categorize_transactions(budget_df, date_ranges, year, month, verbose)
 
-    if budget_spending is not None:
-        budget_dict[year][month] = budget_spending
+    return budget_spending, year, month
 
 
-def compile_transactions_into_dictionary(budget_df, years=None, months=None, use_threading=False):
+def compile_transactions_into_dictionary(
+    budget_df, years=None, months=None, use_threading=False, use_multiprocessing=False
+):
     """
     Categorizes all the transactions in budget_df, and loads the information into a dictionary.
 
     :param budget_df: DataFrame object containing the data from cleaned_spending.tsv
     :param years: List of strings containing the year. Ex. ["2021", "2022"]
     :param months: List of strings containing month names. Ex. ["January", "April", "May"]
-    :param use_threading: True to use threading; False otherwise. If True, may speed up performance.
+    :param use_threading: True to use threading; False otherwise
+    :param use_multiprocessing: True to use multiprocessing; False otherwise
     :return: Dictionary containing BudgetSpending instances formatted as
              dict[year][month] --> BudgetSpending
     """
@@ -420,31 +422,44 @@ def compile_transactions_into_dictionary(budget_df, years=None, months=None, use
 
     budget_dict = {}
     date_ranges = get_date_ranges(years, months)
-    threads = []
+    tasks = []
 
     # For each month and year, categorize the spending as dict[year][month] --> BudgetSpending object
     for year in years:
         budget_dict[year] = {}
 
         for month in months:
-            if use_threading:
-                new_thread = Thread(
-                    target=threaded_categorize_transactions,
-                    args=(budget_df, budget_dict, date_ranges, year, month, False),
-                )
-
-                new_thread.daemon = True
-                threads.append(new_thread)
-                new_thread.start()
-
-            else:
+            if not use_threading and not use_multiprocessing:
+                print("We are serializing!")
                 budget_spending = categorize_transactions(budget_df, date_ranges, year, month, False)
 
                 if budget_spending is not None:
                     budget_dict[year][month] = budget_spending
 
-    for thread in threads:
-        thread.join()
+            else:
+                func = categorize_transactions_worker
+                args = (budget_df, date_ranges, year, month, False)
+                tasks.append((func, args))
+
+    if use_threading:
+        with concurrent.futures.ThreadPoolExecutor() as executor:
+            worker_threads = [executor.submit(func, *args) for (func, args) in tasks]
+
+            for worker_thread in concurrent.futures.as_completed(worker_threads):
+                budget_spending, year, month = worker_thread.result()
+
+                if budget_spending is not None:
+                    budget_dict[year][month] = budget_spending
+
+    elif use_multiprocessing:
+        with concurrent.futures.ProcessPoolExecutor() as executor:
+            worker_processes = [executor.submit(func, *args) for (func, args) in tasks]
+
+            for worker_process in concurrent.futures.as_completed(worker_processes):
+                budget_spending, year, month = worker_process.result()
+
+                if budget_spending is not None:
+                    budget_dict[year][month] = budget_spending
 
     print("Each transaction has been categorized for all specified months and years")
 
@@ -467,14 +482,15 @@ def save_spending_data_as_text_file(budget_dict):
                 file.write(str(budget_dict[year][month]) + "\n")
 
 
-def perform_data_compilation(years=None, months=None, use_threading=False):
+def perform_data_compilation(years=None, months=None, use_threading=False, use_multiprocessing=False):
     """
     Driver function to load data/cleaned_spending.tsv into a DataFrame, compile all the transactions into a dictionary,
     and save the data into a text file.
 
     :param years: List of strings containing the year. Ex. ["2021", "2022"]
     :param months: List of strings containing month names. Ex. ["January", "April", "May"]
-    :param use_threading: True to use threading; False otherwise. If True, may speed up performance.
+    :param use_threading: True to use threading; False otherwise
+    :param use_multiprocessing: True to use multiprocessing; False otherwise
     :return: Dictionary containing BudgetSpending instances formatted as
              dict[year][month] --> BudgetSpending
     """
@@ -486,7 +502,7 @@ def perform_data_compilation(years=None, months=None, use_threading=False):
         years = YEARS
 
     budget_df = load_data_to_dataframe(verbose=False)
-    budget_dict = compile_transactions_into_dictionary(budget_df, years, months, use_threading)
+    budget_dict = compile_transactions_into_dictionary(budget_df, years, months, use_threading, use_multiprocessing)
     save_spending_data_as_text_file(budget_dict)
 
     return budget_dict
