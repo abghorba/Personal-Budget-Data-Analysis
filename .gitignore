@@ -192,3 +192,9 @@ cython_debug/
 
 # Ignore logs
 logs/*
+
+# Ignore generated datasets
+data/small-spending.tsv
+data/medium-spending.tsv
+data/large-spending.tsv
+data/xlarge-spending.tsv

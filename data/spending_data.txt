@@ -105,660 +105,660 @@ SURPLUS = $0.00
 March 2021
 ****************************************
 Income:
-	Earnings = $4,495.86
+	Earnings = $561,982.50
 	Tax Returns = $0.00
-	TOTAL = $4,495.86
+	TOTAL = $561,982.50
 ----------------------------------------
 Needs:
-	Car Insurance = $139.00
+	Car Insurance = $17,375.00
 	Dental Insurance = $0.00
-	Electric Bill = $98.14
+	Electric Bill = $12,267.50
 	Emergencies = $0.00
-	Gasoline = $158.70
-	Groceries = $316.74
+	Gasoline = $19,837.50
+	Groceries = $39,592.50
 	Health Insurance = $0.00
-	Internet Bill = $73.99
-	Laundry = $10.00
+	Internet Bill = $9,248.75
+	Laundry = $1,250.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,033.43
+	Rent = $129,178.75
 	Renters Insurance = $0.00
-	Student Loans = $608.05
+	Student Loans = $76,006.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $2,438.05
+	TOTAL = $304,756.25
 ----------------------------------------
 Wants:
-	Free Spending = $1,220.00
+	Free Spending = $152,500.00
 	Misc = $0.00
-	Subscriptions = $194.69
+	Subscriptions = $24,336.25
 	Vacation Spending = $0.00
-	TOTAL = $1,414.69
+	TOTAL = $176,836.25
 ----------------------------------------
 Savings:
-	Crypto = $180.00
-	Emergency Fund = $700.00
-	Investing = $200.00
+	Crypto = $22,500.00
+	Emergency Fund = $87,500.00
+	Investing = $25,000.00
 	Misc = $0.00
-	Retirement = $800.00
-	TOTAL = $1,880.00
+	Retirement = $100,000.00
+	TOTAL = $235,000.00
 ----------------------------------------
 Reimbursements:
-	Bills = $86.07
+	Bills = $10,758.75
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $86.07
+	TOTAL = $10,758.75
 ----------------------------------------
-TOTAL SPENDING = $5,646.67
-DEFICIT = $1,150.81
+TOTAL SPENDING = $705,833.75
+DEFICIT = $143,851.25
 ****************************************
 April 2021
 ****************************************
 Income:
-	Earnings = $5,226.63
+	Earnings = $653,328.75
 	Tax Returns = $0.00
-	TOTAL = $5,226.63
+	TOTAL = $653,328.75
 ----------------------------------------
 Needs:
-	Car Insurance = $139.00
+	Car Insurance = $17,375.00
 	Dental Insurance = $0.00
-	Electric Bill = $49.60
+	Electric Bill = $6,200.00
 	Emergencies = $0.00
-	Gasoline = $126.05
-	Groceries = $126.91
+	Gasoline = $15,756.25
+	Groceries = $15,863.75
 	Health Insurance = $0.00
-	Internet Bill = $73.99
+	Internet Bill = $9,248.75
 	Laundry = $0.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,034.39
+	Rent = $129,298.75
 	Renters Insurance = $0.00
-	Student Loans = $368.05
+	Student Loans = $46,006.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $1,917.99
+	TOTAL = $239,748.75
 ----------------------------------------
 Wants:
-	Free Spending = $620.53
+	Free Spending = $77,566.25
 	Misc = $0.00
-	Subscriptions = $143.97
+	Subscriptions = $17,996.25
 	Vacation Spending = $0.00
-	TOTAL = $764.50
+	TOTAL = $95,562.50
 ----------------------------------------
 Savings:
-	Crypto = $250.00
-	Emergency Fund = $100.00
-	Investing = $472.00
+	Crypto = $31,250.00
+	Emergency Fund = $12,500.00
+	Investing = $59,000.00
 	Misc = $0.00
-	Retirement = $400.00
-	TOTAL = $1,222.00
+	Retirement = $50,000.00
+	TOTAL = $152,750.00
 ----------------------------------------
 Reimbursements:
-	Bills = $61.79
+	Bills = $7,723.75
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $61.79
+	TOTAL = $7,723.75
 ----------------------------------------
-TOTAL SPENDING = $3,842.70
-SURPLUS = $1,383.93
+TOTAL SPENDING = $480,337.50
+SURPLUS = $172,991.25
 ****************************************
 May 2021
 ****************************************
 Income:
-	Earnings = $3,940.99
-	Tax Returns = $319.00
-	TOTAL = $4,259.99
+	Earnings = $492,623.75
+	Tax Returns = $39,875.00
+	TOTAL = $532,498.75
 ----------------------------------------
 Needs:
-	Car Insurance = $139.00
+	Car Insurance = $17,375.00
 	Dental Insurance = $0.00
-	Electric Bill = $29.95
-	Emergencies = $288.61
-	Gasoline = $247.11
-	Groceries = $543.56
+	Electric Bill = $3,743.75
+	Emergencies = $36,076.25
+	Gasoline = $30,888.75
+	Groceries = $67,945.00
 	Health Insurance = $0.00
-	Internet Bill = $73.99
+	Internet Bill = $9,248.75
 	Laundry = $0.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,035.39
-	Renters Insurance = $59.50
-	Student Loans = $453.05
+	Rent = $129,423.75
+	Renters Insurance = $7,437.50
+	Student Loans = $56,631.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $2,870.16
+	TOTAL = $358,770.00
 ----------------------------------------
 Wants:
-	Free Spending = $1,009.09
+	Free Spending = $126,136.25
 	Misc = $0.00
-	Subscriptions = $63.96
+	Subscriptions = $7,995.00
 	Vacation Spending = $0.00
-	TOTAL = $1,073.05
+	TOTAL = $134,131.25
 ----------------------------------------
 Savings:
-	Crypto = $210.00
-	Emergency Fund = $400.00
-	Investing = $480.00
+	Crypto = $26,250.00
+	Emergency Fund = $50,000.00
+	Investing = $60,000.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $1,090.00
+	TOTAL = $136,250.00
 ----------------------------------------
 Reimbursements:
-	Bills = $81.72
-	Credit Card Rewards = $71.33
-	Free Spending = $106.00
+	Bills = $10,215.00
+	Credit Card Rewards = $8,916.25
+	Free Spending = $13,250.00
 	Rent = $0.00
-	TOTAL = $259.05
+	TOTAL = $32,381.25
 ----------------------------------------
-TOTAL SPENDING = $4,774.16
-DEFICIT = $514.17
+TOTAL SPENDING = $596,770.00
+DEFICIT = $64,271.25
 ****************************************
 June 2021
 ****************************************
 Income:
-	Earnings = $3,705.83
+	Earnings = $463,228.75
 	Tax Returns = $0.00
-	TOTAL = $3,705.83
+	TOTAL = $463,228.75
 ----------------------------------------
 Needs:
-	Car Insurance = $139.00
+	Car Insurance = $17,375.00
 	Dental Insurance = $0.00
-	Electric Bill = $51.86
+	Electric Bill = $6,482.50
 	Emergencies = $0.00
-	Gasoline = $134.75
-	Groceries = $377.20
+	Gasoline = $16,843.75
+	Groceries = $47,150.00
 	Health Insurance = $0.00
-	Internet Bill = $73.99
-	Laundry = $40.00
+	Internet Bill = $9,248.75
+	Laundry = $5,000.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,035.50
+	Rent = $129,437.50
 	Renters Insurance = $0.00
-	Student Loans = $108.05
+	Student Loans = $13,506.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $1,960.35
+	TOTAL = $245,043.75
 ----------------------------------------
 Wants:
-	Free Spending = $916.56
+	Free Spending = $114,570.00
 	Misc = $0.00
-	Subscriptions = $143.97
+	Subscriptions = $17,996.25
 	Vacation Spending = $0.00
-	TOTAL = $1,060.53
+	TOTAL = $132,566.25
 ----------------------------------------
 Savings:
-	Crypto = $247.27
-	Emergency Fund = $400.00
-	Investing = $500.00
+	Crypto = $30,908.75
+	Emergency Fund = $50,000.00
+	Investing = $62,500.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $1,147.27
+	TOTAL = $143,408.75
 ----------------------------------------
 Reimbursements:
-	Bills = $62.93
+	Bills = $7,866.25
 	Credit Card Rewards = $0.00
-	Free Spending = $68.27
+	Free Spending = $8,533.75
 	Rent = $0.00
-	TOTAL = $131.20
+	TOTAL = $16,400.00
 ----------------------------------------
-TOTAL SPENDING = $4,036.95
-DEFICIT = $331.12
+TOTAL SPENDING = $504,618.75
+DEFICIT = $41,390.00
 ****************************************
 July 2021
 ****************************************
 Income:
-	Earnings = $3,284.40
+	Earnings = $410,550.00
 	Tax Returns = $0.00
-	TOTAL = $3,284.40
+	TOTAL = $410,550.00
 ----------------------------------------
 Needs:
-	Car Insurance = $139.00
+	Car Insurance = $17,375.00
 	Dental Insurance = $0.00
-	Electric Bill = $74.42
+	Electric Bill = $9,302.50
 	Emergencies = $0.00
-	Gasoline = $172.36
-	Groceries = $276.06
+	Gasoline = $21,545.00
+	Groceries = $34,507.50
 	Health Insurance = $0.00
-	Internet Bill = $73.99
+	Internet Bill = $9,248.75
 	Laundry = $0.00
-	Misc = $30.69
+	Misc = $3,836.25
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,035.19
+	Rent = $129,398.75
 	Renters Insurance = $0.00
-	Student Loans = $368.05
+	Student Loans = $46,006.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $2,169.76
+	TOTAL = $271,220.00
 ----------------------------------------
 Wants:
-	Free Spending = $868.59
+	Free Spending = $108,573.75
 	Misc = $0.00
-	Subscriptions = $248.98
+	Subscriptions = $31,122.50
 	Vacation Spending = $0.00
-	TOTAL = $1,117.57
+	TOTAL = $139,696.25
 ----------------------------------------
 Savings:
-	Crypto = $250.00
-	Emergency Fund = $400.00
-	Investing = $480.00
+	Crypto = $31,250.00
+	Emergency Fund = $50,000.00
+	Investing = $60,000.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $1,130.00
+	TOTAL = $141,250.00
 ----------------------------------------
 Reimbursements:
-	Bills = $74.20
+	Bills = $9,275.00
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $74.20
+	TOTAL = $9,275.00
 ----------------------------------------
-TOTAL SPENDING = $4,343.13
-DEFICIT = $1,058.73
+TOTAL SPENDING = $542,891.25
+DEFICIT = $132,341.25
 ****************************************
 August 2021
 ****************************************
 Income:
-	Earnings = $4,601.99
+	Earnings = $575,248.75
 	Tax Returns = $0.00
-	TOTAL = $4,601.99
+	TOTAL = $575,248.75
 ----------------------------------------
 Needs:
-	Car Insurance = $143.95
+	Car Insurance = $17,993.75
 	Dental Insurance = $0.00
-	Electric Bill = $106.06
+	Electric Bill = $13,257.50
 	Emergencies = $0.00
-	Gasoline = $301.22
-	Groceries = $60.97
+	Gasoline = $37,652.50
+	Groceries = $7,621.25
 	Health Insurance = $0.00
-	Internet Bill = $83.99
-	Laundry = $10.00
-	Misc = $42.99
+	Internet Bill = $10,498.75
+	Laundry = $1,250.00
+	Misc = $5,373.75
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,033.92
-	Renters Insurance = $59.50
-	Student Loans = $108.05
+	Rent = $129,240.00
+	Renters Insurance = $7,437.50
+	Student Loans = $13,506.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $1,950.65
+	TOTAL = $243,831.25
 ----------------------------------------
 Wants:
-	Free Spending = $2,625.63
+	Free Spending = $328,203.75
 	Misc = $0.00
-	Subscriptions = $148.98
+	Subscriptions = $18,622.50
 	Vacation Spending = $0.00
-	TOTAL = $2,774.61
+	TOTAL = $346,826.25
 ----------------------------------------
 Savings:
-	Crypto = $200.00
-	Emergency Fund = $400.00
+	Crypto = $25,000.00
+	Emergency Fund = $50,000.00
 	Investing = $0.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $600.00
+	TOTAL = $75,000.00
 ----------------------------------------
 Reimbursements:
-	Bills = $124.78
-	Credit Card Rewards = $425.00
-	Free Spending = $64.00
+	Bills = $15,597.50
+	Credit Card Rewards = $53,125.00
+	Free Spending = $8,000.00
 	Rent = $0.00
-	TOTAL = $613.78
+	TOTAL = $76,722.50
 ----------------------------------------
-TOTAL SPENDING = $4,711.48
-DEFICIT = $109.49
+TOTAL SPENDING = $588,935.00
+DEFICIT = $13,686.25
 ****************************************
 September 2021
 ****************************************
 Income:
-	Earnings = $4,094.29
+	Earnings = $511,786.25
 	Tax Returns = $0.00
-	TOTAL = $4,094.29
+	TOTAL = $511,786.25
 ----------------------------------------
 Needs:
-	Car Insurance = $142.80
+	Car Insurance = $17,850.00
 	Dental Insurance = $0.00
-	Electric Bill = $83.82
+	Electric Bill = $10,477.50
 	Emergencies = $0.00
-	Gasoline = $145.18
-	Groceries = $191.00
+	Gasoline = $18,147.50
+	Groceries = $23,875.00
 	Health Insurance = $0.00
-	Internet Bill = $83.99
+	Internet Bill = $10,498.75
 	Laundry = $0.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,101.11
+	Rent = $137,638.75
 	Renters Insurance = $0.00
-	Student Loans = $1,655.03
+	Student Loans = $206,878.75
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $3,402.93
+	TOTAL = $425,366.25
 ----------------------------------------
 Wants:
-	Free Spending = $1,862.81
+	Free Spending = $232,851.25
 	Misc = $0.00
-	Subscriptions = $49.47
+	Subscriptions = $6,183.75
 	Vacation Spending = $0.00
-	TOTAL = $1,912.28
+	TOTAL = $239,035.00
 ----------------------------------------
 Savings:
-	Crypto = $200.00
-	Emergency Fund = $200.00
+	Crypto = $25,000.00
+	Emergency Fund = $25,000.00
 	Investing = $0.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $400.00
+	TOTAL = $50,000.00
 ----------------------------------------
 Reimbursements:
-	Bills = $83.91
+	Bills = $10,488.75
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $83.91
+	TOTAL = $10,488.75
 ----------------------------------------
-TOTAL SPENDING = $5,631.30
-DEFICIT = $1,537.01
+TOTAL SPENDING = $703,912.50
+DEFICIT = $192,126.25
 ****************************************
 October 2021
 ****************************************
 Income:
-	Earnings = $4,926.58
+	Earnings = $615,822.50
 	Tax Returns = $0.00
-	TOTAL = $4,926.58
+	TOTAL = $615,822.50
 ----------------------------------------
 Needs:
-	Car Insurance = $142.80
+	Car Insurance = $17,850.00
 	Dental Insurance = $0.00
-	Electric Bill = $68.52
+	Electric Bill = $8,565.00
 	Emergencies = $0.00
-	Gasoline = $142.02
-	Groceries = $65.98
+	Gasoline = $17,752.50
+	Groceries = $8,247.50
 	Health Insurance = $0.00
-	Internet Bill = $83.99
+	Internet Bill = $10,498.75
 	Laundry = $0.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,116.95
+	Rent = $139,618.75
 	Renters Insurance = $0.00
-	Student Loans = $308.05
+	Student Loans = $38,506.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $1,928.31
+	TOTAL = $241,038.75
 ----------------------------------------
 Wants:
-	Free Spending = $1,539.19
+	Free Spending = $192,398.75
 	Misc = $0.00
-	Subscriptions = $174.47
+	Subscriptions = $21,808.75
 	Vacation Spending = $0.00
-	TOTAL = $1,713.66
+	TOTAL = $214,207.50
 ----------------------------------------
 Savings:
-	Crypto = $260.00
+	Crypto = $32,500.00
 	Emergency Fund = $0.00
-	Investing = $600.00
+	Investing = $75,000.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $860.00
+	TOTAL = $107,500.00
 ----------------------------------------
 Reimbursements:
-	Bills = $76.26
+	Bills = $9,532.50
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $76.26
+	TOTAL = $9,532.50
 ----------------------------------------
-TOTAL SPENDING = $4,425.71
-SURPLUS = $500.87
+TOTAL SPENDING = $553,213.75
+SURPLUS = $62,608.75
 ****************************************
 November 2021
 ****************************************
 Income:
-	Earnings = $5,403.12
+	Earnings = $675,390.00
 	Tax Returns = $0.00
-	TOTAL = $5,403.12
+	TOTAL = $675,390.00
 ----------------------------------------
 Needs:
-	Car Insurance = $142.80
+	Car Insurance = $17,850.00
 	Dental Insurance = $0.00
-	Electric Bill = $32.24
+	Electric Bill = $4,030.00
 	Emergencies = $0.00
-	Gasoline = $140.55
-	Groceries = $46.74
+	Gasoline = $17,568.75
+	Groceries = $5,842.50
 	Health Insurance = $0.00
-	Internet Bill = $83.99
+	Internet Bill = $10,498.75
 	Laundry = $0.00
-	Misc = $239.00
+	Misc = $29,875.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,117.60
-	Renters Insurance = $59.50
-	Student Loans = $308.05
+	Rent = $139,700.00
+	Renters Insurance = $7,437.50
+	Student Loans = $38,506.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $2,170.47
+	TOTAL = $271,308.75
 ----------------------------------------
 Wants:
-	Free Spending = $1,086.27
+	Free Spending = $135,783.75
 	Misc = $0.00
-	Subscriptions = $174.47
-	Vacation Spending = $395.08
-	TOTAL = $1,655.82
+	Subscriptions = $21,808.75
+	Vacation Spending = $49,385.00
+	TOTAL = $206,977.50
 ----------------------------------------
 Savings:
-	Crypto = $200.00
+	Crypto = $25,000.00
 	Emergency Fund = $0.00
-	Investing = $400.00
+	Investing = $50,000.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $600.00
+	TOTAL = $75,000.00
 ----------------------------------------
 Reimbursements:
-	Bills = $85.37
+	Bills = $10,671.25
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $85.37
+	TOTAL = $10,671.25
 ----------------------------------------
-TOTAL SPENDING = $4,340.92
-SURPLUS = $1,062.20
+TOTAL SPENDING = $542,615.00
+SURPLUS = $132,775.00
 ****************************************
 December 2021
 ****************************************
 Income:
-	Earnings = $3,284.39
+	Earnings = $410,548.75
 	Tax Returns = $0.00
-	TOTAL = $3,284.39
+	TOTAL = $410,548.75
 ----------------------------------------
 Needs:
-	Car Insurance = $142.80
+	Car Insurance = $17,850.00
 	Dental Insurance = $0.00
-	Electric Bill = $63.49
+	Electric Bill = $7,936.25
 	Emergencies = $0.00
-	Gasoline = $182.21
-	Groceries = $199.64
+	Gasoline = $22,776.25
+	Groceries = $24,955.00
 	Health Insurance = $0.00
-	Internet Bill = $83.99
+	Internet Bill = $10,498.75
 	Laundry = $0.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,119.20
+	Rent = $139,900.00
 	Renters Insurance = $0.00
-	Student Loans = $308.05
+	Student Loans = $38,506.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $2,099.38
+	TOTAL = $262,422.50
 ----------------------------------------
 Wants:
-	Free Spending = $1,144.55
+	Free Spending = $143,068.75
 	Misc = $0.00
-	Subscriptions = $174.47
-	Vacation Spending = $387.01
-	TOTAL = $1,706.03
+	Subscriptions = $21,808.75
+	Vacation Spending = $48,376.25
+	TOTAL = $213,253.75
 ----------------------------------------
 Savings:
-	Crypto = $250.00
+	Crypto = $31,250.00
 	Emergency Fund = $0.00
-	Investing = $400.00
+	Investing = $50,000.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $650.00
+	TOTAL = $81,250.00
 ----------------------------------------
 Reimbursements:
-	Bills = $143.73
+	Bills = $17,966.25
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $143.73
+	TOTAL = $17,966.25
 ----------------------------------------
-TOTAL SPENDING = $4,311.68
-DEFICIT = $1,027.29
+TOTAL SPENDING = $538,960.00
+DEFICIT = $128,411.25
 ****************************************
 January 2022
 ****************************************
 Income:
-	Earnings = $3,268.62
+	Earnings = $408,577.50
 	Tax Returns = $0.00
-	TOTAL = $3,268.62
+	TOTAL = $408,577.50
 ----------------------------------------
 Needs:
-	Car Insurance = $142.80
+	Car Insurance = $17,850.00
 	Dental Insurance = $0.00
-	Electric Bill = $66.39
+	Electric Bill = $8,298.75
 	Emergencies = $0.00
-	Gasoline = $77.22
-	Groceries = $102.35
+	Gasoline = $9,652.50
+	Groceries = $12,793.75
 	Health Insurance = $0.00
-	Internet Bill = $83.99
-	Laundry = $15.00
+	Internet Bill = $10,498.75
+	Laundry = $1,875.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,121.51
+	Rent = $140,188.75
 	Renters Insurance = $0.00
-	Student Loans = $308.05
+	Student Loans = $38,506.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $1,917.31
+	TOTAL = $239,663.75
 ----------------------------------------
 Wants:
-	Free Spending = $807.58
+	Free Spending = $100,947.50
 	Misc = $0.00
-	Subscriptions = $174.47
+	Subscriptions = $21,808.75
 	Vacation Spending = $0.00
-	TOTAL = $982.05
+	TOTAL = $122,756.25
 ----------------------------------------
 Savings:
 	Crypto = $0.00
 	Emergency Fund = $0.00
 	Investing = $0.00
 	Misc = $0.00
-	Retirement = $600.00
-	TOTAL = $600.00
+	Retirement = $75,000.00
+	TOTAL = $75,000.00
 ----------------------------------------
 Reimbursements:
-	Bills = $75.19
+	Bills = $9,398.75
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $75.19
+	TOTAL = $9,398.75
 ----------------------------------------
-TOTAL SPENDING = $3,424.17
-DEFICIT = $155.55
+TOTAL SPENDING = $428,021.25
+DEFICIT = $19,443.75
 ****************************************
 February 2022
 ****************************************
 Income:
-	Earnings = $6,688.96
+	Earnings = $836,120.00
 	Tax Returns = $0.00
-	TOTAL = $6,688.96
+	TOTAL = $836,120.00
 ----------------------------------------
 Needs:
-	Car Insurance = $143.88
+	Car Insurance = $17,985.00
 	Dental Insurance = $0.00
-	Electric Bill = $86.68
+	Electric Bill = $10,835.00
 	Emergencies = $0.00
-	Gasoline = $203.01
-	Groceries = $378.03
+	Gasoline = $25,376.25
+	Groceries = $47,253.75
 	Health Insurance = $0.00
-	Internet Bill = $83.99
+	Internet Bill = $10,498.75
 	Laundry = $0.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,120.61
-	Renters Insurance = $59.50
-	Student Loans = $308.05
+	Rent = $140,076.25
+	Renters Insurance = $7,437.50
+	Student Loans = $38,506.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $2,383.75
+	TOTAL = $297,968.75
 ----------------------------------------
 Wants:
-	Free Spending = $1,159.57
+	Free Spending = $144,946.25
 	Misc = $0.00
-	Subscriptions = $223.47
+	Subscriptions = $27,933.75
 	Vacation Spending = $0.00
-	TOTAL = $1,383.04
+	TOTAL = $172,880.00
 ----------------------------------------
 Savings:
 	Crypto = $0.00
-	Emergency Fund = $435.02
-	Investing = $400.00
+	Emergency Fund = $54,377.50
+	Investing = $50,000.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $835.02
+	TOTAL = $104,377.50
 ----------------------------------------
 Reimbursements:
-	Bills = $112.80
+	Bills = $14,100.00
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $112.80
+	TOTAL = $14,100.00
 ----------------------------------------
-TOTAL SPENDING = $4,489.01
-SURPLUS = $2,199.95
+TOTAL SPENDING = $561,126.25
+SURPLUS = $274,993.75
 ****************************************
 March 2022
 ****************************************
 Income:
-	Earnings = $1,466.58
+	Earnings = $183,322.50
 	Tax Returns = $0.00
-	TOTAL = $1,466.58
+	TOTAL = $183,322.50
 ----------------------------------------
 Needs:
-	Car Insurance = $142.80
+	Car Insurance = $17,850.00
 	Dental Insurance = $0.00
-	Electric Bill = $86.80
+	Electric Bill = $10,850.00
 	Emergencies = $0.00
-	Gasoline = $177.51
-	Groceries = $127.99
+	Gasoline = $22,188.75
+	Groceries = $15,998.75
 	Health Insurance = $0.00
-	Internet Bill = $83.99
+	Internet Bill = $10,498.75
 	Laundry = $0.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,121.21
+	Rent = $140,151.25
 	Renters Insurance = $0.00
-	Student Loans = $308.05
+	Student Loans = $38,506.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $2,048.35
+	TOTAL = $256,043.75
 ----------------------------------------
 Wants:
-	Free Spending = $655.37
+	Free Spending = $81,921.25
 	Misc = $0.00
-	Subscriptions = $174.47
-	Vacation Spending = $2,918.93
-	TOTAL = $3,748.77
+	Subscriptions = $21,808.75
+	Vacation Spending = $364,866.25
+	TOTAL = $468,596.25
 ----------------------------------------
 Savings:
 	Crypto = $0.00
@@ -769,412 +769,412 @@ Savings:
 	TOTAL = $0.00
 ----------------------------------------
 Reimbursements:
-	Bills = $85.39
-	Credit Card Rewards = $116.74
+	Bills = $10,673.75
+	Credit Card Rewards = $14,592.50
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $202.13
+	TOTAL = $25,266.25
 ----------------------------------------
-TOTAL SPENDING = $5,594.99
-DEFICIT = $4,128.41
+TOTAL SPENDING = $699,373.75
+DEFICIT = $516,051.25
 ****************************************
 April 2022
 ****************************************
 Income:
-	Earnings = $9,319.97
+	Earnings = $1,164,996.25
 	Tax Returns = $0.00
-	TOTAL = $9,319.97
+	TOTAL = $1,164,996.25
 ----------------------------------------
 Needs:
-	Car Insurance = $142.80
+	Car Insurance = $17,850.00
 	Dental Insurance = $0.00
-	Electric Bill = $57.64
+	Electric Bill = $7,205.00
 	Emergencies = $0.00
-	Gasoline = $213.25
-	Groceries = $318.11
+	Gasoline = $26,656.25
+	Groceries = $39,763.75
 	Health Insurance = $0.00
-	Internet Bill = $83.99
+	Internet Bill = $10,498.75
 	Laundry = $0.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,120.78
+	Rent = $140,097.50
 	Renters Insurance = $0.00
-	Student Loans = $726.05
+	Student Loans = $90,756.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $2,662.62
+	TOTAL = $332,827.50
 ----------------------------------------
 Wants:
-	Free Spending = $1,033.44
+	Free Spending = $129,180.00
 	Misc = $0.00
-	Subscriptions = $238.97
+	Subscriptions = $29,871.25
 	Vacation Spending = $0.00
-	TOTAL = $1,272.41
+	TOTAL = $159,051.25
 ----------------------------------------
 Savings:
 	Crypto = $0.00
-	Emergency Fund = $1,636.87
-	Investing = $1,471.81
+	Emergency Fund = $204,608.75
+	Investing = $183,976.25
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $3,108.68
+	TOTAL = $388,585.00
 ----------------------------------------
 Reimbursements:
-	Bills = $70.81
+	Bills = $8,851.25
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $70.81
+	TOTAL = $8,851.25
 ----------------------------------------
-TOTAL SPENDING = $6,972.90
-SURPLUS = $2,347.07
+TOTAL SPENDING = $871,612.50
+SURPLUS = $293,383.75
 ****************************************
 May 2022
 ****************************************
 Income:
-	Earnings = $4,065.55
+	Earnings = $508,193.75
 	Tax Returns = $0.00
-	TOTAL = $4,065.55
+	TOTAL = $508,193.75
 ----------------------------------------
 Needs:
-	Car Insurance = $142.80
+	Car Insurance = $17,850.00
 	Dental Insurance = $0.00
-	Electric Bill = $6.66
+	Electric Bill = $832.50
 	Emergencies = $0.00
-	Gasoline = $227.30
-	Groceries = $405.57
+	Gasoline = $28,412.50
+	Groceries = $50,696.25
 	Health Insurance = $0.00
-	Internet Bill = $83.99
-	Laundry = $10.00
+	Internet Bill = $10,498.75
+	Laundry = $1,250.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,121.70
-	Renters Insurance = $59.50
-	Student Loans = $308.05
+	Rent = $140,212.50
+	Renters Insurance = $7,437.50
+	Student Loans = $38,506.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $2,365.57
+	TOTAL = $295,696.25
 ----------------------------------------
 Wants:
-	Free Spending = $1,080.12
+	Free Spending = $135,015.00
 	Misc = $0.00
-	Subscriptions = $313.16
+	Subscriptions = $39,145.00
 	Vacation Spending = $0.00
-	TOTAL = $1,393.28
+	TOTAL = $174,160.00
 ----------------------------------------
 Savings:
 	Crypto = $0.00
-	Emergency Fund = $600.00
-	Investing = $500.00
+	Emergency Fund = $75,000.00
+	Investing = $62,500.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $1,100.00
+	TOTAL = $137,500.00
 ----------------------------------------
 Reimbursements:
-	Bills = $75.07
+	Bills = $9,383.75
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $75.07
+	TOTAL = $9,383.75
 ----------------------------------------
-TOTAL SPENDING = $4,783.78
-DEFICIT = $718.23
+TOTAL SPENDING = $597,972.50
+DEFICIT = $89,778.75
 ****************************************
 June 2022
 ****************************************
 Income:
-	Earnings = $4,093.67
+	Earnings = $511,708.75
 	Tax Returns = $0.00
-	TOTAL = $4,093.67
+	TOTAL = $511,708.75
 ----------------------------------------
 Needs:
-	Car Insurance = $142.80
+	Car Insurance = $17,850.00
 	Dental Insurance = $0.00
-	Electric Bill = $65.26
-	Emergencies = $1,006.15
-	Gasoline = $278.63
-	Groceries = $576.01
+	Electric Bill = $8,157.50
+	Emergencies = $125,768.75
+	Gasoline = $34,828.75
+	Groceries = $72,001.25
 	Health Insurance = $0.00
-	Internet Bill = $83.99
+	Internet Bill = $10,498.75
 	Laundry = $0.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,114.01
+	Rent = $139,251.25
 	Renters Insurance = $0.00
-	Student Loans = $308.05
+	Student Loans = $38,506.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $3,574.90
+	TOTAL = $446,862.50
 ----------------------------------------
 Wants:
-	Free Spending = $661.48
+	Free Spending = $82,685.00
 	Misc = $0.00
-	Subscriptions = $325.15
+	Subscriptions = $40,643.75
 	Vacation Spending = $0.00
-	TOTAL = $986.63
+	TOTAL = $123,328.75
 ----------------------------------------
 Savings:
 	Crypto = $0.00
-	Emergency Fund = $550.00
-	Investing = $450.00
+	Emergency Fund = $68,750.00
+	Investing = $56,250.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $1,000.00
+	TOTAL = $125,000.00
 ----------------------------------------
 Reimbursements:
-	Bills = $74.62
-	Credit Card Rewards = $92.05
+	Bills = $9,327.50
+	Credit Card Rewards = $11,506.25
 	Free Spending = $0.00
 	Rent = $0.00
-	TOTAL = $166.67
+	TOTAL = $20,833.75
 ----------------------------------------
-TOTAL SPENDING = $5,394.86
-DEFICIT = $1,301.19
+TOTAL SPENDING = $674,357.50
+DEFICIT = $162,648.75
 ****************************************
 July 2022
 ****************************************
 Income:
-	Earnings = $4,022.03
+	Earnings = $502,753.75
 	Tax Returns = $0.00
-	TOTAL = $4,022.03
+	TOTAL = $502,753.75
 ----------------------------------------
 Needs:
-	Car Insurance = $142.80
+	Car Insurance = $17,850.00
 	Dental Insurance = $0.00
-	Electric Bill = $114.37
+	Electric Bill = $14,296.25
 	Emergencies = $0.00
-	Gasoline = $417.16
-	Groceries = $394.67
+	Gasoline = $52,145.00
+	Groceries = $49,333.75
 	Health Insurance = $0.00
-	Internet Bill = $83.99
+	Internet Bill = $10,498.75
 	Laundry = $0.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,123.02
+	Rent = $140,377.50
 	Renters Insurance = $0.00
-	Student Loans = $308.05
+	Student Loans = $38,506.25
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $2,584.06
+	TOTAL = $323,007.50
 ----------------------------------------
 Wants:
-	Free Spending = $832.97
+	Free Spending = $104,121.25
 	Misc = $0.00
-	Subscriptions = $325.15
-	Vacation Spending = $266.00
-	TOTAL = $1,424.12
+	Subscriptions = $40,643.75
+	Vacation Spending = $33,250.00
+	TOTAL = $178,015.00
 ----------------------------------------
 Savings:
 	Crypto = $0.00
-	Emergency Fund = $500.00
-	Investing = $200.00
+	Emergency Fund = $62,500.00
+	Investing = $25,000.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $700.00
+	TOTAL = $87,500.00
 ----------------------------------------
 Reimbursements:
-	Bills = $99.18
+	Bills = $12,397.50
 	Credit Card Rewards = $0.00
-	Free Spending = $12.00
+	Free Spending = $1,500.00
 	Rent = $0.00
-	TOTAL = $111.18
+	TOTAL = $13,897.50
 ----------------------------------------
-TOTAL SPENDING = $4,597.00
-DEFICIT = $574.97
+TOTAL SPENDING = $574,625.00
+DEFICIT = $71,871.25
 ****************************************
 August 2022
 ****************************************
 Income:
-	Earnings = $4,287.17
+	Earnings = $535,896.25
 	Tax Returns = $0.00
-	TOTAL = $4,287.17
+	TOTAL = $535,896.25
 ----------------------------------------
 Needs:
-	Car Insurance = $146.88
+	Car Insurance = $18,360.00
 	Dental Insurance = $0.00
-	Electric Bill = $118.86
+	Electric Bill = $14,857.50
 	Emergencies = $0.00
-	Gasoline = $196.85
-	Groceries = $417.54
+	Gasoline = $24,606.25
+	Groceries = $52,192.50
 	Health Insurance = $0.00
-	Internet Bill = $83.99
-	Laundry = $20.00
-	Misc = $542.00
+	Internet Bill = $10,498.75
+	Laundry = $2,500.00
+	Misc = $67,750.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $1,667.05
-	Renters Insurance = $59.50
-	Student Loans = $300.00
+	Rent = $208,381.25
+	Renters Insurance = $7,437.50
+	Student Loans = $37,500.00
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $3,552.67
+	TOTAL = $444,083.75
 ----------------------------------------
 Wants:
-	Free Spending = $1,069.49
+	Free Spending = $133,686.25
 	Misc = $0.00
-	Subscriptions = $328.15
+	Subscriptions = $41,018.75
 	Vacation Spending = $0.00
-	TOTAL = $1,397.64
+	TOTAL = $174,705.00
 ----------------------------------------
 Savings:
 	Crypto = $0.00
-	Emergency Fund = $500.00
+	Emergency Fund = $62,500.00
 	Investing = $0.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $500.00
+	TOTAL = $62,500.00
 ----------------------------------------
 Reimbursements:
 	Bills = $0.00
 	Credit Card Rewards = $0.00
-	Free Spending = $550.00
+	Free Spending = $68,750.00
 	Rent = $0.00
-	TOTAL = $550.00
+	TOTAL = $68,750.00
 ----------------------------------------
-TOTAL SPENDING = $4,900.31
-DEFICIT = $613.14
+TOTAL SPENDING = $612,538.75
+DEFICIT = $76,642.50
 ****************************************
 September 2022
 ****************************************
 Income:
-	Earnings = $7,852.29
+	Earnings = $981,536.25
 	Tax Returns = $0.00
-	TOTAL = $7,852.29
+	TOTAL = $981,536.25
 ----------------------------------------
 Needs:
-	Car Insurance = $145.60
+	Car Insurance = $18,200.00
 	Dental Insurance = $0.00
-	Electric Bill = $110.56
+	Electric Bill = $13,820.00
 	Emergencies = $0.00
-	Gasoline = $249.06
-	Groceries = $414.80
+	Gasoline = $31,132.50
+	Groceries = $51,850.00
 	Health Insurance = $0.00
-	Internet Bill = $83.99
-	Laundry = $25.00
+	Internet Bill = $10,498.75
+	Laundry = $3,125.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $2,252.12
+	Rent = $281,515.00
 	Renters Insurance = $0.00
 	Student Loans = $0.00
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $3,281.13
+	TOTAL = $410,141.25
 ----------------------------------------
 Wants:
-	Free Spending = $1,437.87
+	Free Spending = $179,733.75
 	Misc = $0.00
-	Subscriptions = $343.23
-	Vacation Spending = $388.55
-	TOTAL = $2,169.65
+	Subscriptions = $42,903.75
+	Vacation Spending = $48,568.75
+	TOTAL = $271,206.25
 ----------------------------------------
 Savings:
 	Crypto = $0.00
-	Emergency Fund = $1,400.00
+	Emergency Fund = $175,000.00
 	Investing = $0.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $1,400.00
+	TOTAL = $175,000.00
 ----------------------------------------
 Reimbursements:
 	Bills = $0.00
 	Credit Card Rewards = $0.00
-	Free Spending = $235.75
-	Rent = $300.00
-	TOTAL = $535.75
+	Free Spending = $29,468.75
+	Rent = $37,500.00
+	TOTAL = $66,968.75
 ----------------------------------------
-TOTAL SPENDING = $6,315.03
-SURPLUS = $1,537.26
+TOTAL SPENDING = $789,378.75
+SURPLUS = $192,157.50
 ****************************************
 October 2022
 ****************************************
 Income:
-	Earnings = $4,197.21
+	Earnings = $524,651.25
 	Tax Returns = $0.00
-	TOTAL = $4,197.21
+	TOTAL = $524,651.25
 ----------------------------------------
 Needs:
-	Car Insurance = $145.60
+	Car Insurance = $18,200.00
 	Dental Insurance = $0.00
-	Electric Bill = $103.78
+	Electric Bill = $12,972.50
 	Emergencies = $0.00
-	Gasoline = $146.84
-	Groceries = $516.67
+	Gasoline = $18,355.00
+	Groceries = $64,583.75
 	Health Insurance = $0.00
-	Internet Bill = $83.99
-	Laundry = $60.00
+	Internet Bill = $10,498.75
+	Laundry = $7,500.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $2,271.49
+	Rent = $283,936.25
 	Renters Insurance = $0.00
 	Student Loans = $0.00
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $3,328.37
+	TOTAL = $416,046.25
 ----------------------------------------
 Wants:
-	Free Spending = $1,623.82
+	Free Spending = $202,977.50
 	Misc = $0.00
-	Subscriptions = $341.65
-	Vacation Spending = $812.20
-	TOTAL = $2,777.67
+	Subscriptions = $42,706.25
+	Vacation Spending = $101,525.00
+	TOTAL = $347,208.75
 ----------------------------------------
 Savings:
 	Crypto = $0.00
-	Emergency Fund = $300.00
+	Emergency Fund = $37,500.00
 	Investing = $0.00
 	Misc = $0.00
 	Retirement = $0.00
-	TOTAL = $300.00
+	TOTAL = $37,500.00
 ----------------------------------------
 Reimbursements:
-	Bills = $93.88
-	Credit Card Rewards = $217.55
-	Free Spending = $86.00
-	Rent = $600.00
-	TOTAL = $997.43
+	Bills = $11,735.00
+	Credit Card Rewards = $27,193.75
+	Free Spending = $10,750.00
+	Rent = $75,000.00
+	TOTAL = $124,678.75
 ----------------------------------------
-TOTAL SPENDING = $5,408.61
-DEFICIT = $1,211.40
+TOTAL SPENDING = $676,076.25
+DEFICIT = $151,425.00
 ****************************************
 November 2022
 ****************************************
 Income:
-	Earnings = $4,183.77
+	Earnings = $522,971.25
 	Tax Returns = $0.00
-	TOTAL = $4,183.77
+	TOTAL = $522,971.25
 ----------------------------------------
 Needs:
-	Car Insurance = $145.60
+	Car Insurance = $18,200.00
 	Dental Insurance = $0.00
-	Electric Bill = $19.95
-	Emergencies = $400.00
-	Gasoline = $240.64
-	Groceries = $420.69
+	Electric Bill = $2,493.75
+	Emergencies = $50,000.00
+	Gasoline = $30,080.00
+	Groceries = $52,586.25
 	Health Insurance = $0.00
-	Internet Bill = $83.99
-	Laundry = $25.00
-	Misc = $229.00
+	Internet Bill = $10,498.75
+	Laundry = $3,125.00
+	Misc = $28,625.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $2,252.00
-	Renters Insurance = $59.50
+	Rent = $281,500.00
+	Renters Insurance = $7,437.50
 	Student Loans = $0.00
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $3,876.37
+	TOTAL = $484,546.25
 ----------------------------------------
 Wants:
-	Free Spending = $1,022.15
+	Free Spending = $127,768.75
 	Misc = $0.00
-	Subscriptions = $341.65
+	Subscriptions = $42,706.25
 	Vacation Spending = $0.00
-	TOTAL = $1,363.80
+	TOTAL = $170,475.00
 ----------------------------------------
 Savings:
 	Crypto = $0.00
@@ -1185,48 +1185,48 @@ Savings:
 	TOTAL = $0.00
 ----------------------------------------
 Reimbursements:
-	Bills = $51.97
+	Bills = $6,496.25
 	Credit Card Rewards = $0.00
-	Free Spending = $236.00
-	Rent = $645.00
-	TOTAL = $932.97
+	Free Spending = $29,500.00
+	Rent = $80,625.00
+	TOTAL = $116,621.25
 ----------------------------------------
-TOTAL SPENDING = $4,307.20
-DEFICIT = $123.43
+TOTAL SPENDING = $538,400.00
+DEFICIT = $15,428.75
 ****************************************
 December 2022
 ****************************************
 Income:
-	Earnings = $4,180.64
-	Tax Returns = $250.00
-	TOTAL = $4,430.64
+	Earnings = $522,580.00
+	Tax Returns = $31,250.00
+	TOTAL = $553,830.00
 ----------------------------------------
 Needs:
-	Car Insurance = $145.60
+	Car Insurance = $18,200.00
 	Dental Insurance = $0.00
-	Electric Bill = $117.35
+	Electric Bill = $14,668.75
 	Emergencies = $0.00
-	Gasoline = $67.84
-	Groceries = $578.81
+	Gasoline = $8,480.00
+	Groceries = $72,351.25
 	Health Insurance = $0.00
-	Internet Bill = $83.99
-	Laundry = $50.00
+	Internet Bill = $10,498.75
+	Laundry = $6,250.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $2,248.86
+	Rent = $281,107.50
 	Renters Insurance = $0.00
 	Student Loans = $0.00
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $3,292.45
+	TOTAL = $411,556.25
 ----------------------------------------
 Wants:
-	Free Spending = $864.07
+	Free Spending = $108,008.75
 	Misc = $0.00
-	Subscriptions = $347.62
-	Vacation Spending = $1,699.82
-	TOTAL = $2,911.51
+	Subscriptions = $43,452.50
+	Vacation Spending = $212,477.50
+	TOTAL = $363,938.75
 ----------------------------------------
 Savings:
 	Crypto = $0.00
@@ -1237,220 +1237,220 @@ Savings:
 	TOTAL = $0.00
 ----------------------------------------
 Reimbursements:
-	Bills = $100.67
-	Credit Card Rewards = $215.10
-	Free Spending = $100.00
-	Rent = $645.00
-	TOTAL = $1,060.77
+	Bills = $12,583.75
+	Credit Card Rewards = $26,887.50
+	Free Spending = $12,500.00
+	Rent = $80,625.00
+	TOTAL = $132,596.25
 ----------------------------------------
-TOTAL SPENDING = $5,143.19
-DEFICIT = $712.55
+TOTAL SPENDING = $642,898.75
+DEFICIT = $89,068.75
 ****************************************
 January 2023
 ****************************************
 Income:
-	Earnings = $4,416.51
+	Earnings = $552,063.75
 	Tax Returns = $0.00
-	TOTAL = $4,416.51
+	TOTAL = $552,063.75
 ----------------------------------------
 Needs:
-	Car Insurance = $145.60
+	Car Insurance = $18,200.00
 	Dental Insurance = $0.00
-	Electric Bill = $152.69
+	Electric Bill = $19,086.25
 	Emergencies = $0.00
-	Gasoline = $56.11
-	Groceries = $320.00
+	Gasoline = $7,013.75
+	Groceries = $40,000.00
 	Health Insurance = $0.00
-	Internet Bill = $89.99
-	Laundry = $50.00
+	Internet Bill = $11,248.75
+	Laundry = $6,250.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $2,379.21
+	Rent = $297,401.25
 	Renters Insurance = $0.00
 	Student Loans = $0.00
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $3,193.60
+	TOTAL = $399,200.00
 ----------------------------------------
 Wants:
-	Free Spending = $1,305.19
+	Free Spending = $163,148.75
 	Misc = $0.00
-	Subscriptions = $347.62
+	Subscriptions = $43,452.50
 	Vacation Spending = $0.00
-	TOTAL = $1,652.81
+	TOTAL = $206,601.25
 ----------------------------------------
 Savings:
 	Crypto = $0.00
 	Emergency Fund = $0.00
-	Investing = $100.00
+	Investing = $12,500.00
 	Misc = $0.00
-	Retirement = $700.00
-	TOTAL = $800.00
+	Retirement = $87,500.00
+	TOTAL = $100,000.00
 ----------------------------------------
 Reimbursements:
-	Bills = $118.34
+	Bills = $14,792.50
 	Credit Card Rewards = $0.00
-	Free Spending = $20.00
-	Rent = $645.00
-	TOTAL = $783.34
+	Free Spending = $2,500.00
+	Rent = $80,625.00
+	TOTAL = $97,917.50
 ----------------------------------------
-TOTAL SPENDING = $4,863.07
-DEFICIT = $446.56
+TOTAL SPENDING = $607,883.75
+DEFICIT = $55,820.00
 ****************************************
 February 2023
 ****************************************
 Income:
-	Earnings = $4,621.67
+	Earnings = $577,708.75
 	Tax Returns = $0.00
-	TOTAL = $4,621.67
+	TOTAL = $577,708.75
 ----------------------------------------
 Needs:
-	Car Insurance = $146.88
+	Car Insurance = $18,360.00
 	Dental Insurance = $0.00
-	Electric Bill = $159.28
-	Emergencies = $208.18
-	Gasoline = $244.93
-	Groceries = $506.95
+	Electric Bill = $19,910.00
+	Emergencies = $26,022.50
+	Gasoline = $30,616.25
+	Groceries = $63,368.75
 	Health Insurance = $0.00
-	Internet Bill = $67.99
-	Laundry = $60.00
+	Internet Bill = $8,498.75
+	Laundry = $7,500.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $2,380.08
-	Renters Insurance = $59.50
+	Rent = $297,510.00
+	Renters Insurance = $7,437.50
 	Student Loans = $0.00
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $3,833.79
+	TOTAL = $479,223.75
 ----------------------------------------
 Wants:
-	Free Spending = $551.71
+	Free Spending = $68,963.75
 	Misc = $0.00
-	Subscriptions = $348.62
-	Vacation Spending = $459.49
-	TOTAL = $1,359.82
+	Subscriptions = $43,577.50
+	Vacation Spending = $57,436.25
+	TOTAL = $169,977.50
 ----------------------------------------
 Savings:
 	Crypto = $0.00
 	Emergency Fund = $0.00
-	Investing = $50.00
+	Investing = $6,250.00
 	Misc = $0.00
-	Retirement = $699.62
-	TOTAL = $749.62
+	Retirement = $87,452.50
+	TOTAL = $93,702.50
 ----------------------------------------
 Reimbursements:
-	Bills = $114.63
+	Bills = $14,328.75
 	Credit Card Rewards = $0.00
-	Free Spending = $180.65
-	Rent = $645.00
-	TOTAL = $940.28
+	Free Spending = $22,581.25
+	Rent = $80,625.00
+	TOTAL = $117,535.00
 ----------------------------------------
-TOTAL SPENDING = $5,002.95
-DEFICIT = $381.28
+TOTAL SPENDING = $625,368.75
+DEFICIT = $47,660.00
 ****************************************
 March 2023
 ****************************************
 Income:
-	Earnings = $6,066.15
+	Earnings = $758,268.75
 	Tax Returns = $0.00
-	TOTAL = $6,066.15
+	TOTAL = $758,268.75
 ----------------------------------------
 Needs:
-	Car Insurance = $145.60
+	Car Insurance = $18,200.00
 	Dental Insurance = $0.00
-	Electric Bill = $207.71
+	Electric Bill = $25,963.75
 	Emergencies = $0.00
-	Gasoline = $168.53
-	Groceries = $319.93
+	Gasoline = $21,066.25
+	Groceries = $39,991.25
 	Health Insurance = $0.00
-	Internet Bill = $69.99
-	Laundry = $50.00
+	Internet Bill = $8,748.75
+	Laundry = $6,250.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $2,384.22
+	Rent = $298,027.50
 	Renters Insurance = $0.00
-	Student Loans = $450.00
+	Student Loans = $56,250.00
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $3,795.98
+	TOTAL = $474,497.50
 ----------------------------------------
 Wants:
-	Free Spending = $1,456.69
+	Free Spending = $182,086.25
 	Misc = $0.00
-	Subscriptions = $348.62
-	Vacation Spending = $1,046.16
-	TOTAL = $2,851.47
+	Subscriptions = $43,577.50
+	Vacation Spending = $130,770.00
+	TOTAL = $356,433.75
 ----------------------------------------
 Savings:
 	Crypto = $0.00
 	Emergency Fund = $0.00
 	Investing = $0.00
 	Misc = $0.00
-	Retirement = $700.00
-	TOTAL = $700.00
+	Retirement = $87,500.00
+	TOTAL = $87,500.00
 ----------------------------------------
 Reimbursements:
 	Bills = $0.00
-	Credit Card Rewards = $133.41
-	Free Spending = $42.00
-	Rent = $645.00
-	TOTAL = $820.41
+	Credit Card Rewards = $16,676.25
+	Free Spending = $5,250.00
+	Rent = $80,625.00
+	TOTAL = $102,551.25
 ----------------------------------------
-TOTAL SPENDING = $6,527.04
-DEFICIT = $460.89
+TOTAL SPENDING = $815,880.00
+DEFICIT = $57,611.25
 ****************************************
 April 2023
 ****************************************
 Income:
-	Earnings = $4,767.83
-	Tax Returns = $385.00
-	TOTAL = $5,152.83
+	Earnings = $595,978.75
+	Tax Returns = $48,125.00
+	TOTAL = $644,103.75
 ----------------------------------------
 Needs:
-	Car Insurance = $145.60
+	Car Insurance = $18,200.00
 	Dental Insurance = $0.00
-	Electric Bill = $16.35
-	Emergencies = $286.77
-	Gasoline = $68.32
-	Groceries = $537.51
+	Electric Bill = $2,043.75
+	Emergencies = $35,846.25
+	Gasoline = $8,540.00
+	Groceries = $67,188.75
 	Health Insurance = $0.00
-	Internet Bill = $69.99
-	Laundry = $60.00
+	Internet Bill = $8,748.75
+	Laundry = $7,500.00
 	Misc = $0.00
 	Mortgage = $0.00
 	Other Insurance = $0.00
-	Rent = $2,380.70
+	Rent = $297,587.50
 	Renters Insurance = $0.00
-	Student Loans = $1,103.00
+	Student Loans = $137,875.00
 	Taxes = $0.00
 	Vision Insurance = $0.00
-	TOTAL = $4,668.24
+	TOTAL = $583,530.00
 ----------------------------------------
 Wants:
-	Free Spending = $1,072.70
+	Free Spending = $134,087.50
 	Misc = $0.00
-	Subscriptions = $348.62
-	Vacation Spending = $274.00
-	TOTAL = $1,695.32
+	Subscriptions = $43,577.50
+	Vacation Spending = $34,250.00
+	TOTAL = $211,915.00
 ----------------------------------------
 Savings:
 	Crypto = $0.00
 	Emergency Fund = $0.00
 	Investing = $0.00
 	Misc = $0.00
-	Retirement = $700.00
-	TOTAL = $700.00
+	Retirement = $87,500.00
+	TOTAL = $87,500.00
 ----------------------------------------
 Reimbursements:
-	Bills = $40.17
+	Bills = $5,021.25
 	Credit Card Rewards = $0.00
 	Free Spending = $0.00
-	Rent = $645.00
-	TOTAL = $685.17
+	Rent = $80,625.00
+	TOTAL = $85,646.25
 ----------------------------------------
-TOTAL SPENDING = $6,378.39
-DEFICIT = $1,225.56
+TOTAL SPENDING = $797,298.75
+DEFICIT = $153,195.00
 ****************************************

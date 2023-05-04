@@ -4,19 +4,20 @@ RAW_TSV_FILEPATH = os.getcwd() + "/data/spending.tsv"
 CLEANED_TSV_FILEPATH = os.getcwd() + "/data/cleaned_spending.tsv"
 
 
-def clean_tsv_file():
+def clean_tsv_file(raw_filepath=RAW_TSV_FILEPATH):
     """
     Reads the spending.tsv file and cleans it.
 
+    :param raw_filepath: Filepath to the raw spending.tsv file
     :return: Returns the cleaned data as a list of TSV lines.
     """
 
-    print(f"Cleaning raw data file {RAW_TSV_FILEPATH}")
+    print(f"Cleaning raw data file {raw_filepath}")
 
     cleaned_tsv_lines = []
 
     # Import raw data as a TSV file
-    with open(RAW_TSV_FILEPATH, "r") as file:
+    with open(raw_filepath, "r") as file:
         spending_file = file.readlines()
 
         for line_index, line in enumerate(spending_file):
@@ -67,15 +68,16 @@ def export_cleaned_data_to_tsv(cleaned_tsv_lines_list):
             file.write(line + "\n")
 
 
-def clean_data():
+def clean_data(raw_filepath=RAW_TSV_FILEPATH):
     """
     Driver function to clean the spending.tsv file and export it as cleaned_spending.tsv file.
 
+    :param raw_filepath: Filepath to the raw spending.tsv file
     :return: True if failure; False otherwise.
     """
 
     try:
-        cleaned_tsv_lines = clean_tsv_file()
+        cleaned_tsv_lines = clean_tsv_file(raw_filepath)
         export_cleaned_data_to_tsv(cleaned_tsv_lines_list=cleaned_tsv_lines)
         return os.path.getsize(CLEANED_TSV_FILEPATH) == 0
 
