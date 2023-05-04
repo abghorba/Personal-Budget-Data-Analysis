@@ -121,10 +121,12 @@ def main():
     log.basicConfig(filename=logfile, format=log_format, level=log.INFO)
     log.getLogger().addHandler(log.StreamHandler())
 
-    iterations = 10_000
+    iterations = 1000
     cleaned_tsv_lines_list = clean_tsv_file()
     budget_df = load_data_to_dataframe()
     budget_dict = compile_transactions_into_dictionary(budget_df)
+
+    start_time = time()
 
     for target in [
         time_clean_tsv_file,
@@ -156,6 +158,8 @@ def main():
 
         # log.info(f"{target.__name__}(): {run_times_list}")
         log.info(f"{target.__name__}() took an average time of {average(run_times_list):.10f}s")
+
+    log.info(f"Performance tests took a total of {time() - start_time:.10f}s")
 
 
 if __name__ == "__main__":
