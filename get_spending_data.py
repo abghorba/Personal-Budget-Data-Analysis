@@ -1,4 +1,4 @@
-from src.analysis import SpendingAnalyzer
+from src.analysis import SpendingAnalyzer, calculate_future_value
 from src.categorize_data import perform_data_compilation
 
 
@@ -32,6 +32,12 @@ def main():
     print(analyzer.analysis["2022"]["needs"]["rent"]["standard_deviation"])
     print(analyzer.analysis["2023"]["needs"]["rent"]["standard_deviation"])
     print(analyzer.analysis["lifetime"]["needs"]["rent"]["standard_deviation"])
+
+    print("\nRegression Coefficients:")
+    print(analyzer.analysis["2021"]["needs"]["rent"]["linear_regression_coefficients"])
+    print(analyzer.analysis["2022"]["needs"]["rent"]["linear_regression_coefficients"])
+    print(analyzer.analysis["2023"]["needs"]["rent"]["linear_regression_coefficients"])
+    print(analyzer.analysis["lifetime"]["needs"]["rent"]["linear_regression_coefficients"])
 
     """
     888.56

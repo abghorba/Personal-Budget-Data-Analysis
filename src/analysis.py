@@ -1,8 +1,50 @@
 from decimal import Decimal
 
-from numpy import mean, median, std, var
+import numpy as np
 
 from src.categorize_data import MONTHS, YEARS
+
+
+def calculate_regression_coefficients(data):
+    """
+    Calculates the slope and y-intercept of the least squares linear regression line.
+
+    :param data: A list of Decimals
+    :return: (slope, y_intercept)
+    """
+
+    x_coordinates = np.array([Decimal(index) for index in range(len(data))])
+    y_coordinates = np.array(data)
+    number_of_data_points = np.size(x_coordinates)
+
+    # Mean of x and y vector
+    mean_x = np.mean(x_coordinates)
+    mean_y = np.mean(y_coordinates)
+
+    # Calculate cross-deviation and deviation about x
+    sum_cross_deviations_xy = np.sum(y_coordinates * x_coordinates) - number_of_data_points * mean_y * mean_x
+    sum_squared_deviations_xx = np.sum(x_coordinates * x_coordinates) - number_of_data_points * mean_x * mean_x
+
+    # Calculate regression coefficients
+    slope = round(sum_cross_deviations_xy / sum_squared_deviations_xx, 2)
+    y_intercept = round(mean_y - slope * mean_x, 2)
+
+    return slope, y_intercept
+
+
+def calculate_regression_value(x_coordinate, slope, y_intercept):
+    """
+    Given a slope and y_intercept, calculate the value of the y_coordinate with equation:
+
+        y_coordinate = slope * x_coordinate + y_intercept
+
+    :param x_coordinate: Data point to calculate with
+    :param slope: Slope of a line
+    :param y_intercept: Y-intercept of a line
+    :return: y_coordinate
+    """
+
+    return slope * x_coordinate + y_intercept
 
 
 class SpendingAnalyzer:
@@ -69,6 +111,7 @@ class SpendingAnalyzer:
                         "median": Decimal,
                         "variance": Decimal,
                         "standard_deviation: Decimal,
+                        "linear_regression_coefficients": (Decimal, Decimal)
                     }
                 }
             },
@@ -79,6 +122,8 @@ class SpendingAnalyzer:
                         "median": Decimal,
                         "variance": Decimal,
                         "standard_deviation: Decimal,
+                        "linear_regression_coefficients": (Decimal, Decimal)
+
                     }
                 }
             }
@@ -98,17 +143,30 @@ class SpendingAnalyzer:
 
                 for subcategory in self._data_points[time_period][category].keys():
                     analysis[time_period][category][subcategory] = {}
+
+                    # Get Averages
                     analysis[time_period][category][subcategory]["average"] = round(
-                        mean(self._data_points[time_period][category][subcategory]), 2
+                        np.mean(self._data_points[time_period][category][subcategory]), 2
                     )
+
+                    # Get Medians
                     analysis[time_period][category][subcategory]["median"] = round(
-                        median(self._data_points[time_period][category][subcategory]), 2
+                        np.median(self._data_points[time_period][category][subcategory]), 2
                     )
+
+                    # Get Variances
                     analysis[time_period][category][subcategory]["variance"] = round(
-                        var(self._data_points[time_period][category][subcategory]), 2
+                        np.var(self._data_points[time_period][category][subcategory]), 2
                     )
+
+                    # Get Standard Deviations
                     analysis[time_period][category][subcategory]["standard_deviation"] = round(
-                        std(self._data_points[time_period][category][subcategory]), 2
+                        np.std(self._data_points[time_period][category][subcategory]), 2
                     )
+
+                    # Get Linear Regression Coefficients
+                    analysis[time_period][category][subcategory][
+                        "linear_regression_coefficients"
+                    ] = calculate_regression_coefficients(self._data_points[time_period][category][subcategory])
 
         return analysis
