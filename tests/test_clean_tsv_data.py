@@ -12,6 +12,13 @@ TEST_TSV_FILE = os.getcwd() + "/tests/files/spending.tsv"
 TEST_CLEAN_TSV_FILE = os.getcwd() + "/tests/files/cleaned_spending.tsv"
 
 
+@pytest.fixture(autouse=True)
+def remove_clean_tsv_file_after_test():
+    yield
+    if os.path.exists(TEST_CLEAN_TSV_FILE):
+        os.remove(TEST_CLEAN_TSV_FILE)
+
+
 class TestCleanTSVData:
     def test_clean_tsv_file(self):
         """Verifies that clean_tsv_file() cleans a raw spending.tsv correctly."""
@@ -52,7 +59,7 @@ class TestCleanTSVData:
 
         # Check random lines
         for iteration in range(100):
-            random_index = random.randint(2, len(tsv_file_contents))
+            random_index = random.randint(2, len(tsv_file_contents) - 1)
             random_line = tsv_file_contents[random_index]
             assert not random_line[0].isspace()
             assert not random_line[-1].isspace()
@@ -93,8 +100,6 @@ class TestCleanTSVData:
 
             for index, line in enumerate(clean_tsv_file_contents):
                 assert tsv_file_contents[index] == line.strip("\n")
-
-        os.remove(TEST_CLEAN_TSV_FILE)
 
     @pytest.mark.parametrize(
         "raw_filepath,cleaned_tsv_filepath,expected_value",
