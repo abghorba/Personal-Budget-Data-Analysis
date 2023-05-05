@@ -1,3 +1,4 @@
+from datetime import datetime
 from decimal import Decimal
 
 import numpy as np
@@ -50,7 +51,7 @@ def calculate_predicted_value(x_coordinate, slope, y_intercept):
 class SpendingAnalyzer:
     def __init__(self, budget_dict):
         self.budget_dict = budget_dict
-        self.months_and_years_analyzed = []
+        self.categories_to_subcategories = {}
         self._data_points = self._gather_all_data_points()
         self.analysis = self.get_analysis()
 
@@ -60,13 +61,15 @@ class SpendingAnalyzer:
         data_points = {
             "lifetime": {
                 "category": {
-                    "subcategory": List of all data points in ascending order by date
-                }
+                    "subcategory": List of all data points in ascending order by date,
+                },
+                "first_date": Tuple (year, month)
             },
             "year": {
                 "category": {
-                    "subcategory": List of all data points in ascending order by date
-                }
+                    "subcategory": List of all data points in ascending order by date,
+                },
+                "first_date": Tuple (year, month)
             }
         }
 
@@ -81,7 +84,11 @@ class SpendingAnalyzer:
             for month in sorted(self.budget_dict[year], key=MONTHS.index):
                 budget_spending = self.budget_dict[year][month]
 
-                self.months_and_years_analyzed.append((year, month))
+                if "first_date" not in data_points["lifetime"]:
+                    data_points["lifetime"]["first_date"] = (year, month)
+
+                if "first_date" not in data_points[year]:
+                    data_points[year]["first_date"] = (year, month)
 
                 for category_name in budget_spending.categories.keys():
                     if category_name not in data_points["lifetime"]:
@@ -101,6 +108,55 @@ class SpendingAnalyzer:
                         data_points[year][category_name][subcategory_name].append(Decimal(value))
 
         return data_points
+
+    def get_x_coordinate_for_month_and_year(self, year, month, timeframe):
+        """
+        For the given timeframe, calculate the x_coordinate corresponding to the given month and year. The first
+        data point in the timeframe corresponds to x = 0.
+
+        If the month and year happen to occur before the first data point, we can expect the x_coordinate to be
+        negative. Likewise, if the month and year occurs after the first data point, the x_coordinate should be
+        positive.
+
+        :param year: Year
+        :param month: Month
+        :param timeframe: Timeframe of the data
+        :return: int representing the x_coordinate
+        """
+
+        first_year, first_month = self._data_points[timeframe]["first_date"]
+        start_date = datetime.strptime(f"{first_month} {first_year}", "%B %Y")
+        end_date = datetime.strptime(f"{month} {year}", "%B %Y")
+        x_coordinate = (end_date.year - start_date.year) * 12 + (end_date.month - start_date.month)
+
+        return x_coordinate
+
+    def get_expected_value(self, year, month, timeframe, category, subcategory):
+        """
+        Uses the linear regression coefficients to calculate the expected value at the specified month and year
+        for the given timeframe.
+
+        :param year:
+        :param month:
+        :param timeframe: "lifetime" or any year
+        :param category:
+        :param subcategory:
+        :return:
+        """
+
+        if timeframe not in self.analysis:
+            raise RuntimeError("Invalid timeframe!")
+
+        if category not in self.analysis[timeframe]:
+            raise RuntimeError("Invalid category for the timeframe!")
+
+        if subcategory not in self.analysis[timeframe][category]:
+            raise RuntimeError("Invalid subcategory for the category!")
+
+        slope, y_intercept = self.analysis[timeframe][category][subcategory]["linear_regression_coefficients"]
+        x_coordinate = self.get_x_coordinate_for_month_and_year(year, month, timeframe)
+
+        return calculate_predicted_value(x_coordinate, slope, y_intercept)
 
     def get_analysis(self):
         """
@@ -141,6 +197,9 @@ class SpendingAnalyzer:
             analysis[time_period] = {}
 
             for category in self._data_points[time_period].keys():
+                if category == "first_date":
+                    continue
+
                 analysis[time_period][category] = {}
 
                 for subcategory in self._data_points[time_period][category].keys():

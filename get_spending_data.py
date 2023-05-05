@@ -1,4 +1,4 @@
-from src.analysis import SpendingAnalyzer, calculate_predicted_value
+from src.analysis import SpendingAnalyzer
 from src.categorize_data import perform_data_compilation
 
 
@@ -7,8 +7,6 @@ def main():
 
     # At this point, we can do whatever data analysis we'd like
     analyzer = SpendingAnalyzer(budget_dict)
-
-    print(analyzer.months_and_years_analyzed)
 
     # print(budget_dict["2023"]["April"])
     print("\nAverages:")
@@ -40,6 +38,10 @@ def main():
     print(analyzer.analysis["2022"]["needs"]["rent"]["linear_regression_coefficients"])
     print(analyzer.analysis["2023"]["needs"]["rent"]["linear_regression_coefficients"])
     print(analyzer.analysis["lifetime"]["needs"]["rent"]["linear_regression_coefficients"])
+
+    print("\nSome Expected Values:")
+    print(analyzer.get_expected_value("2025", "May", "lifetime", "needs", "rent"))
+    print(analyzer.get_expected_value("2022", "June", "lifetime", "needs", "rent"))
 
 
 if __name__ == "__main__":
