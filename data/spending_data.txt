@@ -124,8 +124,8 @@ Needs:
 	Other Insurance = $0.00
 	Rent = $1,035.39
 	Renters Insurance = $59.50
-	Student Loans = $453.05
-	Taxes = $0.00
+	Student Loans = $108.05
+	Taxes = $345.00
 	Vision Insurance = $0.00
 	TOTAL = $2,870.16
 ----------------------------------------
@@ -696,8 +696,8 @@ Needs:
 	Other Insurance = $0.00
 	Rent = $1,120.78
 	Renters Insurance = $0.00
-	Student Loans = $726.05
-	Taxes = $0.00
+	Student Loans = $308.05
+	Taxes = $418.00
 	Vision Insurance = $0.00
 	TOTAL = $2,662.62
 ----------------------------------------
@@ -1268,8 +1268,8 @@ Needs:
 	Other Insurance = $0.00
 	Rent = $2,384.22
 	Renters Insurance = $0.00
-	Student Loans = $450.00
-	Taxes = $0.00
+	Student Loans = $0.00
+	Taxes = $450.00
 	Vision Insurance = $0.00
 	TOTAL = $3,795.98
 ----------------------------------------
@@ -1320,8 +1320,8 @@ Needs:
 	Other Insurance = $0.00
 	Rent = $2,380.70
 	Renters Insurance = $0.00
-	Student Loans = $1,103.00
-	Taxes = $0.00
+	Student Loans = $0.00
+	Taxes = $1,103.00
 	Vision Insurance = $0.00
 	TOTAL = $4,668.24
 ----------------------------------------

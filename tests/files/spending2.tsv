@@ -1,0 +1,40 @@
+	Description	 Category 	 Subcategory 	 Payment 	 Date 	 Gains/Expenses 	Checking Balance		Is Curent Balance <$0?	Row # In Table	Next <$0 Balance Amount	Date <$0 Balance Occurs
+	Beginning Balance	None	None	None	2/28/2021	 $ 2,500.00 	 $ 2,500.00 		FALSE	-1	N/A	N/A
+	Rent	 Needs 	Rent	 Checking 	4/1/2023	 $ (2,000.00)	 $ 1,063.93 		FALSE	-1	N/A	N/A
+	Rent	 Income 	Reimbursements	 Checking 	4/1/2023	 $ 1,000.00	 $ 1,063.93 		FALSE	-1	N/A	N/A
+	McDonald's	 Wants 	Free Spending	 Checking 	4/1/2023	 $ (15.00)	 $ 1,063.93 		FALSE	-1	N/A	N/A
+	Amazon	 Wants 	Free Spending	 Checking 	4/2/2023	 $ (75.33)	 $ 1,063.93 		FALSE	-1	N/A	N/A
+	Car Insurance	 Needs 	Car Insurance	 Checking 	4/2/2023	 $ (145.60)	 $ 521.90 		FALSE	-1	N/A	N/A
+	Student Loans	 Needs 	Student Loans	 Checking 	4/3/2023	 $ (145.60)	 $ 521.90 		FALSE	-1	N/A	N/A
+	Netflix	 Wants 	Subscriptions	 Checking 	4/3/2023	 $ (14.99)	 $ 521.90 		FALSE	-1	N/A	N/A
+	Mexico Planning	 Wants 	Vacation Spending	 Checking 	4/3/2023	 $ (444.44)	 $ 521.90 		FALSE	-1	N/A	N/A
+	Coinbase	 Savings 	Crypto Savings	 Checking 	4/5/2023	 $ (40.00)	 $ 521.90 		FALSE	-1	N/A	N/A
+	Coinbase	 Savings 	Crypto Savings	 Checking 	4/6/2023	 $ (70.00)	 $ 521.90 		FALSE	-1	N/A	N/A
+	Misc	 Needs 	 Unknown 	 Citi CC 	4/11/2023	 $ (125.99)	 $ 667.50 		FALSE	-1	N/A	N/A
+	Internet Bill	 Needs 	Internet Bill	 Checking 	4/12/2023	 $ (69.99)	 $ 451.91 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	Reimbursements	 Checking 	4/12/2023	 $ 20.00	 $ 451.91 		FALSE	-1	N/A	N/A
+	Groceries	 Needs 	 Groceries 	 Chase CC 	4/12/2023	 $ (263.45)	 $ 944.93 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	4/14/2023	 $ 3000.00	 $ 944.93 		FALSE	-1	N/A	N/A
+	Investment Account	 Savings 	 Taxable Brokerage 	 Checking 	4/14/2023	 $ (50.00)	 $ 944.93 		FALSE	-1	N/A	N/A
+	IRA Contribution	 Savings 	 Retirement 	 Checking 	4/14/2023	 $ (350.00)	 $ 944.93 		FALSE	-1	N/A	N/A
+	Emergency Fund	 Savings 	 Emergency Savings 	 Checking 	4/14/2023	 $ (100.00)	 $ 944.93 		FALSE	-1	N/A	N/A
+	State Tax Return	 Income 	 Tax Return 	 Checking 	4/15/2023	 $ 500.00	 $ 944.93 		FALSE	-1	N/A	N/A
+	Electric Bill	 Needs 	Electric Bill	 Checking 	4/16/2023	 $ (16.35)	 $ 1,035.17 		FALSE	-1	N/A	N/A
+	Bill Reimbursement	 Income 	Reimbursements	 Checking 	4/12/2023	 $ 20.00	 $ 451.91 		FALSE	-1	N/A	N/A
+	Amazon	 Wants 	Free Spending	 Checking 	4/16/2023	 $ (145.60)	 $ 521.90 		FALSE	-1	N/A	N/A
+	Amazon	 Income 	Reimbursements	 Checking 	4/16/2023	 $ 45.60	 $ 521.90 		FALSE	-1	N/A	N/A
+	Things	 Wants 	Unknown	 Checking 	4/17/2023	 $ (44.44)	 $ 521.90 		FALSE	-1	N/A	N/A
+	Chevron	 Needs 	 Gas 	 Citi CC 	4/17/2023	 $ (68.32)	 $ 1,051.52 		FALSE	-1	N/A	N/A
+	Lemonade	 Needs 	 Renter's Insurance 	 Citi CC 	4/18/2023	 $ (68.32)	 $ 1,051.52 		FALSE	-1	N/A	N/A
+	Federal Taxes	 Needs 	 Taxes 	 Checking 	4/18/2023	 $ (400.00)	 $ 708.50 		FALSE	-1	N/A	N/A
+	HBO Max	 Wants 	 Subscriptions 	 Checking 	4/18/2023	 $ (13.99)	 $ 708.50 		FALSE	-1	N/A	N/A
+	Cash Back	 Income 	 Reimbursements 	 Checking 	4/19/2023	 $ 13.99	 $ 708.50 		FALSE	-1	N/A	N/A
+	Groceries	 Needs 	 Groceries 	 Citi CC 	4/23/2023	 $ (125.99)	 $ 667.50 		FALSE	-1	N/A	N/A
+	Emergency	 Needs 	 Emergency 	 Citi CC 	4/25/2023	 $ (125.99)	 $ 667.50 		FALSE	-1	N/A	N/A
+	New Savings Account	 Savings 	 Unknown 	 Checking 	4/26/2023	 $ (55.55)	 $ 944.93 		FALSE	-1	N/A	N/A
+	Misc	 Needs 	 Still Unknown 	 Citi CC 	4/27/2023	 $ (125.99)	 $ 667.50 		FALSE	-1	N/A	N/A
+	Payday	 Income 	 Earnings 	 Checking 	4/28/2023	 $ 3000.00	 $ 944.93 		FALSE	-1	N/A	N/A
+	Investment Account	 Savings 	 Taxable Brokerage 	 Checking 	4/28/2023	 $ (50.00)	 $ 944.93 		FALSE	-1	N/A	N/A
+	IRA Contribution	 Savings 	 Retirement 	 Checking 	4/28/2023	 $ (350.00)	 $ 944.93 		FALSE	-1	N/A	N/A
+	Emergency Fund	 Savings 	 Emergency Savings 	 Checking 	4/14/2023	 $ (100.00)	 $ 944.93 		FALSE	-1	N/A	N/A
+					12/31/2023		 $ 3,224.87 		FALSE	-1	N/A	N/A

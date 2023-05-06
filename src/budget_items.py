@@ -35,6 +35,12 @@ class Category:
 
         return "\n".join(attributes_list)
 
+    def __eq__(self, other):
+        return isinstance(other, Category) and self.subcategories == other.subcategories
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
 
 class Needs(Category):
     def __init__(self):
@@ -159,3 +165,9 @@ class BudgetSpending:
         budget_spending_string.append("*" * 40)
 
         return "\n".join(budget_spending_string)
+
+    def __eq__(self, other):
+        return isinstance(other, BudgetSpending) and self.categories == other.categories and self.name == other.name
+
+    def __ne__(self, other):
+        return not self.__eq__(other)

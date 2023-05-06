@@ -242,6 +242,30 @@ class TestCategoryClasses:
 
         assert str(category) == expected_value
 
+    def test_equals(self):
+        """Tests that Category.__eq__() is overwritten and correctly determines when two instances are equal."""
+
+        category1 = Category()
+        category2 = Category()
+        category3 = Needs()
+        category4 = Wants()
+        category5 = Savings()
+
+        assert category1 == category2
+        assert not category2 == category3
+        assert not category3 == category4
+        assert not category4 == category5
+
+        category6 = Needs()
+        category6.misc = Decimal("100")
+        category6.health_insurance = Decimal("100")
+        category7 = Needs()
+        category7.misc = Decimal("100")
+        category7.health_insurance = Decimal("100")
+
+        assert not category3 == category6
+        assert category6 == category7
+
 
 class TestBudgetSpendingClass:
     # Set up BudgetSpending instances
@@ -533,3 +557,29 @@ class TestBudgetSpendingClass:
         """Tests that BudgetSpending.__str__() is overwritten and returns correct values."""
 
         assert str(budget_spending) == expected_value
+
+    def test_equals(self):
+        """Tests that BudgetSpending.__eq__() is overwritten and correctly determines when two instances are equal."""
+
+        budget_spending_1 = BudgetSpending()
+        budget_spending_2 = BudgetSpending()
+        budget_spending_3 = BudgetSpending()
+        budget_spending_3.needs.mortgage = Decimal("3000.00")
+        budget_spending_4 = BudgetSpending()
+        budget_spending_4.needs.rent = Decimal("1000.00")
+        budget_spending_4.wants.free_spending = Decimal("932.23")
+        budget_spending_4.income.earnings = Decimal("2302.12")
+        budget_spending_5 = BudgetSpending()
+        budget_spending_5.needs.rent = Decimal("1000.00")
+        budget_spending_5.wants.free_spending = Decimal("932.23")
+        budget_spending_5.income.earnings = Decimal("2302.12")
+        budget_spending_6 = BudgetSpending()
+        budget_spending_6.needs.rent = Decimal("1000.00")
+        budget_spending_6.wants.free_spending = Decimal("932.23")
+        budget_spending_6.income.earnings = Decimal("2302.11")
+
+        assert budget_spending_1 == budget_spending_2
+        assert not budget_spending_1 == budget_spending_3
+        assert not budget_spending_3 == budget_spending_4
+        assert budget_spending_4 == budget_spending_5
+        assert not budget_spending_5 == budget_spending_6
