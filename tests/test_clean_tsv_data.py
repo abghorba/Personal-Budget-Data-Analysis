@@ -6,24 +6,31 @@ from decimal import Decimal
 import pytest
 
 from src.clean_tsv_data import clean_data, clean_tsv_file, export_cleaned_data_to_tsv
-
-INVALID_PATH = os.getcwd() + "/tests/files/invalid.tsv"
-TEST_TSV_FILE = os.getcwd() + "/tests/files/spending.tsv"
-TEST_CLEAN_TSV_FILE = os.getcwd() + "/tests/files/cleaned_spending.tsv"
+from tests.utilities import (
+    EXPECTED_CLEANED_TSV_FILE1,
+    EXPECTED_CLEANED_TSV_FILE2,
+    EXPECTED_CLEANED_TSV_FILE3,
+    INVALID_PATH,
+    TEST_CLEAN_TSV_FILE,
+    TEST_TSV_FILE1,
+    TEST_TSV_FILE2,
+    TEST_TSV_FILE3,
+)
 
 
 @pytest.fixture(autouse=True)
-def remove_clean_tsv_file_after_test():
+def remove_test_files():
     yield
     if os.path.exists(TEST_CLEAN_TSV_FILE):
         os.remove(TEST_CLEAN_TSV_FILE)
 
 
 class TestCleanTSVData:
-    def test_clean_tsv_file(self):
+    @pytest.mark.parametrize("raw_filepath", [TEST_TSV_FILE1, TEST_TSV_FILE2, TEST_TSV_FILE3])
+    def test_clean_tsv_file(self, raw_filepath):
         """Verifies that clean_tsv_file() cleans a raw spending.tsv correctly."""
 
-        tsv_file_contents = clean_tsv_file(raw_filepath=TEST_TSV_FILE)
+        tsv_file_contents = clean_tsv_file(raw_filepath=raw_filepath)
 
         assert isinstance(tsv_file_contents, list)
 
@@ -42,7 +49,7 @@ class TestCleanTSVData:
         assert header_line[5] == "Gains/Expenses"
         assert header_line[6] == "Checking Balance"
 
-        # Check this beginning balance line
+        # Check the beginning balance line
         beginning_balance_line = tsv_file_contents[1]
         assert not beginning_balance_line[0].isspace()
         assert not beginning_balance_line[-1].isspace()
@@ -53,9 +60,21 @@ class TestCleanTSVData:
         assert beginning_balance_line[1] == "None"
         assert beginning_balance_line[2] == "None"
         assert beginning_balance_line[3] == "None"
-        assert beginning_balance_line[4] == "2/28/2021"
-        assert beginning_balance_line[5] == "1317.17"
-        assert beginning_balance_line[6] == "1317.17"
+
+        if raw_filepath == TEST_TSV_FILE1:
+            assert beginning_balance_line[4] == "4/1/2023"
+            assert beginning_balance_line[5] == "2500.00"
+            assert beginning_balance_line[6] == "2500.00"
+
+        elif raw_filepath == TEST_TSV_FILE2:
+            assert beginning_balance_line[4] == "1/1/2022"
+            assert beginning_balance_line[5] == "2277.01"
+            assert beginning_balance_line[6] == "2277.01"
+
+        elif raw_filepath == TEST_TSV_FILE3:
+            assert beginning_balance_line[4] == "2/28/2021"
+            assert beginning_balance_line[5] == "1317.17"
+            assert beginning_balance_line[6] == "1317.17"
 
         # Check random lines
         for iteration in range(100):
@@ -86,27 +105,35 @@ class TestCleanTSVData:
                     # Ensure this entry can be type-casted to a Decimal
                     Decimal(entry)
 
-    def test_export_cleaned_data_to_tsv(self):
+    @pytest.mark.parametrize(
+        "raw_filepath,expected_clean_tsv_filepath",
+        [
+            (TEST_TSV_FILE1, EXPECTED_CLEANED_TSV_FILE1),
+            (TEST_TSV_FILE2, EXPECTED_CLEANED_TSV_FILE2),
+            (TEST_TSV_FILE3, EXPECTED_CLEANED_TSV_FILE3),
+        ],
+    )
+    def test_export_cleaned_data_to_tsv(self, raw_filepath, expected_clean_tsv_filepath):
         """Verifies that export_cleaned_data_to_tsv() correctly writes data to a new file."""
 
-        tsv_file_contents = clean_tsv_file(raw_filepath=TEST_TSV_FILE)
+        tsv_file_contents = clean_tsv_file(raw_filepath=raw_filepath)
         export_cleaned_data_to_tsv(tsv_file_contents, cleaned_tsv_filepath=TEST_CLEAN_TSV_FILE)
 
         assert os.path.exists(TEST_CLEAN_TSV_FILE)
         assert os.path.getsize(TEST_CLEAN_TSV_FILE) > 0
 
-        with open(TEST_CLEAN_TSV_FILE, "r") as file:
-            clean_tsv_file_contents = file.readlines()
-
-            for index, line in enumerate(clean_tsv_file_contents):
-                assert tsv_file_contents[index] == line.strip("\n")
+        with open(expected_clean_tsv_filepath, "r") as expected_file:
+            with open(TEST_CLEAN_TSV_FILE, "r") as test_file:
+                assert test_file.readlines() == expected_file.readlines()
 
     @pytest.mark.parametrize(
         "raw_filepath,cleaned_tsv_filepath,expected_value",
         [
             (INVALID_PATH, TEST_CLEAN_TSV_FILE, True),
-            (TEST_TSV_FILE, "", True),
-            (TEST_TSV_FILE, TEST_CLEAN_TSV_FILE, False),
+            (TEST_TSV_FILE1, "", True),
+            (TEST_TSV_FILE1, TEST_CLEAN_TSV_FILE, False),
+            (TEST_TSV_FILE2, TEST_CLEAN_TSV_FILE, False),
+            (TEST_TSV_FILE3, TEST_CLEAN_TSV_FILE, False),
         ],
     )
     def test_clean_data(self, raw_filepath, cleaned_tsv_filepath, expected_value):

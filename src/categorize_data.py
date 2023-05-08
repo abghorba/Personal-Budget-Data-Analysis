@@ -81,8 +81,6 @@ def get_date_ranges(years=None, months=None):
 
             date_ranges[date_string] = (date_range_start, date_range_end)
 
-    print(date_ranges)
-
     return date_ranges
 
 
@@ -483,7 +481,13 @@ def save_spending_data_as_text_file(budget_dict, filepath=SPENDING_DATA_TXT_FILE
 
 
 def perform_data_compilation(
-    years=None, months=None, use_threading=False, use_multiprocessing=False, filepath=SPENDING_DATA_TXT_FILEPATH
+    years=None,
+    months=None,
+    use_threading=False,
+    use_multiprocessing=False,
+    raw_filepath=RAW_TSV_FILEPATH,
+    cleaned_filepath=CLEANED_TSV_FILEPATH,
+    cleaned_txt_filepath=SPENDING_DATA_TXT_FILEPATH,
 ):
     """
     Driver function to load data/cleaned_spending.tsv into a DataFrame, compile all the transactions into a dictionary,
@@ -493,7 +497,9 @@ def perform_data_compilation(
     :param months: List of strings containing month names. Ex. ["January", "April", "May"]
     :param use_threading: True to use threading; False otherwise
     :param use_multiprocessing: True to use multiprocessing; False otherwise
-    :param filepath: Filepath to write the file to
+    :param raw_filepath: Filepath to the raw spending.tsv file
+    :param cleaned_filepath: Filepath to write the cleaned data to
+    :param cleaned_txt_filepath: Filepath to write the spending data to
     :return: Dictionary containing BudgetSpending instances formatted as
              dict[year][month] --> BudgetSpending
     """
@@ -504,8 +510,8 @@ def perform_data_compilation(
     if years is None:
         years = YEARS
 
-    budget_df = load_data_to_dataframe(verbose=False)
+    budget_df = load_data_to_dataframe(raw_filepath=raw_filepath, cleaned_tsv_filepath=cleaned_filepath, verbose=False)
     budget_dict = compile_transactions_into_dictionary(budget_df, years, months, use_threading, use_multiprocessing)
-    save_spending_data_as_text_file(budget_dict, filepath)
+    save_spending_data_as_text_file(budget_dict, cleaned_txt_filepath)
 
     return budget_dict

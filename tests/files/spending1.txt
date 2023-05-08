@@ -1,0 +1,52 @@
+April 2023
+****************************************
+Income:
+	Earnings = $6,000.00
+	Tax Returns = $500.00
+	TOTAL = $6,500.00
+----------------------------------------
+Needs:
+	Car Insurance = $145.60
+	Dental Insurance = $0.00
+	Electric Bill = $16.35
+	Emergencies = $125.99
+	Gasoline = $68.32
+	Groceries = $389.44
+	Health Insurance = $0.00
+	Internet Bill = $69.99
+	Laundry = $0.00
+	Misc = $251.98
+	Mortgage = $0.00
+	Other Insurance = $0.00
+	Rent = $2,000.00
+	Renters Insurance = $68.32
+	Student Loans = $145.60
+	Taxes = $400.00
+	Vision Insurance = $0.00
+	TOTAL = $3,681.59
+----------------------------------------
+Wants:
+	Free Spending = $235.93
+	Misc = $44.44
+	Subscriptions = $28.98
+	Vacation Spending = $444.44
+	TOTAL = $753.79
+----------------------------------------
+Savings:
+	Crypto = $110.00
+	Emergency Fund = $200.00
+	Investing = $100.00
+	Misc = $55.55
+	Retirement = $700.00
+	TOTAL = $1,165.55
+----------------------------------------
+Reimbursements:
+	Bills = $40.00
+	Credit Card Rewards = $13.99
+	Free Spending = $45.60
+	Rent = $1,000.00
+	TOTAL = $1,099.59
+----------------------------------------
+TOTAL SPENDING = $4,501.34
+SURPLUS = $1,998.66
+****************************************

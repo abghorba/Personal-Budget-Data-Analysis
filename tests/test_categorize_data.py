@@ -1,6 +1,6 @@
+import json
 import os
 from datetime import datetime
-from decimal import Decimal
 
 import pandas as pd
 import pytest
@@ -18,59 +18,34 @@ from src.categorize_data import (
     load_data_to_dataframe,
     save_spending_data_as_text_file,
 )
-
-INVALID_PATH = os.getcwd() + "/tests/files/invalid.tsv"
-TEST_TSV_FILE = os.getcwd() + "/tests/files/spending.tsv"
-TEST_TSV_FILE2 = os.getcwd() + "/tests/files/spending2.tsv"
-TEST_CLEAN_TSV_FILE = os.getcwd() + "/tests/files/cleaned_spending.tsv"
-TEST_SPENDING_FILE = os.getcwd() + "/tests/files/spending.txt"
+from tests.utilities import (
+    DATE_RANGE_DICT_SPENDING1,
+    DATE_RANGE_DICT_SPENDING2,
+    DATE_RANGE_DICT_SPENDING3,
+    EXPECTED_TEST_SPENDING_FILE1,
+    EXPECTED_TEST_SPENDING_FILE2,
+    EXPECTED_TEST_SPENDING_FILE3,
+    TEST_CLEAN_TSV_FILE,
+    TEST_SPENDING_FILE,
+    TEST_TSV_FILE1,
+    TEST_TSV_FILE2,
+    TEST_TSV_FILE3,
+    get_expected_budget_dict1,
+    get_expected_budget_dict2,
+    get_expected_budget_dict3,
+    get_expected_budget_spending1,
+    get_expected_budget_spending2,
+    get_expected_budget_spending3,
+)
 
 
 @pytest.fixture(autouse=True)
-def remove_clean_tsv_file_after_test():
+def remove_test_files():
     yield
     if os.path.exists(TEST_CLEAN_TSV_FILE):
         os.remove(TEST_CLEAN_TSV_FILE)
     if os.path.exists(TEST_SPENDING_FILE):
         os.remove(TEST_SPENDING_FILE)
-
-
-def get_expected_budget_spending2():
-    """Returns the expected BudgetSpending instance from /tests/files/spending2.tsv"""
-    expected_budget_spending = BudgetSpending("April 2023")
-    expected_budget_spending.needs.car_insurance = Decimal("145.60")
-    expected_budget_spending.needs.dental_insurance = Decimal("0.00")
-    expected_budget_spending.needs.electric_bill = Decimal("16.35")
-    expected_budget_spending.needs.emergencies = Decimal("125.99")
-    expected_budget_spending.needs.gasoline = Decimal("68.32")
-    expected_budget_spending.needs.groceries = Decimal("389.44")
-    expected_budget_spending.needs.health_insurance = Decimal("0.00")
-    expected_budget_spending.needs.internet_bill = Decimal("69.99")
-    expected_budget_spending.needs.laundry = Decimal("0.00")
-    expected_budget_spending.needs.misc = Decimal("251.98")
-    expected_budget_spending.needs.mortgage = Decimal("0.00")
-    expected_budget_spending.needs.other_insurance = Decimal("0.00")
-    expected_budget_spending.needs.rent = Decimal("2000.00")
-    expected_budget_spending.needs.renters_insurance = Decimal("68.32")
-    expected_budget_spending.needs.student_loans = Decimal("145.60")
-    expected_budget_spending.needs.taxes = Decimal("400.00")
-    expected_budget_spending.needs.vision_insurance = Decimal("0.00")
-    expected_budget_spending.wants.free_spending = Decimal("235.93")
-    expected_budget_spending.wants.misc = Decimal("44.44")
-    expected_budget_spending.wants.subscriptions = Decimal("28.98")
-    expected_budget_spending.wants.vacation_spending = Decimal("444.44")
-    expected_budget_spending.savings.crypto = Decimal("110.00")
-    expected_budget_spending.savings.emergency_fund = Decimal("200.00")
-    expected_budget_spending.savings.investing = Decimal("100.00")
-    expected_budget_spending.savings.misc = Decimal("55.55")
-    expected_budget_spending.savings.retirement = Decimal("700.00")
-    expected_budget_spending.income.earnings = Decimal("6000.00")
-    expected_budget_spending.income.tax_returns = Decimal("500.00")
-    expected_budget_spending.reimbursements.bills = Decimal("40.00")
-    expected_budget_spending.reimbursements.credit_card_rewards = Decimal("13.99")
-    expected_budget_spending.reimbursements.free_spending = Decimal("45.60")
-    expected_budget_spending.reimbursements.rent = Decimal("1000.00")
-    return expected_budget_spending
 
 
 class TestCategorizeData:
@@ -166,10 +141,11 @@ class TestCategorizeData:
 
         assert get_date_ranges(years, months) == expected_ranges
 
-    def test_load_data_to_dataframe(self):
+    @pytest.mark.parametrize("raw_filepath", [TEST_TSV_FILE1, TEST_TSV_FILE2, TEST_TSV_FILE3])
+    def test_load_data_to_dataframe(self, raw_filepath):
         """Tests load_data_to_dataframe() correctly loads the cleaned TSV file into a pandas.DataFrame."""
 
-        df = load_data_to_dataframe(TEST_TSV_FILE, TEST_CLEAN_TSV_FILE)
+        df = load_data_to_dataframe(raw_filepath, TEST_CLEAN_TSV_FILE)
         assert isinstance(df, pd.DataFrame)
 
         with open(TEST_CLEAN_TSV_FILE, "r") as file:
@@ -187,15 +163,24 @@ class TestCategorizeData:
         assert isinstance(df["Gains/Expenses"][2], str)
         assert isinstance(df["Checking Balance"][2], str)
 
-    def test_categorize_needs_transaction(self):
+    @pytest.mark.parametrize("raw_filepath", [TEST_TSV_FILE1])
+    def test_categorize_needs_transaction(self, raw_filepath):
         """Tests categorize_needs_transaction() parses a Needs transaction correctly."""
 
-        df = load_data_to_dataframe(TEST_TSV_FILE2, TEST_CLEAN_TSV_FILE)
+        df = load_data_to_dataframe(raw_filepath, TEST_CLEAN_TSV_FILE)
         budget_spending = BudgetSpending()
 
         # Set up expected BudgetSpending instance
         expected_budget_spending = BudgetSpending()
-        expected_budget_spending.needs = get_expected_budget_spending2().needs
+
+        if raw_filepath == TEST_TSV_FILE1:
+            expected_budget_spending.needs = get_expected_budget_spending1().needs
+
+        elif raw_filepath == TEST_TSV_FILE2:
+            expected_budget_spending.needs = get_expected_budget_spending2().needs
+
+        else:
+            expected_budget_spending.needs = get_expected_budget_spending3().needs
 
         for index, transaction in df.iterrows():
             category = transaction["Category"]
@@ -207,15 +192,24 @@ class TestCategorizeData:
 
         assert budget_spending == expected_budget_spending
 
-    def test_categorize_wants_transaction(self):
+    @pytest.mark.parametrize("raw_filepath", [TEST_TSV_FILE1])
+    def test_categorize_wants_transaction(self, raw_filepath):
         """Tests categorize_wants_transaction() parses a Wants transaction correctly."""
 
-        df = load_data_to_dataframe(TEST_TSV_FILE2, TEST_CLEAN_TSV_FILE)
+        df = load_data_to_dataframe(raw_filepath, TEST_CLEAN_TSV_FILE)
         budget_spending = BudgetSpending()
 
         # Set up expected BudgetSpending instance
         expected_budget_spending = BudgetSpending()
-        expected_budget_spending.wants = get_expected_budget_spending2().wants
+
+        if raw_filepath == TEST_TSV_FILE1:
+            expected_budget_spending.wants = get_expected_budget_spending1().wants
+
+        elif raw_filepath == TEST_TSV_FILE2:
+            expected_budget_spending.wants = get_expected_budget_spending2().wants
+
+        else:
+            expected_budget_spending.wants = get_expected_budget_spending3().wants
 
         for index, transaction in df.iterrows():
             category = transaction["Category"]
@@ -225,15 +219,24 @@ class TestCategorizeData:
 
         assert budget_spending == expected_budget_spending
 
-    def test_categorize_savings_transaction(self):
+    @pytest.mark.parametrize("raw_filepath", [TEST_TSV_FILE1])
+    def test_categorize_savings_transaction(self, raw_filepath):
         """Tests categorize_savings_transaction() parses a Savings transaction correctly."""
 
-        df = load_data_to_dataframe(TEST_TSV_FILE2, TEST_CLEAN_TSV_FILE)
+        df = load_data_to_dataframe(raw_filepath, TEST_CLEAN_TSV_FILE)
         budget_spending = BudgetSpending()
 
         # Set up expected BudgetSpending instance
         expected_budget_spending = BudgetSpending()
-        expected_budget_spending.savings = get_expected_budget_spending2().savings
+
+        if raw_filepath == TEST_TSV_FILE1:
+            expected_budget_spending.savings = get_expected_budget_spending1().savings
+
+        elif raw_filepath == TEST_TSV_FILE2:
+            expected_budget_spending.savings = get_expected_budget_spending2().savings
+
+        else:
+            expected_budget_spending.savings = get_expected_budget_spending3().savings
 
         for index, transaction in df.iterrows():
             category = transaction["Category"]
@@ -243,16 +246,27 @@ class TestCategorizeData:
 
         assert budget_spending == expected_budget_spending
 
-    def test_categorize_income_transaction(self):
+    @pytest.mark.parametrize("raw_filepath", [TEST_TSV_FILE1])
+    def test_categorize_income_transaction(self, raw_filepath):
         """Tests categorize_income_transaction() parses an Income transaction correctly."""
 
-        df = load_data_to_dataframe(TEST_TSV_FILE2, TEST_CLEAN_TSV_FILE)
+        df = load_data_to_dataframe(raw_filepath, TEST_CLEAN_TSV_FILE)
         budget_spending = BudgetSpending()
 
         # Set up expected BudgetSpending instance
         expected_budget_spending = BudgetSpending()
-        expected_budget_spending.income = get_expected_budget_spending2().income
-        expected_budget_spending.reimbursements = get_expected_budget_spending2().reimbursements
+
+        if raw_filepath == TEST_TSV_FILE1:
+            expected_budget_spending.income = get_expected_budget_spending1().income
+            expected_budget_spending.reimbursements = get_expected_budget_spending1().reimbursements
+
+        elif raw_filepath == TEST_TSV_FILE2:
+            expected_budget_spending.income = get_expected_budget_spending2().income
+            expected_budget_spending.reimbursements = get_expected_budget_spending2().reimbursements
+
+        else:
+            expected_budget_spending.income = get_expected_budget_spending3().income
+            expected_budget_spending.reimbursements = get_expected_budget_spending3().reimbursements
 
         for index, transaction in df.iterrows():
             category = transaction["Category"]
@@ -262,59 +276,139 @@ class TestCategorizeData:
 
         assert budget_spending == expected_budget_spending
 
-    def test_categorize_transactions(self):
+    @pytest.mark.parametrize(
+        "raw_filepath,date_ranges,year,month,budget_df,expected_budget_spending",
+        [
+            (TEST_TSV_FILE1, DATE_RANGE_DICT_SPENDING1, "2023", "April", pd.DataFrame(), None),
+            (TEST_TSV_FILE1, {}, "2023", "April", None, None),
+            (TEST_TSV_FILE1, {"May 2023": ("05/01/2023", "06/01/2023")}, "2023", "April", None, None),
+            (
+                TEST_TSV_FILE1,
+                {"April 2023": ("04/01/2023", "05/01/2023"), "May 2023": ("05/01/2023", "06/01/2023")},
+                "2023",
+                "May",
+                None,
+                None,
+            ),
+            (
+                TEST_TSV_FILE1,
+                DATE_RANGE_DICT_SPENDING1,
+                "2023",
+                "April",
+                None,
+                get_expected_budget_spending1(),
+            ),
+            (
+                TEST_TSV_FILE1,
+                {"April 2023": ("04/01/2023", "05/01/2023"), "January 2030": ("01/01/2030", "02/01/2030")},
+                "2023",
+                "April",
+                None,
+                get_expected_budget_spending1(),
+            ),
+            (
+                TEST_TSV_FILE2,
+                DATE_RANGE_DICT_SPENDING2,
+                "2022",
+                "November",
+                None,
+                get_expected_budget_spending2(),
+            ),
+            (
+                TEST_TSV_FILE3,
+                DATE_RANGE_DICT_SPENDING3,
+                "2021",
+                "June",
+                None,
+                get_expected_budget_spending3(),
+            ),
+        ],
+    )
+    def test_categorize_transactions(self, raw_filepath, date_ranges, year, month, budget_df, expected_budget_spending):
         """Tests categorize_income_transaction() parses all transactions correctly."""
 
-        df = load_data_to_dataframe(TEST_TSV_FILE2, TEST_CLEAN_TSV_FILE)
-        date_ranges = {"April 2023": ("04/01/2023", "05/01/2023"), "January 2030": ("01/01/2030", "02/01/2030")}
+        if budget_df is None:
+            budget_df = load_data_to_dataframe(raw_filepath, TEST_CLEAN_TSV_FILE)
 
-        # Check that passing in an empty DataFrame returns None
-        assert categorize_transactions(pd.DataFrame(), date_ranges) is None
-
-        # Check that supplying dates that have no data returns None
-        assert categorize_transactions(df, date_ranges, year="2030", month="January") is None
-
-        expected_budget_spending = get_expected_budget_spending2()
-        budget_spending = categorize_transactions(df, date_ranges, year="2023", month="April")
-
+        budget_spending = categorize_transactions(budget_df, date_ranges, year=year, month=month)
         assert expected_budget_spending == budget_spending
 
-    def test_compile_transactions_into_dictionary(self):
+    @pytest.mark.parametrize(
+        "raw_filepath,expected_budget_dict",
+        [
+            (TEST_TSV_FILE1, get_expected_budget_dict1()),
+            (TEST_TSV_FILE2, get_expected_budget_dict2()),
+            (TEST_TSV_FILE3, get_expected_budget_dict3()),
+        ],
+    )
+    def test_compile_transactions_into_dictionary(self, raw_filepath, expected_budget_dict):
         """Tests compile_transactions_into_dictionary() parses all transactions into a dictionary correctly."""
 
-        df = load_data_to_dataframe(TEST_TSV_FILE2, TEST_CLEAN_TSV_FILE)
+        df = load_data_to_dataframe(raw_filepath, TEST_CLEAN_TSV_FILE)
         budget_dict = compile_transactions_into_dictionary(df)
-        expected_budget_spending = get_expected_budget_spending2()
-        assert budget_dict["2023"]["April"] == expected_budget_spending
 
-    def test_compile_transactions_into_dictionary_multithreading(self):
+        for year in expected_budget_dict.keys():
+            for month in expected_budget_dict[year].keys():
+                assert (
+                    budget_dict[year][month] == expected_budget_dict[year][month]
+                ), f"{month} {year}\n {budget_dict[year][month]}"
+
+    @pytest.mark.parametrize(
+        "raw_filepath,expected_budget_dict",
+        [
+            (TEST_TSV_FILE1, get_expected_budget_dict1()),
+            (TEST_TSV_FILE2, get_expected_budget_dict2()),
+            (TEST_TSV_FILE3, get_expected_budget_dict3()),
+        ],
+    )
+    def test_compile_transactions_into_dictionary_multithreading(self, raw_filepath, expected_budget_dict):
         """Tests compile_transactions_into_dictionary(use_threading=True) parses all transactions into a
         dictionary correctly."""
 
-        df = load_data_to_dataframe(TEST_TSV_FILE2, TEST_CLEAN_TSV_FILE)
+        df = load_data_to_dataframe(raw_filepath, TEST_CLEAN_TSV_FILE)
         budget_dict = compile_transactions_into_dictionary(df, use_threading=True)
-        expected_budget_spending = get_expected_budget_spending2()
-        assert budget_dict["2023"]["April"] == expected_budget_spending
 
-    def test_compile_transactions_into_dictionary_multiprocessing(self):
+        for year in expected_budget_dict.keys():
+            for month in expected_budget_dict[year].keys():
+                assert budget_dict[year][month] == expected_budget_dict[year][month]
+
+    @pytest.mark.parametrize(
+        "raw_filepath,expected_budget_dict",
+        [
+            (TEST_TSV_FILE1, get_expected_budget_dict1()),
+            (TEST_TSV_FILE2, get_expected_budget_dict2()),
+            (TEST_TSV_FILE3, get_expected_budget_dict3()),
+        ],
+    )
+    def test_compile_transactions_into_dictionary_multiprocessing(self, raw_filepath, expected_budget_dict):
         """Tests compile_transactions_into_dictionary(use_multithreading=True) parses all transactions into a
         dictionary correctly."""
 
-        df = load_data_to_dataframe(TEST_TSV_FILE2, TEST_CLEAN_TSV_FILE)
+        df = load_data_to_dataframe(raw_filepath, TEST_CLEAN_TSV_FILE)
         budget_dict = compile_transactions_into_dictionary(df, use_multiprocessing=True)
-        expected_budget_spending = get_expected_budget_spending2()
-        assert budget_dict["2023"]["April"] == expected_budget_spending
 
-    def test_save_spending_data_as_text_file(self):
+        for year in expected_budget_dict.keys():
+            for month in expected_budget_dict[year].keys():
+                assert budget_dict[year][month] == expected_budget_dict[year][month]
+
+    @pytest.mark.parametrize(
+        "raw_filepath,expected_spending_txt_filepath",
+        [
+            (TEST_TSV_FILE1, EXPECTED_TEST_SPENDING_FILE1),
+            (TEST_TSV_FILE2, EXPECTED_TEST_SPENDING_FILE2),
+            (TEST_TSV_FILE3, EXPECTED_TEST_SPENDING_FILE3),
+        ],
+    )
+    def test_save_spending_data_as_text_file(self, raw_filepath, expected_spending_txt_filepath):
         """Verifies that save_spending_data_as_text_file() correctly writes data to a new file."""
 
-        df = load_data_to_dataframe(TEST_TSV_FILE2, TEST_CLEAN_TSV_FILE)
+        df = load_data_to_dataframe(raw_filepath, TEST_CLEAN_TSV_FILE)
         budget_dict = compile_transactions_into_dictionary(df)
         save_spending_data_as_text_file(budget_dict, TEST_SPENDING_FILE)
 
         assert os.path.exists(TEST_SPENDING_FILE)
         assert os.path.getsize(TEST_SPENDING_FILE) > 0
 
-        with open(TEST_SPENDING_FILE, "r") as file:
-            file_contents = file.readlines()
-            assert str(budget_dict["2023"]["April"]) + "\n" == "".join(file_contents)
+        with open(expected_spending_txt_filepath, "r") as expected_file:
+            with open(TEST_SPENDING_FILE, "r") as test_file:
+                assert test_file.readlines() == expected_file.readlines()

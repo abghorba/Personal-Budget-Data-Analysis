@@ -1,0 +1,39 @@
+Description	Category	Subcategory	Payment	Date	Gains/Expenses	Checking Balance
+Beginning Balance	None	None	None	4/1/2023	2500.00	2500.00
+Rent	Needs	Rent	Checking	4/1/2023	2000.00	1063.93
+Rent	Income	Reimbursements	Checking	4/1/2023	1000.00	1063.93
+McDonald's	Wants	Free Spending	Checking	4/1/2023	15.00	1063.93
+Amazon	Wants	Free Spending	Checking	4/2/2023	75.33	1063.93
+Car Insurance	Needs	Car Insurance	Checking	4/2/2023	145.60	521.90
+Student Loans	Needs	Student Loans	Checking	4/3/2023	145.60	521.90
+Netflix	Wants	Subscriptions	Checking	4/3/2023	14.99	521.90
+Mexico Planning	Wants	Vacation Spending	Checking	4/3/2023	444.44	521.90
+Coinbase	Savings	Crypto Savings	Checking	4/5/2023	40.00	521.90
+Coinbase	Savings	Crypto Savings	Checking	4/6/2023	70.00	521.90
+Misc	Needs	Unknown	Citi CC	4/11/2023	125.99	667.50
+Internet Bill	Needs	Internet Bill	Checking	4/12/2023	69.99	451.91
+Bill Reimbursement	Income	Reimbursements	Checking	4/12/2023	20.00	451.91
+Groceries	Needs	Groceries	Chase CC	4/12/2023	263.45	944.93
+Payday	Income	Earnings	Checking	4/14/2023	3000.00	944.93
+Investment Account	Savings	Taxable Brokerage	Checking	4/14/2023	50.00	944.93
+IRA Contribution	Savings	Retirement	Checking	4/14/2023	350.00	944.93
+Emergency Fund	Savings	Emergency Savings	Checking	4/14/2023	100.00	944.93
+State Tax Return	Income	Tax Return	Checking	4/15/2023	500.00	944.93
+Electric Bill	Needs	Electric Bill	Checking	4/16/2023	16.35	1035.17
+Bill Reimbursement	Income	Reimbursements	Checking	4/12/2023	20.00	451.91
+Amazon	Wants	Free Spending	Checking	4/16/2023	145.60	521.90
+Amazon	Income	Reimbursements	Checking	4/16/2023	45.60	521.90
+Things	Wants	Unknown	Checking	4/17/2023	44.44	521.90
+Chevron	Needs	Gas	Citi CC	4/17/2023	68.32	1051.52
+Lemonade	Needs	Renter's Insurance	Citi CC	4/18/2023	68.32	1051.52
+Federal Taxes	Needs	Taxes	Checking	4/18/2023	400.00	708.50
+HBO Max	Wants	Subscriptions	Checking	4/18/2023	13.99	708.50
+Cash Back	Income	Reimbursements	Checking	4/19/2023	13.99	708.50
+Groceries	Needs	Groceries	Citi CC	4/23/2023	125.99	667.50
+Emergency	Needs	Emergency	Citi CC	4/25/2023	125.99	667.50
+New Savings Account	Savings	Unknown	Checking	4/26/2023	55.55	944.93
+Misc	Needs	Still Unknown	Citi CC	4/27/2023	125.99	667.50
+Payday	Income	Earnings	Checking	4/28/2023	3000.00	944.93
+Investment Account	Savings	Taxable Brokerage	Checking	4/28/2023	50.00	944.93
+IRA Contribution	Savings	Retirement	Checking	4/28/2023	350.00	944.93
+Emergency Fund	Savings	Emergency Savings	Checking	4/14/2023	100.00	944.93

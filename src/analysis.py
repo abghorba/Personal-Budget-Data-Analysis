@@ -8,11 +8,24 @@ from src.categorize_data import MONTHS, YEARS
 
 def calculate_regression_coefficients(data):
     """
-    Calculates the slope and y-intercept of the least squares linear regression line.
+    Calculates the slope and y-intercept of the least squares linear regression line. The data points are assembled as
+
+        0 --> data[0],
+        1 --> data[1],
+        ...
+        n --> data[n]
 
     :param data: A list of Decimals
     :return: (slope, y_intercept)
     """
+
+    # Need at least two points to make a line
+    if len(data) < 2:
+        print(
+            f"WARNING: Cannot calculate a linear regression coefficient with the provided data of length "
+            f"{len(data)}."
+        )
+        return 0, 0
 
     x_coordinates = np.array([Decimal(index) for index in range(len(data))])
     y_coordinates = np.array(data)
@@ -57,6 +70,7 @@ class SpendingAnalyzer:
 
     def _gather_all_data_points(self):
         """
+        Gathers all the data points from the budget_dict.
 
         data_points = {
             "lifetime": {
@@ -73,7 +87,7 @@ class SpendingAnalyzer:
             }
         }
 
-        :return:
+        :return: Dict of data points
         """
 
         data_points = {"lifetime": {}}
@@ -108,55 +122,6 @@ class SpendingAnalyzer:
                         data_points[year][category_name][subcategory_name].append(Decimal(value))
 
         return data_points
-
-    def get_x_coordinate_for_month_and_year(self, year, month, timeframe):
-        """
-        For the given timeframe, calculate the x_coordinate corresponding to the given month and year. The first
-        data point in the timeframe corresponds to x = 0.
-
-        If the month and year happen to occur before the first data point, we can expect the x_coordinate to be
-        negative. Likewise, if the month and year occurs after the first data point, the x_coordinate should be
-        positive.
-
-        :param year: Year
-        :param month: Month
-        :param timeframe: Timeframe of the data
-        :return: int representing the x_coordinate
-        """
-
-        first_year, first_month = self._data_points[timeframe]["first_date"]
-        start_date = datetime.strptime(f"{first_month} {first_year}", "%B %Y")
-        end_date = datetime.strptime(f"{month} {year}", "%B %Y")
-        x_coordinate = (end_date.year - start_date.year) * 12 + (end_date.month - start_date.month)
-
-        return x_coordinate
-
-    def get_expected_value(self, year, month, timeframe, category, subcategory):
-        """
-        Uses the linear regression coefficients to calculate the expected value at the specified month and year
-        for the given timeframe.
-
-        :param year:
-        :param month:
-        :param timeframe: "lifetime" or any year
-        :param category:
-        :param subcategory:
-        :return:
-        """
-
-        if timeframe not in self.analysis:
-            raise RuntimeError("Invalid timeframe!")
-
-        if category not in self.analysis[timeframe]:
-            raise RuntimeError("Invalid category for the timeframe!")
-
-        if subcategory not in self.analysis[timeframe][category]:
-            raise RuntimeError("Invalid subcategory for the category!")
-
-        slope, y_intercept = self.analysis[timeframe][category][subcategory]["linear_regression_coefficients"]
-        x_coordinate = self.get_x_coordinate_for_month_and_year(year, month, timeframe)
-
-        return calculate_predicted_value(x_coordinate, slope, y_intercept)
 
     def get_analysis(self):
         """
@@ -231,3 +196,52 @@ class SpendingAnalyzer:
                     ] = calculate_regression_coefficients(self._data_points[time_period][category][subcategory])
 
         return analysis
+
+    def get_x_coordinate_for_month_and_year(self, year, month, timeframe):
+        """
+        For the given timeframe, calculate the x_coordinate corresponding to the given month and year. The first
+        data point in the timeframe corresponds to x = 0.
+
+        If the month and year happen to occur before the first data point, we can expect the x_coordinate to be
+        negative. Likewise, if the month and year occurs after the first data point, the x_coordinate should be
+        positive.
+
+        :param year: String representing the year in format "YYYY"
+        :param month: String with the month name i.e., "January", "February", etc.
+        :param timeframe: Timeframe of the data - "lifetime", "2021", "2022", etc. are valid values
+        :return: int representing the x_coordinate
+        """
+
+        first_year, first_month = self._data_points[timeframe]["first_date"]
+        start_date = datetime.strptime(f"{first_month} {first_year}", "%B %Y")
+        end_date = datetime.strptime(f"{month} {year}", "%B %Y")
+        x_coordinate = (end_date.year - start_date.year) * 12 + (end_date.month - start_date.month)
+
+        return x_coordinate
+
+    def get_expected_value(self, year, month, timeframe, category, subcategory):
+        """
+        Uses the linear regression coefficients to calculate the expected value at the specified month and year
+        for the given timeframe.
+
+        :param year: String representing the year in format "YYYY"
+        :param month: String with the month name i.e., "January", "February", etc.
+        :param timeframe: Timeframe of the data - "lifetime", "2021", "2022", etc. are valid values
+        :param category: String representing the category i.e., "Needs", "Wants", etc.
+        :param subcategory: String representing the subcategory i.e., "Rent", "Free Spending", etc.
+        :return: Decimal representing the calculated expected value
+        """
+
+        if timeframe not in self.analysis:
+            raise RuntimeError("Invalid timeframe!")
+
+        if category not in self.analysis[timeframe]:
+            raise RuntimeError("Invalid category for the timeframe!")
+
+        if subcategory not in self.analysis[timeframe][category]:
+            raise RuntimeError("Invalid subcategory for the category!")
+
+        slope, y_intercept = self.analysis[timeframe][category][subcategory]["linear_regression_coefficients"]
+        x_coordinate = self.get_x_coordinate_for_month_and_year(year, month, timeframe)
+
+        return calculate_predicted_value(x_coordinate, slope, y_intercept)
