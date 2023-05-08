@@ -387,7 +387,6 @@ def categorize_transactions_worker(budget_df, date_ranges, year="2023", month="A
     """
     Wrapper function to use in a multiprocessing.Process() class for categorize_transactions().
 
-    :param result_queue: multiprocessing.queues.Queue to hold the result in
     :param budget_df: DataFrame object containing the data from cleaned_spending.tsv
     :param date_ranges: Dictionary containing date ranges formatted as
                         date_ranges[date_string] --> (date_range_start, date_range_end)
