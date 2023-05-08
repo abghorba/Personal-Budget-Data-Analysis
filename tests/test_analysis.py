@@ -5,13 +5,28 @@ import pytest
 
 from src.analysis import SpendingAnalyzer, calculate_predicted_value, calculate_regression_coefficients
 from src.categorize_data import perform_data_compilation
+from tests.utilities import (
+    TEST_CLEAN_TSV_FILE,
+    TEST_SPENDING_FILE,
+    TEST_TSV_FILE1,
+    TEST_TSV_FILE2,
+    TEST_TSV_FILE3,
+    get_expected_analysis_dict1,
+    get_expected_analysis_dict2,
+    get_expected_analysis_dict3,
+    get_expected_data_points1,
+    get_expected_data_points2,
+    get_expected_data_points3,
+)
 
-INVALID_PATH = os.getcwd() + "/tests/files/invalid.tsv"
-TEST_TSV_FILE = os.getcwd() + "/tests/files/spending1.tsv"
-TEST_TSV_FILE2 = os.getcwd() + "/tests/files/spending2.tsv"
-TEST_TSV_FILE3 = os.getcwd() + "/tests/files/spending3.tsv"
-TEST_CLEAN_TSV_FILE = os.getcwd() + "/tests/files/cleaned_spending.tsv"
-TEST_SPENDING_FILE = os.getcwd() + "/tests/files/spending.txt"
+
+@pytest.fixture(autouse=True)
+def remove_test_files():
+    yield
+    if os.path.exists(TEST_CLEAN_TSV_FILE):
+        os.remove(TEST_CLEAN_TSV_FILE)
+    if os.path.exists(TEST_SPENDING_FILE):
+        os.remove(TEST_SPENDING_FILE)
 
 
 @pytest.mark.parametrize(
@@ -85,9 +100,9 @@ class TestSpendingAnalyzer:
     @pytest.mark.parametrize(
         "raw_filepath,expected_data_points_dict",
         [
-            (TEST_TSV_FILE, {}),
-            (TEST_TSV_FILE2, {}),
-            (TEST_TSV_FILE3, {}),
+            (TEST_TSV_FILE1, get_expected_data_points1()),
+            (TEST_TSV_FILE2, get_expected_data_points2()),
+            (TEST_TSV_FILE3, get_expected_data_points3()),
         ],
     )
     def test_gather_all_data_points(self, raw_filepath, expected_data_points_dict):
@@ -103,9 +118,9 @@ class TestSpendingAnalyzer:
     @pytest.mark.parametrize(
         "raw_filepath,expected_analysis_dict",
         [
-            (TEST_TSV_FILE, {}),
-            (TEST_TSV_FILE2, {}),
-            (TEST_TSV_FILE3, {}),
+            (TEST_TSV_FILE1, get_expected_analysis_dict1()),
+            (TEST_TSV_FILE2, get_expected_analysis_dict2()),
+            (TEST_TSV_FILE3, get_expected_analysis_dict3()),
         ],
     )
     def test_get_analysis(self, raw_filepath, expected_analysis_dict):
@@ -117,39 +132,59 @@ class TestSpendingAnalyzer:
         assert analyzer.analysis == expected_analysis_dict
 
     @pytest.mark.parametrize(
-        "raw_filepath,year,month,timeframe,expected_value",
+        "year,month,timeframe,expected_value",
         [
-            (TEST_TSV_FILE,),
-            (TEST_TSV_FILE2,),
-            (TEST_TSV_FILE3,),
+            ("2021", "March", "lifetime", 0),
+            ("2021", "March", "2021", 0),
+            ("2022", "January", "2022", 0),
+            ("2023", "January", "2023", 0),
+            ("2023", "January", "2022", 12),
+            ("2022", "January", "lifetime", 10),
+            ("2023", "January", "lifetime", 22),
+            ("2020", "April", "lifetime", -11),
+            ("2020", "April", "lifetime", -11),
+            ("2025", "April", "lifetime", 49),
+            ("2025", "April", "2023", 27),
         ],
     )
-    def test_get_x_coordinate_for_month_and_year(self, raw_filepath, year, month, timeframe, expected_value):
+    def test_get_x_coordinate_for_month_and_year(self, year, month, timeframe, expected_value):
         """Tests SpendingAnalyzer.get_x_coordinate_for_month_and_year() calculates the x_coordinate pertaining to
         the requested month."""
 
         budget_dict = perform_data_compilation(
-            raw_filepath=raw_filepath, cleaned_filepath=TEST_CLEAN_TSV_FILE, cleaned_txt_filepath=TEST_SPENDING_FILE
+            raw_filepath=TEST_TSV_FILE3, cleaned_filepath=TEST_CLEAN_TSV_FILE, cleaned_txt_filepath=TEST_SPENDING_FILE
         )
         analyzer = SpendingAnalyzer(budget_dict)
 
         assert analyzer.get_x_coordinate_for_month_and_year(year, month, timeframe) == expected_value
 
     @pytest.mark.parametrize(
-        "raw_filepath,year,month,timeframe,expected_value",
+        "year,month,timeframe,expected_value1,expected_value2,expected_value3",
         [
-            (TEST_TSV_FILE,),
-            (TEST_TSV_FILE2,),
-            (TEST_TSV_FILE3,),
+            ("2021", "March", "lifetime", Decimal("677.15"), Decimal("1212.42"), Decimal("51.28")),
+            ("2023", "January", "2022", Decimal("2406.76"), Decimal("1209.88"), Decimal("-100.02")),
+            ("2022", "January", "lifetime", Decimal("1326.85"), Decimal("1151.02"), Decimal("151.78")),
+            ("2020", "April", "lifetime", Decimal("-37.52"), Decimal("1279.96"), Decimal("-59.27")),
+            ("2025", "April", "lifetime", Decimal("3860.68"), Decimal("911.56"), Decimal("543.73")),
         ],
     )
-    def test_get_expected_value(self, raw_filepath, year, month, timeframe, expected_value):
+    def test_get_expected_value(self, year, month, timeframe, expected_value1, expected_value2, expected_value3):
         """Tests SpendingAnalyzer.get_expected_value() calculates the expected value for the month using the linear
         regression coefficients."""
 
         budget_dict = perform_data_compilation(
-            raw_filepath=raw_filepath, cleaned_filepath=TEST_CLEAN_TSV_FILE, cleaned_txt_filepath=TEST_SPENDING_FILE
+            raw_filepath=TEST_TSV_FILE3, cleaned_filepath=TEST_CLEAN_TSV_FILE, cleaned_txt_filepath=TEST_SPENDING_FILE
         )
         analyzer = SpendingAnalyzer(budget_dict)
 
-        assert analyzer.get_expected_value(year, month, timeframe) == expected_value
+        assert (
+            analyzer.get_expected_value(year, month, timeframe, category="needs", subcategory="rent") == expected_value1
+        )
+        assert (
+            analyzer.get_expected_value(year, month, timeframe, category="wants", subcategory="free_spending")
+            == expected_value2
+        )
+        assert (
+            analyzer.get_expected_value(year, month, timeframe, category="savings", subcategory="retirement")
+            == expected_value3
+        )

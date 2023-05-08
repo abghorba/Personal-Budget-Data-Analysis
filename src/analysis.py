@@ -233,13 +233,16 @@ class SpendingAnalyzer:
         """
 
         if timeframe not in self.analysis:
-            raise RuntimeError("Invalid timeframe!")
+            print(f"WARNING: Invalid timeframe {timeframe}! Returning 0")
+            return 0
 
         if category not in self.analysis[timeframe]:
-            raise RuntimeError("Invalid category for the timeframe!")
+            print(f"WARNING: Invalid category {category} for the timeframe {timeframe}! Returning 0")
+            return 0
 
         if subcategory not in self.analysis[timeframe][category]:
-            raise RuntimeError("Invalid subcategory for the category!")
+            print(f"WARNING: Invalid subcategory {subcategory} for the category {category}! Returning 0")
+            return 0
 
         slope, y_intercept = self.analysis[timeframe][category][subcategory]["linear_regression_coefficients"]
         x_coordinate = self.get_x_coordinate_for_month_and_year(year, month, timeframe)
