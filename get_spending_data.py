@@ -8,7 +8,6 @@ def main():
     # At this point, we can do whatever data analysis we'd like
     analyzer = SpendingAnalyzer(budget_dict)
 
-    # print(budget_dict["2023"]["April"])
     print("\nAverages:")
     print(analyzer.analysis["2021"]["needs"]["rent"]["average"])
     print(analyzer.analysis["2022"]["needs"]["rent"]["average"])

@@ -28,12 +28,18 @@ class Category:
 
         for key, value in sorted(self.subcategories.items()):
             key = key.replace("_", " ").title()
-            attribute_string = f"\t{key} = ${value:,}"
+            attribute_string = f"\t{key} = ${value:,.2f}"
             attributes_list.append(attribute_string)
 
-        attributes_list.append(f"\tTOTAL = ${self.total_value:,}")
+        attributes_list.append(f"\tTOTAL = ${self.total_value:,.2f}")
 
         return "\n".join(attributes_list)
+
+    def __eq__(self, other):
+        return isinstance(other, Category) and self.subcategories == other.subcategories
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
 
 
 class Needs(Category):
@@ -149,13 +155,19 @@ class BudgetSpending:
         budget_spending_string.append(str(self.reimbursements))
 
         budget_spending_string.append("-" * 40)
-        budget_spending_string.append(f"TOTAL SPENDING = ${self.total_spending:,}")
+        budget_spending_string.append(f"TOTAL SPENDING = ${self.total_spending:,.2f}")
 
         if self.deficit_or_surplus < 0:
-            budget_spending_string.append(f"DEFICIT = ${abs(self.deficit_or_surplus):,}")
+            budget_spending_string.append(f"DEFICIT = ${abs(self.deficit_or_surplus):,.2f}")
         else:
-            budget_spending_string.append(f"SURPLUS = ${self.deficit_or_surplus:,}")
+            budget_spending_string.append(f"SURPLUS = ${self.deficit_or_surplus:,.2f}")
 
         budget_spending_string.append("*" * 40)
 
         return "\n".join(budget_spending_string)
+
+    def __eq__(self, other):
+        return isinstance(other, BudgetSpending) and self.categories == other.categories and self.name == other.name
+
+    def __ne__(self, other):
+        return not self.__eq__(other)

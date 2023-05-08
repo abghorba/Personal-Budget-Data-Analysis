@@ -52,34 +52,36 @@ def clean_tsv_file(raw_filepath=RAW_TSV_FILEPATH):
     return cleaned_tsv_lines
 
 
-def export_cleaned_data_to_tsv(cleaned_tsv_lines_list):
+def export_cleaned_data_to_tsv(cleaned_tsv_lines_list, cleaned_tsv_filepath=CLEANED_TSV_FILEPATH):
     """
     Exports the cleaned TSV lines list as cleaned_spending.tsv file.
 
     :param cleaned_tsv_lines_list: Cleaned list of TSV lines.
+    :param cleaned_tsv_filepath: Filepath to where the cleaned TSV file will be written
     :return: None
     """
 
-    print(f"Exporting the cleaned data to {CLEANED_TSV_FILEPATH}")
+    print(f"Exporting the cleaned data to {cleaned_tsv_filepath}")
 
     # Export cleaned data into CSV format
-    with open(CLEANED_TSV_FILEPATH, "w") as file:
+    with open(cleaned_tsv_filepath, "w") as file:
         for line in cleaned_tsv_lines_list:
             file.write(line + "\n")
 
 
-def clean_data(raw_filepath=RAW_TSV_FILEPATH):
+def clean_data(raw_filepath=RAW_TSV_FILEPATH, cleaned_tsv_filepath=CLEANED_TSV_FILEPATH):
     """
     Driver function to clean the spending.tsv file and export it as cleaned_spending.tsv file.
 
     :param raw_filepath: Filepath to the raw spending.tsv file
+    :param cleaned_tsv_filepath: Filepath to where the cleaned TSV file will be written
     :return: True if failure; False otherwise.
     """
 
     try:
         cleaned_tsv_lines = clean_tsv_file(raw_filepath)
-        export_cleaned_data_to_tsv(cleaned_tsv_lines_list=cleaned_tsv_lines)
-        return os.path.getsize(CLEANED_TSV_FILEPATH) == 0
+        export_cleaned_data_to_tsv(cleaned_tsv_lines, cleaned_tsv_filepath)
+        return os.path.getsize(cleaned_tsv_filepath) == 0
 
     except Exception as e:
         print(str(e))
